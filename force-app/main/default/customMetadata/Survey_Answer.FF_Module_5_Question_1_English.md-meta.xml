@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>FF Module 5 Question 1 English</label>
+    <protected>false</protected>
+    <values>
+        <field>Answer__c</field>
+        <value xsi:type="xsd:string">B - Pay Yourself First and make it automatic</value>
+    </values>
+    <values>
+        <field>Exclude_Score__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Question__c</field>
+        <value xsi:type="xsd:string">1 – In the Budgeting module, we suggest that the most effective way to build your savings, no matter to what extent you budget, is:</value>
+    </values>
+    <values>
+        <field>Survey_Name__c</field>
+        <value xsi:type="xsd:string">FF - Online Learning Check - Module 5 - Eng</value>
+    </values>
+</CustomMetadata>

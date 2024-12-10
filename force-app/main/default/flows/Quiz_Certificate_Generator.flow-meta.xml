@@ -4,7 +4,7 @@
         <name>Generate_FF_Certificate</name>
         <label>Generate FF Certificate</label>
         <locationX>50</locationX>
-        <locationY>647</locationY>
+        <locationY>539</locationY>
         <actionName>CertificateGeneratorService</actionName>
         <actionType>apex</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
@@ -40,7 +40,7 @@
         <name>Generate_SFF_Certificate</name>
         <label>Generate SFF Certificate</label>
         <locationX>314</locationX>
-        <locationY>647</locationY>
+        <locationY>539</locationY>
         <actionName>CertificateGeneratorService</actionName>
         <actionType>apex</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
@@ -77,16 +77,16 @@
         <name>FF_Language</name>
         <label>FF Language</label>
         <locationX>314</locationX>
-        <locationY>539</locationY>
+        <locationY>431</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>FF_English</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
-                <leftValueReference>Get_Survey_Response.Survey.Name</leftValueReference>
-                <operator>Contains</operator>
+                <leftValueReference>$Record.Language1__c</leftValueReference>
+                <operator>NotEqualTo</operator>
                 <rightValue>
-                    <stringValue>Eng</stringValue>
+                    <stringValue>Spanish</stringValue>
                 </rightValue>
             </conditions>
             <connector>
@@ -98,17 +98,10 @@
             <name>FF_Spanish</name>
             <conditionLogic>or</conditionLogic>
             <conditions>
-                <leftValueReference>Get_Survey_Response.Survey.Name</leftValueReference>
-                <operator>Contains</operator>
+                <leftValueReference>$Record.Language1__c</leftValueReference>
+                <operator>EqualTo</operator>
                 <rightValue>
                     <stringValue>Spanish</stringValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>Get_Survey_Response.Survey.Name</leftValueReference>
-                <operator>Contains</operator>
-                <rightValue>
-                    <stringValue>Spa</stringValue>
                 </rightValue>
             </conditions>
             <connector>
@@ -120,8 +113,8 @@
     <decisions>
         <name>Passed_All_Modules</name>
         <label>Passed All Modules?</label>
-        <locationX>534</locationX>
-        <locationY>431</locationY>
+        <locationX>578</locationX>
+        <locationY>323</locationY>
         <defaultConnectorLabel>None</defaultConnectorLabel>
         <rules>
             <name>FF_Passed</name>
@@ -201,46 +194,11 @@
         </value>
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
-    <recordLookups>
-        <name>Get_Survey_Response</name>
-        <label>Get Survey Response</label>
-        <locationX>534</locationX>
-        <locationY>323</locationY>
-        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
-        <connector>
-            <targetReference>Passed_All_Modules</targetReference>
-        </connector>
-        <filterLogic>and</filterLogic>
-        <filters>
-            <field>SubmitterId</field>
-            <operator>EqualTo</operator>
-            <value>
-                <elementReference>$Record.Id</elementReference>
-            </value>
-        </filters>
-        <filters>
-            <field>LastModifiedDate</field>
-            <operator>EqualTo</operator>
-            <value>
-                <elementReference>todayDate</elementReference>
-            </value>
-        </filters>
-        <filters>
-            <field>Status</field>
-            <operator>EqualTo</operator>
-            <value>
-                <stringValue>Completed</stringValue>
-            </value>
-        </filters>
-        <getFirstRecordOnly>true</getFirstRecordOnly>
-        <object>SurveyResponse</object>
-        <storeOutputAutomatically>true</storeOutputAutomatically>
-    </recordLookups>
     <start>
-        <locationX>408</locationX>
+        <locationX>452</locationX>
         <locationY>0</locationY>
         <connector>
-            <targetReference>Get_Survey_Response</targetReference>
+            <targetReference>Passed_All_Modules</targetReference>
         </connector>
         <filterLogic>or</filterLogic>
         <filters>

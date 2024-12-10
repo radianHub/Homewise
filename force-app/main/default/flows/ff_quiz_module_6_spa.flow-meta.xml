@@ -32,170 +32,154 @@
     </assignments>
     <choices>
         <name>c_30edcbfe_0d4c_4427_9dc8_5fbebc6a9734</name>
-        <choiceText>Simplemente deja de gastar dinero</choiceText>
+        <choiceText>Acta de nacimiento</choiceText>
         <dataType>String</dataType>
         <value>
-            <stringValue>Simplemente deja de gastar dinero</stringValue>
+            <stringValue>Acta de nacimiento</stringValue>
         </value>
     </choices>
     <choices>
         <name>c_3d8bc62f_73f2_4c47_bb32_8e571210ed7a</name>
-        <choiceText>Calcular su ingreso neto</choiceText>
+        <choiceText>Para planear para la jubilaci&amp;oacute;n</choiceText>
         <dataType>String</dataType>
         <value>
-            <stringValue>Calcular su ingreso neto</stringValue>
+            <stringValue>Para planear para la jubilación</stringValue>
         </value>
     </choices>
     <choices>
         <name>c_41f0f736_e716_422f_9ee5_8388b0ba477f</name>
-        <choiceText>Descargar una aplicaci&amp;oacute;n del internet</choiceText>
+        <choiceText>Para abrir una cuenta de ahorros</choiceText>
         <dataType>String</dataType>
         <value>
-            <stringValue>Descargar una aplicación del internet</stringValue>
+            <stringValue>Para abrir una cuenta de ahorros</stringValue>
         </value>
     </choices>
     <choices>
         <name>c_449b9f10_3e9d_4439_975d_1078797318fb</name>
-        <choiceText>Todo lo anterior A, B, y C</choiceText>
+        <choiceText>Busque en Google que diga que es un buen banco o cooperativa de cr&amp;eacute;dito.</choiceText>
         <dataType>String</dataType>
         <value>
-            <stringValue>Todo lo anterior A, B, y C</stringValue>
-        </value>
-    </choices>
-    <choices>
-        <name>c_456b6a20_60ff_41b4_aacb_02dbbab35bc8</name>
-        <choiceText>Restaurantes/Entretenimiento</choiceText>
-        <dataType>String</dataType>
-        <value>
-            <stringValue>Restaurantes/Entretenimiento</stringValue>
+            <stringValue>Busque en Google que diga que es un buen banco o cooperativa de crédito.</stringValue>
         </value>
     </choices>
     <choices>
         <name>c_4679eb2d_7f4c_40d9_aab7_6fc3824af5e4</name>
-        <choiceText>Guardar cupones y buscar ofertas de rebaja</choiceText>
+        <choiceText>Todo lo anterior A, B &amp;amp; C</choiceText>
         <dataType>String</dataType>
         <value>
-            <stringValue>Guardar cupones y buscar ofertas de rebaja</stringValue>
+            <stringValue>Todo lo anterior A, B &amp; C</stringValue>
         </value>
     </choices>
     <choices>
         <name>c_4b8dae19_36ce_4d9e_8f24_d36f6e420bba</name>
-        <choiceText>Seguimiento de gastos</choiceText>
+        <choiceText>Tarifas de cajero autom&amp;aacute;tico</choiceText>
         <dataType>String</dataType>
         <value>
-            <stringValue>Seguimiento de gastos</stringValue>
+            <stringValue>Tarifas de cajero automático</stringValue>
         </value>
     </choices>
     <choices>
         <name>c_50b10a02_1e54_40a5_a2e9_b21591368fd2</name>
-        <choiceText>Mira algunos v&amp;iacute;deos de YouTube</choiceText>
+        <choiceText>Para abrir una tarjeta de cr&amp;eacute;dito</choiceText>
         <dataType>String</dataType>
         <value>
-            <stringValue>Mira algunos vídeos de YouTube</stringValue>
+            <stringValue>Para abrir una tarjeta de crédito</stringValue>
         </value>
     </choices>
     <choices>
         <name>c_64f7f38b_7aeb_4b17_a78e_50c7511bafd9</name>
-        <choiceText>Renta/Hipoteca</choiceText>
+        <choiceText>Verdadero</choiceText>
         <dataType>String</dataType>
         <value>
-            <stringValue>Renta/Hipoteca</stringValue>
+            <stringValue>Verdadero</stringValue>
         </value>
     </choices>
     <choices>
         <name>c_688cdd75_a47d_4a2a_bbbb_2b170e027860</name>
-        <choiceText>Evaluar sus decisiones antes de gastar, necesitar vs. querer</choiceText>
+        <choiceText>Horario bancario</choiceText>
         <dataType>String</dataType>
         <value>
-            <stringValue>Evaluar sus decisiones antes de gastar, necesitar vs. querer</stringValue>
+            <stringValue>Horario bancario</stringValue>
         </value>
     </choices>
     <choices>
         <name>c_87063b52_9bf7_4bc5_90fd_276607c4f2e4</name>
-        <choiceText>Abarrotes</choiceText>
+        <choiceText>Falso</choiceText>
         <dataType>String</dataType>
         <value>
-            <stringValue>Abarrotes</stringValue>
+            <stringValue>Falso </stringValue>
         </value>
     </choices>
     <choices>
         <name>c_91884f37_dfdc_41a9_ae45_ab7957e5b3dc</name>
-        <choiceText>Saber que no tenemos control de nuestro dinero</choiceText>
+        <choiceText>Mis dulces favoritos</choiceText>
         <dataType>String</dataType>
         <value>
-            <stringValue>Saber que no tenemos control de nuestro dinero </stringValue>
+            <stringValue>Mis dulces favoritos</stringValue>
         </value>
     </choices>
     <choices>
         <name>c_94a31859_7331_4742_9d65_ec37c22a4862</name>
-        <choiceText>Deja de comprar caf&amp;eacute; de camino al trabajo</choiceText>
+        <choiceText>Para planear vacaciones</choiceText>
         <dataType>String</dataType>
         <value>
-            <stringValue>Deja de comprar café de camino al trabajo</stringValue>
+            <stringValue>Para planear vacaciones</stringValue>
         </value>
     </choices>
     <choices>
         <name>c_a58e32d9_d0d7_4e54_a6a4_34794a6ae007</name>
-        <choiceText>Pagarse a usted mismo de manera autom&amp;aacute;tica</choiceText>
+        <choiceText>Flexibilidad</choiceText>
         <dataType>String</dataType>
         <value>
-            <stringValue>Pagarse a usted mismo de manera automática</stringValue>
-        </value>
-    </choices>
-    <choices>
-        <name>c_ab827dfa_6096_46e5_8fdd_846845bd4cc5</name>
-        <choiceText>Seguro de auto</choiceText>
-        <dataType>String</dataType>
-        <value>
-            <stringValue>Seguro de auto </stringValue>
+            <stringValue>Flexibilidad</stringValue>
         </value>
     </choices>
     <choices>
         <name>c_b6869192_5e50_4bf1_94bc_f9b21903ec2e</name>
-        <choiceText>Colectar su cambio en un frasco</choiceText>
+        <choiceText>Perseverancia</choiceText>
         <dataType>String</dataType>
         <value>
-            <stringValue>Colectar su cambio en un frasco</stringValue>
+            <stringValue>Perseverancia</stringValue>
         </value>
     </choices>
     <choices>
         <name>c_c32e8147_4346_4300_b5aa_56242cd7b821</name>
-        <choiceText>Hacer un plan para ahorrar y gastar</choiceText>
+        <choiceText>Estados de cuenta bancarias</choiceText>
         <dataType>String</dataType>
         <value>
-            <stringValue>Hacer un plan para ahorrar y gastar</stringValue>
+            <stringValue>Estados de cuenta bancarias</stringValue>
         </value>
     </choices>
     <choices>
         <name>c_d1747ff0_7bff_46a1_8c41_6aced77bb85b</name>
-        <choiceText>Dejar de salir a cenar, ahorre ese dinero</choiceText>
+        <choiceText>Licencia para manejar</choiceText>
         <dataType>String</dataType>
         <value>
-            <stringValue>Dejar de salir a cenar, ahorre ese dinero</stringValue>
+            <stringValue>Licencia para manejar</stringValue>
         </value>
     </choices>
     <choices>
         <name>c_f4224f33_9f0c_44f1_8ffa_8847953b70de</name>
-        <choiceText>Involucrar a su toda familia</choiceText>
+        <choiceText>Aseg&amp;uacute;rese que el banco o la cooperativa de cr&amp;eacute;dito este asegurado</choiceText>
         <dataType>String</dataType>
         <value>
-            <stringValue>Involucrar a su toda familia</stringValue>
+            <stringValue>Asegúrese que el banco o la cooperativa de crédito este asegurado</stringValue>
         </value>
     </choices>
     <choices>
         <name>c_ffc95f6c_aa63_429f_856d_2d31ff031ac5</name>
-        <choiceText>Ahorrar 50% del dinero que sobra al final del mes</choiceText>
+        <choiceText>Apoyo</choiceText>
         <dataType>String</dataType>
         <value>
-            <stringValue>Ahorrar 50% del dinero que sobra al final del mes</stringValue>
+            <stringValue>Apoyo</stringValue>
         </value>
     </choices>
-    <interviewLabel>FF - Quiz - Module 5 - Spa</interviewLabel>
-    <label>FF - Quiz - Module 5 - Spa</label>
+    <interviewLabel>FF - Quiz - Module 6 - Spa</interviewLabel>
+    <label>FF - Quiz - Module 6 - Spa</label>
     <processMetadataValues>
         <name>BrandingSet</name>
         <value>
-            <stringValue>sb_ff_quiz_module_5_spa_3_4528440d_4d44_4c86_82b7_f6f8e692250c</stringValue>
+            <stringValue>sb_ff_quiz_module_6_spa_3_aa0d0df3_4798_4636_affc_3c82b4a41c47</stringValue>
         </value>
     </processMetadataValues>
     <processMetadataValues>
@@ -237,7 +221,7 @@
     <processType>Survey</processType>
     <screens>
         <name>p_6b916292_6f0d_40d6_9556_77eea7bab66a</name>
-        <label>Module 5</label>
+        <label>Module 6</label>
         <locationX>0</locationX>
         <locationY>0</locationY>
         <allowBack>true</allowBack>
@@ -258,7 +242,7 @@
             <choiceReferences>c_449b9f10_3e9d_4439_975d_1078797318fb</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px; font-family: Calibri, sans-serif;&quot;&gt;1. La(s) clave(s) para establecer un presupuesto exitoso es/son:&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px; font-family: Calibri, sans-serif;&quot;&gt;1. El video destacó que lo primero que se debe considerar al buscar un nuevo banco o cooperativa de crédito es:&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -272,11 +256,9 @@
             <name>q_f861581f_b8db_4fc9_a903_7d33be08a604</name>
             <choiceReferences>c_64f7f38b_7aeb_4b17_a78e_50c7511bafd9</choiceReferences>
             <choiceReferences>c_87063b52_9bf7_4bc5_90fd_276607c4f2e4</choiceReferences>
-            <choiceReferences>c_456b6a20_60ff_41b4_aacb_02dbbab35bc8</choiceReferences>
-            <choiceReferences>c_ab827dfa_6096_46e5_8fdd_846845bd4cc5</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px; font-family: Calibri, sans-serif;&quot;&gt;2. Revisar sus compras y preguntar, “¿Ésto lo Necesito, o lo Quiero?” puede eliminar gastos en exceso. Uno de los gastos que muchas personas consideran reducir para ajustar el presupuesto es:&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px; font-family: Calibri, sans-serif;&quot;&gt;2. ¿Verdadero o falso? El mejor lugar para guardar todos sus documentos importantes es debajo de sus colchones.&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -294,7 +276,7 @@
             <choiceReferences>c_4679eb2d_7f4c_40d9_aab7_6fc3824af5e4</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-family: Calibri, sans-serif; font-size: 14px;&quot;&gt;3. El módulo de Presupuestos recomienda que el método más efectivo para aumentar sus ahorros, sin importar el tamaño del presupuesto, es:&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px; font-family: Calibri, sans-serif;&quot;&gt;3. Lograr sus Metas requiere:&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -312,7 +294,7 @@
             <choiceReferences>c_41f0f736_e716_422f_9ee5_8388b0ba477f</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px; font-family: Calibri, sans-serif;&quot;&gt;4. El primer paso para hacer un presupuesto es:&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px; font-family: Calibri, sans-serif;&quot;&gt;4. ¿En qué caso tal vez se necesita un profesional Asesor Financiero Certificado?&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -330,7 +312,7 @@
             <choiceReferences>c_91884f37_dfdc_41a9_ae45_ab7957e5b3dc</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px; font-family: Calibri, sans-serif;&quot;&gt;5. El propósito de un presupuesto es para&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px; font-family: Calibri, sans-serif;&quot;&gt;5. ¿Qué documento debería guardar en una caja de seguridad en una institución financiera?&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -386,7 +368,7 @@
     <textTemplates>
         <name>welcome_question_lref_tt</name>
         <isViewedAsPlainText>false</isViewedAsPlainText>
-        <text>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;¡Bienvenido al Chequeo de Aprendizaje en Línea sobre Condición Financiera - &lt;/strong&gt;&lt;strong&gt;Módulo 5&lt;/strong&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;!&lt;/strong&gt;&lt;/p&gt;</text>
+        <text>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;¡Bienvenido al Chequeo de Aprendizaje en Línea sobre Condición Financiera - &lt;/strong&gt;&lt;strong&gt;Módulo 6&lt;/strong&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;!&lt;/strong&gt;&lt;/p&gt;</text>
     </textTemplates>
     <variables>
         <name>guestUserLang</name>

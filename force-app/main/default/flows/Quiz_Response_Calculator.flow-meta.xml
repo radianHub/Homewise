@@ -4,7 +4,7 @@
     <assignments>
         <name>Assign_1_point</name>
         <label>Assign 1 point</label>
-        <locationX>1942</locationX>
+        <locationX>2734</locationX>
         <locationY>1295</locationY>
         <assignmentItems>
             <assignToReference>totalScore</assignToReference>
@@ -20,7 +20,7 @@
     <assignments>
         <name>Assign_Metadata_Single</name>
         <label>Assign Metadata Single</label>
-        <locationX>2360</locationX>
+        <locationX>3152</locationX>
         <locationY>971</locationY>
         <assignmentItems>
             <assignToReference>metadataSingle.Label</assignToReference>
@@ -36,7 +36,7 @@
     <assignments>
         <name>Count_of_Questions</name>
         <label>Count of Questions</label>
-        <locationX>1854</locationX>
+        <locationX>2646</locationX>
         <locationY>755</locationY>
         <assignmentItems>
             <assignToReference>questionCount</assignToReference>
@@ -52,7 +52,7 @@
     <assignments>
         <name>Subtract_Question</name>
         <label>Subtract Question</label>
-        <locationX>2382</locationX>
+        <locationX>3174</locationX>
         <locationY>1187</locationY>
         <assignmentItems>
             <assignToReference>questionCount</assignToReference>
@@ -68,7 +68,7 @@
     <decisions>
         <name>Matching_Answers</name>
         <label>Matching Answers?</label>
-        <locationX>2074</locationX>
+        <locationX>2866</locationX>
         <locationY>1187</locationY>
         <defaultConnector>
             <targetReference>Loop_Metadata_Answers</targetReference>
@@ -93,7 +93,7 @@
     <decisions>
         <name>Matching_Question</name>
         <label>Matching Question?</label>
-        <locationX>2360</locationX>
+        <locationX>3152</locationX>
         <locationY>1079</locationY>
         <defaultConnector>
             <targetReference>Loop_Metadata_Answers</targetReference>
@@ -147,7 +147,7 @@
     <decisions>
         <name>Which_Module</name>
         <label>Which Module?</label>
-        <locationX>842</locationX>
+        <locationX>1634</locationX>
         <locationY>1739</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
@@ -240,6 +240,96 @@
             </connector>
             <label>FF - Module 6</label>
         </rules>
+        <rules>
+            <name>HBE_Module_1</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>metadataSingle.Label</leftValueReference>
+                <operator>StartsWith</operator>
+                <rightValue>
+                    <stringValue>HBE Module 1</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_HBE_Mod_1_Score</targetReference>
+            </connector>
+            <label>HBE - Module 1</label>
+        </rules>
+        <rules>
+            <name>HBE_Module_2</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>metadataSingle.Label</leftValueReference>
+                <operator>StartsWith</operator>
+                <rightValue>
+                    <stringValue>HBE Module 2</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_HBE_Mod_2_Score</targetReference>
+            </connector>
+            <label>HBE - Module 2</label>
+        </rules>
+        <rules>
+            <name>HBE_Module_3</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>metadataSingle.Label</leftValueReference>
+                <operator>StartsWith</operator>
+                <rightValue>
+                    <stringValue>HBE Module 3</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_HBE_Mod_3_Score</targetReference>
+            </connector>
+            <label>HBE - Module 3</label>
+        </rules>
+        <rules>
+            <name>HBE_Module_4</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>metadataSingle.Label</leftValueReference>
+                <operator>StartsWith</operator>
+                <rightValue>
+                    <stringValue>HBE Module 4</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_HBE_Mod_4_Score</targetReference>
+            </connector>
+            <label>HBE - Module 4</label>
+        </rules>
+        <rules>
+            <name>HBE_Module_5</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>metadataSingle.Label</leftValueReference>
+                <operator>StartsWith</operator>
+                <rightValue>
+                    <stringValue>HBE Module 5</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_HBE_Mod_5_Score</targetReference>
+            </connector>
+            <label>HBE - Module 5</label>
+        </rules>
+        <rules>
+            <name>HBE_Module_6</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>metadataSingle.Label</leftValueReference>
+                <operator>StartsWith</operator>
+                <rightValue>
+                    <stringValue>HBE Module 6</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_HBE_Mod_6_Score</targetReference>
+            </connector>
+            <label>HBE - Module 6</label>
+        </rules>
     </decisions>
     <environments>Default</environments>
     <formulas>
@@ -258,7 +348,7 @@
     <loops>
         <name>Loop_Metadata_Answers</name>
         <label>Loop Metadata Answers</label>
-        <locationX>1854</locationX>
+        <locationX>2646</locationX>
         <locationY>863</locationY>
         <collectionReference>Get_Metadata_Quiz_Answers</collectionReference>
         <iterationOrder>Asc</iterationOrder>
@@ -272,7 +362,7 @@
     <loops>
         <name>Loop_Quiz_Answers</name>
         <label>Loop Quiz Answers</label>
-        <locationX>842</locationX>
+        <locationX>1634</locationX>
         <locationY>647</locationY>
         <collectionReference>Get_Quiz_Answers</collectionReference>
         <iterationOrder>Asc</iterationOrder>
@@ -305,7 +395,7 @@
     <recordLookups>
         <name>Get_Metadata_Quiz_Answers</name>
         <label>Get Metadata Quiz Answers</label>
-        <locationX>842</locationX>
+        <locationX>1634</locationX>
         <locationY>539</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -326,7 +416,7 @@
     <recordLookups>
         <name>Get_Quiz_Answers</name>
         <label>Get Quiz Answers</label>
-        <locationX>842</locationX>
+        <locationX>1634</locationX>
         <locationY>431</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -347,7 +437,7 @@
     <recordLookups>
         <name>Get_Responder_Contact</name>
         <label>Get Responder Contact</label>
-        <locationX>842</locationX>
+        <locationX>1634</locationX>
         <locationY>323</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -443,8 +533,86 @@
         </inputAssignments>
         <inputReference>$Record.Invitation.Contact</inputReference>
     </recordUpdates>
+    <recordUpdates>
+        <name>Update_HBE_Mod_1_Score</name>
+        <label>Update HBE Mod 1 Score</label>
+        <locationX>1634</locationX>
+        <locationY>1847</locationY>
+        <inputAssignments>
+            <field>HBE_Module_1_Percent__c</field>
+            <value>
+                <elementReference>percentScore</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record.Invitation.Contact</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_HBE_Mod_2_Score</name>
+        <label>Update HBE Mod 2 Score</label>
+        <locationX>1898</locationX>
+        <locationY>1847</locationY>
+        <inputAssignments>
+            <field>HBE_Module_2_Percent__c</field>
+            <value>
+                <elementReference>percentScore</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record.Invitation.Contact</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_HBE_Mod_3_Score</name>
+        <label>Update HBE Mod 3 Score</label>
+        <locationX>2162</locationX>
+        <locationY>1847</locationY>
+        <inputAssignments>
+            <field>HBE_Module_3_Percent__c</field>
+            <value>
+                <elementReference>percentScore</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record.Invitation.Contact</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_HBE_Mod_4_Score</name>
+        <label>Update HBE Mod 4 Score</label>
+        <locationX>2426</locationX>
+        <locationY>1847</locationY>
+        <inputAssignments>
+            <field>HBE_Module_4_Percent__c</field>
+            <value>
+                <elementReference>percentScore</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record.Invitation.Contact</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_HBE_Mod_5_Score</name>
+        <label>Update HBE Mod 5 Score</label>
+        <locationX>2690</locationX>
+        <locationY>1847</locationY>
+        <inputAssignments>
+            <field>HBE_Module_5_Percent__c</field>
+            <value>
+                <elementReference>percentScore</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record.Invitation.Contact</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_HBE_Mod_6_Score</name>
+        <label>Update HBE Mod 6 Score</label>
+        <locationX>2954</locationX>
+        <locationY>1847</locationY>
+        <inputAssignments>
+            <field>HBE_Module_6_Percent__c</field>
+            <value>
+                <elementReference>percentScore</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record.Invitation.Contact</inputReference>
+    </recordUpdates>
     <start>
-        <locationX>716</locationX>
+        <locationX>1508</locationX>
         <locationY>0</locationY>
         <connector>
             <targetReference>Get_Responder_Contact</targetReference>

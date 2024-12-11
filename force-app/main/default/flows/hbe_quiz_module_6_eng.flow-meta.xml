@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignments>
+        <name>pageNamesInOrder_Assignment</name>
+        <label>pageNamesInOrder_Assignment</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignmentItems>
+            <assignToReference>pageNamesInOrder</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <stringValue>welcome_page</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>pageNamesInOrder</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <stringValue>p_17922049_70ec_4113_801f_cdd3f0b0d2ca</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>pageNamesInOrder</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <stringValue>thank_you_page</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>welcome_page</targetReference>
+        </connector>
+    </assignments>
+    <choices>
+        <name>c_01cc84b1_b4c8_4ee9_9343_4a76e3e78d70</name>
+        <choiceText>Standard Hazzard Insurance</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Standard Hazzard Insurance</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_134d210b_7b76_47a5_b2d8_85773aa51500</name>
+        <choiceText>Standard Liability Insurance</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Standard Liability Insurance</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_1638a894_e1b6_48fd_a705_730b5490d4c2</name>
+        <choiceText>Purchase a fire proof safe for your home</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Purchase a fire proof safe for your home</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_1e9bad4b_bbdc_40de_ac1a_4d4296504808</name>
+        <choiceText>Protect your investment</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Protect your investment</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_1fa351cb_6574_4951_aaf7_8e827e5cf523</name>
+        <choiceText>The term Insurance companies use for deductibles</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>The term Insurance companies use for deductibles </stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_27338ddb_6232_4c23_bc1f_163e2ed2fd40</name>
+        <choiceText>All of the above</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>All of the above</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_29dcbb6a_7aa9_47b3_9219_85ca10a07b3e</name>
+        <choiceText>Posting Emergency numbers in an area available to all family members</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Posting Emergency numbers in an area available to all family members</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_316e4c60_1939_4a82_96b1_c42fe13d6e16</name>
+        <choiceText>Wait to buy insurance until after you have purchased your home</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Wait to buy insurance until after you have purchased your home</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_3f945061_5189_4d5d_8587_5f3d0bed7829</name>
+        <choiceText>As needed</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>As needed</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_4fbaee98_2ede_4d3b_ab39_9076bffdb0b8</name>
+        <choiceText>True</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>True</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_565936fe_1b2d_41b4_a3c3_edfdddb1f151</name>
+        <choiceText>Feel confident that you never have to review or worry about again</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Feel confident that you never have to review or worry about again</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_60323d09_d450_4469_8259_e38607eb6e8b</name>
+        <choiceText>Keep a copy with a friend, relative or attorney</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Keep a copy with a friend, relative or attorney</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_65b76d52_9f80_48fe_9192_b6ec4b23537e</name>
+        <choiceText>Guaranteed Replacement-cost Policy</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Guaranteed Replacement-cost Policy</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_6b8bef54_6ff3_4119_8149_f694cfd8db31</name>
+        <choiceText>Knowing where the closest fire hydrant to your home is</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Knowing where the closest fire hydrant to your home is</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_755597b6_7dc6_4b6c_bb28_6a21ffb40aec</name>
+        <choiceText>In the Fall / Spring</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>In the Fall / Spring</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_76000281_0046_4baf_8766_bc459ac20847</name>
+        <choiceText>Make sure your homeowners insurance is not cancelled</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Make sure your homeowners insurance is not cancelled</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_7925a595_c96a_40ed_8d77_be2bf14cd93c</name>
+        <choiceText>Not be concerned if annual premium increases by 20%</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Not be concerned if annual premium increases by 20%</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_7ae7f6bb_7a9a_4bab_a887_d507355c4531</name>
+        <choiceText>One of the documents signed at closing</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>One of the documents signed at closing </stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_7df4266d_290c_4560_b81f_a9cddc929c64</name>
+        <choiceText>Liability Insurance</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Liability Insurance</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_82bab224_5d88_4fcf_b101_02416ae5514a</name>
+        <choiceText>Make your Lender happy</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Make your Lender happy</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_8b760fa2_ff0f_45d3_ada8_9f0868ae0e02</name>
+        <choiceText>Re-evaluate the coverage needed once a year</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Re-evaluate the coverage needed once a year</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_9953a419_8e2d_4935_a22f_d15f30e05462</name>
+        <choiceText>False</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>False</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_aa3cd257_47af_460f_a1a8_b1d0a375e9e6</name>
+        <choiceText>Once a year</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Once a year</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_ac230686_96fc_483e_8fad_b89f0905e3ce</name>
+        <choiceText>Keep a copy in a safe deposit box</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Keep a copy in a safe deposit box</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_b826697e_048d_479a_8b8f_bbb52cc945fe</name>
+        <choiceText>Knowing the location of the main electrical switch and main cutoff valve for water and gas</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Knowing the location of the main electrical switch and main cutoff valve for water and gas</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_c7243b91_f95f_4d03_aa88_ec845d993e9f</name>
+        <choiceText>Keep your interest rate from going up</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Keep your interest rate from going up</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_c9ce7349_2274_4d42_9ba8_3df38f7bbc98</name>
+        <choiceText>An account your lender opens to pay your taxes and insurance</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>An account your lender opens to pay your taxes and insurance</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_da3c5128_0317_4549_8a08_ae60b235aed8</name>
+        <choiceText>Keep everything handy in a stack on top of your desk</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Keep everything handy in a stack on top of your desk</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_e12619d4_dd47_42de_a9bb_f40016a7dd7c</name>
+        <choiceText>Installing Smoke detectors</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Installing Smoke detectors</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_e2a9445d_469a_4cf6_8cb2_cb874b85dd61</name>
+        <choiceText>The difference between the current value of your home minus the balance of your mortgage loan</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>The difference between the current value of your home minus the balance of your mortgage loan</stringValue>
+        </value>
+    </choices>
+    <interviewLabel>HBE - Quiz - Module 6 - Eng</interviewLabel>
+    <label>HBE - Quiz - Module 6 - Eng</label>
+    <processMetadataValues>
+        <name>BrandingSet</name>
+        <value>
+            <stringValue>sb_hbe_quiz_module_6_eng_2_0e23729d_3cf7_42da_929a_7094af047b3c</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>advanceThankYouPageEnabled</name>
+        <value>
+            <booleanValue>false</booleanValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>autoProgressEnabled</name>
+        <value>
+            <booleanValue>true</booleanValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>hasWelcomePage</name>
+        <value>
+            <booleanValue>true</booleanValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>isSimpleSurvey</name>
+        <value>
+            <booleanValue>false</booleanValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>overrideActiveVersion</name>
+        <value>
+            <booleanValue>false</booleanValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>surveyType</name>
+        <value>
+            <stringValue>Survey</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Survey</processType>
+    <screens>
+        <name>p_17922049_70ec_4113_801f_cdd3f0b0d2ca</name>
+        <label>Video Module 6</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <backButtonLabel>Previous Module</backButtonLabel>
+        <fields>
+            <processMetadataValues>
+                <name>autoProgressAction</name>
+                <value>
+                    <stringValue>NONE</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>q_ddbb77da_1b40_4b02_9fb0_b7d245442b09</name>
+            <choiceReferences>c_82bab224_5d88_4fcf_b101_02416ae5514a</choiceReferences>
+            <choiceReferences>c_c7243b91_f95f_4d03_aa88_ec845d993e9f</choiceReferences>
+            <choiceReferences>c_1e9bad4b_bbdc_40de_ac1a_4d4296504808</choiceReferences>
+            <choiceReferences>c_76000281_0046_4baf_8766_bc459ac20847</choiceReferences>
+            <dataType>String</dataType>
+            <extensionName>survey:runtimeRadioButton</extensionName>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;1. You will want to pay your Mortgage by the first of the month – making it your top-priority bill to pay, as this is a good way for you to:&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldType>ComponentChoice</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <processMetadataValues>
+                <name>autoProgressAction</name>
+                <value>
+                    <stringValue>NONE</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>q_d5123ed2_ab92_49d0_b50b_93195b5c27c9</name>
+            <choiceReferences>c_e12619d4_dd47_42de_a9bb_f40016a7dd7c</choiceReferences>
+            <choiceReferences>c_6b8bef54_6ff3_4119_8149_f694cfd8db31</choiceReferences>
+            <choiceReferences>c_29dcbb6a_7aa9_47b3_9219_85ca10a07b3e</choiceReferences>
+            <choiceReferences>c_b826697e_048d_479a_8b8f_bbb52cc945fe</choiceReferences>
+            <dataType>String</dataType>
+            <extensionName>survey:runtimeRadioButton</extensionName>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;2. Which of the following is &lt;u&gt;not&lt;/u&gt; an item you need to complete as part of your Home Safety Plan:&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldType>ComponentChoice</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <processMetadataValues>
+                <name>autoProgressAction</name>
+                <value>
+                    <stringValue>NONE</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>q_b38c9679_47e7_4a43_a831_90ea56cc9a9a</name>
+            <choiceReferences>c_316e4c60_1939_4a82_96b1_c42fe13d6e16</choiceReferences>
+            <choiceReferences>c_565936fe_1b2d_41b4_a3c3_edfdddb1f151</choiceReferences>
+            <choiceReferences>c_8b760fa2_ff0f_45d3_ada8_9f0868ae0e02</choiceReferences>
+            <choiceReferences>c_7925a595_c96a_40ed_8d77_be2bf14cd93c</choiceReferences>
+            <dataType>String</dataType>
+            <extensionName>survey:runtimeRadioButton</extensionName>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;3. When it comes to your homeowners insurance policy, it’s a smart idea to:&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldType>ComponentChoice</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <processMetadataValues>
+                <name>autoProgressAction</name>
+                <value>
+                    <stringValue>NONE</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>q_333f7972_8a42_4c57_8b0a_8ae84729166d</name>
+            <choiceReferences>c_755597b6_7dc6_4b6c_bb28_6a21ffb40aec</choiceReferences>
+            <choiceReferences>c_aa3cd257_47af_460f_a1a8_b1d0a375e9e6</choiceReferences>
+            <choiceReferences>c_3f945061_5189_4d5d_8587_5f3d0bed7829</choiceReferences>
+            <choiceReferences>c_27338ddb_6232_4c23_bc1f_163e2ed2fd40</choiceReferences>
+            <dataType>String</dataType>
+            <extensionName>survey:runtimeRadioButton</extensionName>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;4. When should you schedule your Home Maintenance checks:&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldType>ComponentChoice</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <processMetadataValues>
+                <name>autoProgressAction</name>
+                <value>
+                    <stringValue>NONE</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>q_c39489f7_499a_492f_8297_2d28de60c3e4</name>
+            <choiceReferences>c_7df4266d_290c_4560_b81f_a9cddc929c64</choiceReferences>
+            <choiceReferences>c_65b76d52_9f80_48fe_9192_b6ec4b23537e</choiceReferences>
+            <choiceReferences>c_134d210b_7b76_47a5_b2d8_85773aa51500</choiceReferences>
+            <choiceReferences>c_01cc84b1_b4c8_4ee9_9343_4a76e3e78d70</choiceReferences>
+            <dataType>String</dataType>
+            <extensionName>survey:runtimeRadioButton</extensionName>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;5. What type of insurance coverage should you seek, in order to cover the full cost of replacing damaged areas of your home with new property of like kind and quality:&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldType>ComponentChoice</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <processMetadataValues>
+                <name>autoProgressAction</name>
+                <value>
+                    <stringValue>NONE</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>q_99442974_9425_4545_9cc0_d006696c3570</name>
+            <choiceReferences>c_4fbaee98_2ede_4d3b_ab39_9076bffdb0b8</choiceReferences>
+            <choiceReferences>c_9953a419_8e2d_4935_a22f_d15f30e05462</choiceReferences>
+            <dataType>String</dataType>
+            <extensionName>survey:runtimeRadioButton</extensionName>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;6. True or False: Your lender will not allow you to cancel your insurance policy and switch to another insurance provider.&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldType>ComponentChoice</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <processMetadataValues>
+                <name>autoProgressAction</name>
+                <value>
+                    <stringValue>NONE</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>q_4909e771_6a8e_4b22_b541_8951e0aa5153</name>
+            <choiceReferences>c_60323d09_d450_4469_8259_e38607eb6e8b</choiceReferences>
+            <choiceReferences>c_ac230686_96fc_483e_8fad_b89f0905e3ce</choiceReferences>
+            <choiceReferences>c_1638a894_e1b6_48fd_a705_730b5490d4c2</choiceReferences>
+            <choiceReferences>c_da3c5128_0317_4549_8a08_ae60b235aed8</choiceReferences>
+            <dataType>String</dataType>
+            <extensionName>survey:runtimeRadioButton</extensionName>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;7. Which of the following would NOT be the best thing to do when organizing and storing your important documents:&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldType>ComponentChoice</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <processMetadataValues>
+                <name>autoProgressAction</name>
+                <value>
+                    <stringValue>FINISH</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>q_0223b6a5_55bf_4401_9e88_a2fb689fff66</name>
+            <choiceReferences>c_c9ce7349_2274_4d42_9ba8_3df38f7bbc98</choiceReferences>
+            <choiceReferences>c_1fa351cb_6574_4951_aaf7_8e827e5cf523</choiceReferences>
+            <choiceReferences>c_e2a9445d_469a_4cf6_8cb2_cb874b85dd61</choiceReferences>
+            <choiceReferences>c_7ae7f6bb_7a9a_4bab_a887_d507355c4531</choiceReferences>
+            <dataType>String</dataType>
+            <extensionName>survey:runtimeRadioButton</extensionName>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;8. Equity is:&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldType>ComponentChoice</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <pausedText>To pick up where you left off, refresh this page, or open the survey again.</pausedText>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>welcome_page</name>
+        <label>Welcome Page</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>p_17922049_70ec_4113_801f_cdd3f0b0d2ca</targetReference>
+        </connector>
+        <fields>
+            <name>welcome_question</name>
+            <extensionName>survey:runtimeWelcome</extensionName>
+            <fieldType>ComponentInstance</fieldType>
+            <inputParameters>
+                <name>label</name>
+                <value>
+                    <stringValue>{!welcome_question_lref_tt}</stringValue>
+                </value>
+            </inputParameters>
+            <isRequired>true</isRequired>
+        </fields>
+        <nextOrFinishButtonLabel>Next Module</nextOrFinishButtonLabel>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <startElementReference>pageNamesInOrder_Assignment</startElementReference>
+    <status>Active</status>
+    <textTemplates>
+        <name>thankYouDescriptionTextTemplate</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text></text>
+    </textTemplates>
+    <textTemplates>
+        <name>thankYouLabelTextTemplate</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;Thank you for completing the Homebuyer Education Course Quiz!&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;An email with your results will be sent shortly.&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>welcome_question_lref_tt</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;Welcome to the Homebuyer Education Quiz - Module 6!&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;Once completed, you&apos;ll receive an email with the results.&lt;/p&gt;</text>
+    </textTemplates>
+    <variables>
+        <name>guestUserLang</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>invitationId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue></stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>pageNamesInOrder</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>previewMode</name>
+        <dataType>Boolean</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <booleanValue>false</booleanValue>
+        </value>
+    </variables>
+    <variables>
+        <name>thankYouDescription</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue>{!thankYouDescriptionTextTemplate}</stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>thankYouLabel</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue>{!thankYouLabelTextTemplate}</stringValue>
+        </value>
+    </variables>
+</Flow>

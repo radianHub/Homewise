@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HBE_Passed__c</fullName>
+    <externalId>false</externalId>
+    <formula>AND(
+HBE_Module_1_Percent__c &gt;= 0.75,
+HBE_Module_2_Percent__c &gt;= 0.75,
+HBE_Module_3_Percent__c &gt;= 0.75,
+HBE_Module_4_Percent__c &gt;= 0.75,
+HBE_Module_5_Percent__c &gt;= 0.75,
+HBE_Module_6_Percent__c &gt;= 0.75
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>HBE Passed</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

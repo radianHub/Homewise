@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>FF Module 5 Question 3 Spanish</label>
+    <protected>false</protected>
+    <values>
+        <field>Answer__c</field>
+        <value xsi:type="xsd:string">Pagarse a usted mismo de manera automática</value>
+    </values>
+    <values>
+        <field>Exclude_Score__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Question__c</field>
+        <value xsi:type="xsd:string">3. El módulo de Presupuestos recomienda que el método más efectivo para aumentar sus ahorros, sin importar el tamaño del presupuesto, es:</value>
+    </values>
+    <values>
+        <field>Survey_Name__c</field>
+        <value xsi:type="xsd:string">FF - Quiz - Module 5 - Spa</value>
+    </values>
+</CustomMetadata>

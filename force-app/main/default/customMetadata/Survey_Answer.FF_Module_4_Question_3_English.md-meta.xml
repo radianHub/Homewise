@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>FF Module 4 Question 3 English</label>
+    <protected>false</protected>
+    <values>
+        <field>Answer__c</field>
+        <value xsi:type="xsd:string">D - 80-100 Points</value>
+    </values>
+    <values>
+        <field>Exclude_Score__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Question__c</field>
+        <value xsi:type="xsd:string">3 – A late payment of more than 30 days on an account reported to the credit bureaus can lower our credit score by how many points?:</value>
+    </values>
+    <values>
+        <field>Survey_Name__c</field>
+        <value xsi:type="xsd:string">FF - Online Learning Check - Module 4 - Eng</value>
+    </values>
+</CustomMetadata>

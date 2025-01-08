@@ -1,10 +1,155 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Pass_Notification</name>
+        <label>Pass Notification</label>
+        <locationX>1106</locationX>
+        <locationY>2255</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <connector>
+            <targetReference>Send_Follow_Up_Module_Flow</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>senderType</name>
+            <value>
+                <stringValue>OrgWideEmailAddress</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderAddress</name>
+            <value>
+                <stringValue>noreply@homewise.org</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recipientId</name>
+            <value>
+                <elementReference>Get_Responder_Contact.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailTemplateId</name>
+            <value>
+                <stringValue>00XWA000000R0NJ2A0</stringValue>
+            </value>
+        </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+    </actionCalls>
+    <actionCalls>
+        <name>Pass_Notification_Spanish</name>
+        <label>Pass Notification Spanish</label>
+        <locationX>1370</locationX>
+        <locationY>2255</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>senderType</name>
+            <value>
+                <stringValue>OrgWideEmailAddress</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderAddress</name>
+            <value>
+                <stringValue>noreply@homewise.org</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recipientId</name>
+            <value>
+                <elementReference>Get_Responder_Contact.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailTemplateId</name>
+            <value>
+                <stringValue>00XWA000000R0Ov2AK</stringValue>
+            </value>
+        </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+    </actionCalls>
+    <actionCalls>
+        <name>Send_Failure_Email</name>
+        <label>Send Failure Email</label>
+        <locationX>1898</locationX>
+        <locationY>2255</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <connector>
+            <targetReference>Delete_Quiz_Response</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>senderType</name>
+            <value>
+                <stringValue>OrgWideEmailAddress</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderAddress</name>
+            <value>
+                <stringValue>noreply@homewise.org</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recipientId</name>
+            <value>
+                <elementReference>Get_Responder_Contact.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailTemplateId</name>
+            <value>
+                <stringValue>00XWA000000R0Gr2AK</stringValue>
+            </value>
+        </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+    </actionCalls>
+    <actionCalls>
+        <name>Send_Spanish_Failure_Email</name>
+        <label>Send Spanish Failure Email</label>
+        <locationX>2162</locationX>
+        <locationY>2255</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <connector>
+            <targetReference>Delete_Quiz_Response</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>senderType</name>
+            <value>
+                <stringValue>OrgWideEmailAddress</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderAddress</name>
+            <value>
+                <stringValue>noreply@homewise.org</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recipientId</name>
+            <value>
+                <elementReference>Get_Responder_Contact.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailTemplateId</name>
+            <value>
+                <stringValue>00XWA000000R0IT2A0</stringValue>
+            </value>
+        </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+    </actionCalls>
     <apiVersion>62.0</apiVersion>
     <assignments>
         <name>Assign_1_point</name>
         <label>Assign 1 point</label>
-        <locationX>2866</locationX>
+        <locationX>2846</locationX>
         <locationY>1295</locationY>
         <assignmentItems>
             <assignToReference>totalScore</assignToReference>
@@ -20,7 +165,7 @@
     <assignments>
         <name>Assign_Metadata_Single</name>
         <label>Assign Metadata Single</label>
-        <locationX>3284</locationX>
+        <locationX>3254</locationX>
         <locationY>971</locationY>
         <assignmentItems>
             <assignToReference>metadataSingle.Label</assignToReference>
@@ -36,7 +181,7 @@
     <assignments>
         <name>Count_of_Questions</name>
         <label>Count of Questions</label>
-        <locationX>2778</locationX>
+        <locationX>2758</locationX>
         <locationY>755</locationY>
         <assignmentItems>
             <assignToReference>questionCount</assignToReference>
@@ -52,7 +197,7 @@
     <assignments>
         <name>Subtract_Question</name>
         <label>Subtract Question</label>
-        <locationX>3306</locationX>
+        <locationX>3286</locationX>
         <locationY>1187</locationY>
         <assignmentItems>
             <assignToReference>questionCount</assignToReference>
@@ -68,7 +213,7 @@
     <decisions>
         <name>Matching_Answers</name>
         <label>Matching Answers?</label>
-        <locationX>2998</locationX>
+        <locationX>2978</locationX>
         <locationY>1187</locationY>
         <defaultConnector>
             <targetReference>Loop_Metadata_Answers</targetReference>
@@ -93,7 +238,7 @@
     <decisions>
         <name>Matching_Question</name>
         <label>Matching Question?</label>
-        <locationX>3284</locationX>
+        <locationX>3254</locationX>
         <locationY>1079</locationY>
         <defaultConnector>
             <targetReference>Loop_Metadata_Answers</targetReference>
@@ -142,6 +287,108 @@
                 <targetReference>Subtract_Question</targetReference>
             </connector>
             <label>Excluded from Score</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Passed</name>
+        <label>Passed?</label>
+        <locationX>1766</locationX>
+        <locationY>2039</locationY>
+        <defaultConnector>
+            <targetReference>Which_Language</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Fail</defaultConnectorLabel>
+        <rules>
+            <name>Passed_Module</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>percentScore</leftValueReference>
+                <operator>GreaterThanOrEqualTo</operator>
+                <rightValue>
+                    <numberValue>75.0</numberValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Passing_Language</targetReference>
+            </connector>
+            <label>Passed Module</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Passing_Language</name>
+        <label>Passing Language?</label>
+        <locationX>1370</locationX>
+        <locationY>2147</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>English_Pass</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Responder_Contact.Language1__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Spanish</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Pass_Notification</targetReference>
+            </connector>
+            <label>English Pass</label>
+        </rules>
+        <rules>
+            <name>Spanish_Pass</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Responder_Contact.Language1__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Spanish</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Pass_Notification_Spanish</targetReference>
+            </connector>
+            <label>Spanish Pass</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Which_Language</name>
+        <label>Which Language?</label>
+        <locationX>2162</locationX>
+        <locationY>2147</locationY>
+        <defaultConnector>
+            <targetReference>Delete_Quiz_Response</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>English</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Responder_Contact.Language1__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Spanish</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_Failure_Email</targetReference>
+            </connector>
+            <label>English</label>
+        </rules>
+        <rules>
+            <name>Spanish</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Responder_Contact.Language1__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Spanish</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_Spanish_Failure_Email</targetReference>
+            </connector>
+            <label>Spanish</label>
         </rules>
     </decisions>
     <decisions>
@@ -346,6 +593,7 @@
             <label>NHNW</label>
         </rules>
     </decisions>
+    <description>Adding Fail Path with Email Alert</description>
     <environments>Default</environments>
     <formulas>
         <name>percentScore</name>
@@ -363,7 +611,7 @@
     <loops>
         <name>Loop_Metadata_Answers</name>
         <label>Loop Metadata Answers</label>
-        <locationX>2778</locationX>
+        <locationX>2758</locationX>
         <locationY>863</locationY>
         <collectionReference>Get_Metadata_Quiz_Answers</collectionReference>
         <iterationOrder>Asc</iterationOrder>
@@ -407,6 +655,13 @@
         </value>
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
+    <recordDeletes>
+        <name>Delete_Quiz_Response</name>
+        <label>Delete Quiz Response</label>
+        <locationX>2162</locationX>
+        <locationY>2447</locationY>
+        <inputReference>$Record</inputReference>
+    </recordDeletes>
     <recordLookups>
         <name>Get_Metadata_Quiz_Answers</name>
         <label>Get Metadata Quiz Answers</label>
@@ -475,6 +730,9 @@
         <label>Update FF Mod 1 Score</label>
         <locationX>50</locationX>
         <locationY>1847</locationY>
+        <connector>
+            <targetReference>Passed</targetReference>
+        </connector>
         <inputAssignments>
             <field>FF_Module_1_Percent__c</field>
             <value>
@@ -488,6 +746,9 @@
         <label>Update FF Mod 2 Score</label>
         <locationX>314</locationX>
         <locationY>1847</locationY>
+        <connector>
+            <targetReference>Passed</targetReference>
+        </connector>
         <inputAssignments>
             <field>FF_Module_2_Percent__c</field>
             <value>
@@ -501,6 +762,9 @@
         <label>Update FF Mod 3 Score</label>
         <locationX>578</locationX>
         <locationY>1847</locationY>
+        <connector>
+            <targetReference>Passed</targetReference>
+        </connector>
         <inputAssignments>
             <field>FF_Module_3_Percent__c</field>
             <value>
@@ -514,6 +778,9 @@
         <label>Update FF Mod 4 Score</label>
         <locationX>842</locationX>
         <locationY>1847</locationY>
+        <connector>
+            <targetReference>Passed</targetReference>
+        </connector>
         <inputAssignments>
             <field>FF_Module_4_Percent__c</field>
             <value>
@@ -527,6 +794,9 @@
         <label>Update FF Mod 5 Score</label>
         <locationX>1106</locationX>
         <locationY>1847</locationY>
+        <connector>
+            <targetReference>Passed</targetReference>
+        </connector>
         <inputAssignments>
             <field>FF_Module_5_Percent__c</field>
             <value>
@@ -540,6 +810,9 @@
         <label>Update FF Mod 6 Score</label>
         <locationX>1370</locationX>
         <locationY>1847</locationY>
+        <connector>
+            <targetReference>Passed</targetReference>
+        </connector>
         <inputAssignments>
             <field>FF_Module_6_Percent__c</field>
             <value>
@@ -553,6 +826,9 @@
         <label>Update HBE Mod 1 Score</label>
         <locationX>1634</locationX>
         <locationY>1847</locationY>
+        <connector>
+            <targetReference>Passed</targetReference>
+        </connector>
         <inputAssignments>
             <field>HBE_Module_1_Percent__c</field>
             <value>
@@ -566,6 +842,9 @@
         <label>Update HBE Mod 2 Score</label>
         <locationX>1898</locationX>
         <locationY>1847</locationY>
+        <connector>
+            <targetReference>Passed</targetReference>
+        </connector>
         <inputAssignments>
             <field>HBE_Module_2_Percent__c</field>
             <value>
@@ -579,6 +858,9 @@
         <label>Update HBE Mod 3 Score</label>
         <locationX>2162</locationX>
         <locationY>1847</locationY>
+        <connector>
+            <targetReference>Passed</targetReference>
+        </connector>
         <inputAssignments>
             <field>HBE_Module_3_Percent__c</field>
             <value>
@@ -592,6 +874,9 @@
         <label>Update HBE Mod 4 Score</label>
         <locationX>2426</locationX>
         <locationY>1847</locationY>
+        <connector>
+            <targetReference>Passed</targetReference>
+        </connector>
         <inputAssignments>
             <field>HBE_Module_4_Percent__c</field>
             <value>
@@ -605,6 +890,9 @@
         <label>Update HBE Mod 5 Score</label>
         <locationX>2690</locationX>
         <locationY>1847</locationY>
+        <connector>
+            <targetReference>Passed</targetReference>
+        </connector>
         <inputAssignments>
             <field>HBE_Module_5_Percent__c</field>
             <value>
@@ -618,6 +906,9 @@
         <label>Update HBE Mod 6 Score</label>
         <locationX>2954</locationX>
         <locationY>1847</locationY>
+        <connector>
+            <targetReference>Passed</targetReference>
+        </connector>
         <inputAssignments>
             <field>HBE_Module_6_Percent__c</field>
             <value>
@@ -631,6 +922,9 @@
         <label>Update NHNW Score</label>
         <locationX>3218</locationX>
         <locationY>1847</locationY>
+        <connector>
+            <targetReference>Passed</targetReference>
+        </connector>
         <inputAssignments>
             <field>NHNW_Percent__c</field>
             <value>
@@ -658,6 +952,19 @@
         <triggerType>RecordAfterSave</triggerType>
     </start>
     <status>Active</status>
+    <subflows>
+        <name>Send_Follow_Up_Module_Flow</name>
+        <label>Send Follow Up Module Flow</label>
+        <locationX>1106</locationX>
+        <locationY>2363</locationY>
+        <flowName>Module_Email_Automation</flowName>
+        <inputAssignments>
+            <name>surveyResponseId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+    </subflows>
     <variables>
         <name>metadataSingle</name>
         <dataType>SObject</dataType>
@@ -673,6 +980,13 @@
         <isInput>false</isInput>
         <isOutput>false</isOutput>
         <scale>0</scale>
+    </variables>
+    <variables>
+        <name>surveyResponseId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
     </variables>
     <variables>
         <name>totalScore</name>

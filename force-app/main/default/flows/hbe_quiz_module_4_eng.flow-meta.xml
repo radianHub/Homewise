@@ -243,7 +243,7 @@
     <processMetadataValues>
         <name>BrandingSet</name>
         <value>
-            <stringValue>sb_hbe_quiz_module_4_eng_2_37596217_2ec9_48ab_adcf_081a2919da3a</stringValue>
+            <stringValue>sb_hbe_quiz_module_4_eng_4_933e1bd4_a5b0_499e_9a28_9491d08dc195</stringValue>
         </value>
     </processMetadataValues>
     <processMetadataValues>
@@ -265,6 +265,12 @@
         </value>
     </processMetadataValues>
     <processMetadataValues>
+        <name>isAutosaveEnabled</name>
+        <value>
+            <booleanValue>false</booleanValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
         <name>isSimpleSurvey</name>
         <value>
             <booleanValue>false</booleanValue>
@@ -280,6 +286,30 @@
         <name>surveyType</name>
         <value>
             <stringValue>Survey</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>svAddlInfo_EmailSender</name>
+        <value>
+            <stringValue>Homewise Services &lt;noreply@homewise.org&gt;</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>svAddlInfo_EmailTemplate</name>
+        <value>
+            <stringValue>HBE_Module_4_1736279329476</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>svAddlInfo_InvitationSharingRole</name>
+        <value>
+            <stringValue>InvitationRecordCreator</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>svAddlInfo_Language</name>
+        <value>
+            <stringValue>en_US</stringValue>
         </value>
     </processMetadataValues>
     <processType>Survey</processType>

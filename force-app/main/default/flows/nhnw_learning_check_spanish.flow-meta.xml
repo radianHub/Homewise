@@ -227,7 +227,7 @@
     <processMetadataValues>
         <name>BrandingSet</name>
         <value>
-            <stringValue>sb_nhnw_learning_check_spanish_2_e00a590f_2f28_4fca_bdd4_c7130abccf44</stringValue>
+            <stringValue>sb_nhnw_learning_check_spanish_3_8b37918f_e320_45cd_9b76_429010c976a7</stringValue>
         </value>
     </processMetadataValues>
     <processMetadataValues>
@@ -249,6 +249,12 @@
         </value>
     </processMetadataValues>
     <processMetadataValues>
+        <name>isAutosaveEnabled</name>
+        <value>
+            <booleanValue>false</booleanValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
         <name>isSimpleSurvey</name>
         <value>
             <booleanValue>false</booleanValue>
@@ -267,9 +273,21 @@
         </value>
     </processMetadataValues>
     <processMetadataValues>
+        <name>svAddlInfo_EmailSender</name>
+        <value>
+            <stringValue>Homewise Services &lt;noreply@homewise.org&gt;</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>svAddlInfo_EmailTemplate</name>
+        <value>
+            <stringValue>NHNW_Spanish_1736976308008</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
         <name>svAddlInfo_InvitationSharingRole</name>
         <value>
-            <stringValue>SurveyOwner</stringValue>
+            <stringValue>InvitationRecordCreator</stringValue>
         </value>
     </processMetadataValues>
     <processMetadataValues>

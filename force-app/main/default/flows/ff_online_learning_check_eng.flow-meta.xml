@@ -16,7 +16,7 @@
             <assignToReference>pageNamesInOrder</assignToReference>
             <operator>Add</operator>
             <value>
-                <stringValue>p_6b916292_6f0d_40d6_9556_77eea7bab66a</stringValue>
+                <stringValue>p_79763850_b801_42de_bf9b_e127d8c65356</stringValue>
             </value>
         </assignmentItems>
         <assignmentItems>
@@ -31,161 +31,177 @@
         </connector>
     </assignments>
     <choices>
-        <name>c_30edcbfe_0d4c_4427_9dc8_5fbebc6a9734</name>
-        <choiceText>Abrir una cuenta de cheques y una de ahorros</choiceText>
+        <name>c_0f2e81c9_a31f_45ad_aeed_01c7f20d688f</name>
+        <choiceText>C &amp;ndash; Make informed judgments and effective decisions</choiceText>
         <dataType>String</dataType>
         <value>
-            <stringValue>Abrir una cuenta de cheques y una de ahorros</stringValue>
+            <stringValue>C – Make informed judgments and effective decisions</stringValue>
         </value>
     </choices>
     <choices>
-        <name>c_3d8bc62f_73f2_4c47_bb32_8e571210ed7a</name>
-        <choiceText>Falso</choiceText>
+        <name>c_1c9dad42_fe72_4887_bdbd_339a7d6ccc44</name>
+        <choiceText>D &amp;ndash; Watch all six videos</choiceText>
         <dataType>String</dataType>
         <value>
-            <stringValue>Falso</stringValue>
+            <stringValue>D – Watch all six videos</stringValue>
         </value>
     </choices>
     <choices>
-        <name>c_449b9f10_3e9d_4439_975d_1078797318fb</name>
-        <choiceText>80-100 Puntos</choiceText>
+        <name>c_3f328c6d_2ac9_47a3_b611_6ac98fb350d2</name>
+        <choiceText>B &amp;ndash; Wall Street stock averages</choiceText>
         <dataType>String</dataType>
         <value>
-            <stringValue>80-100 Puntos</stringValue>
+            <stringValue>B – Wall Street stock averages</stringValue>
         </value>
     </choices>
     <choices>
-        <name>c_456b6a20_60ff_41b4_aacb_02dbbab35bc8</name>
-        <choiceText>Antig&amp;uuml;edad del Historial de Cr&amp;eacute;dito</choiceText>
+        <name>c_406e318a_bd71_4bc2_95e4_d95a096a2c63</name>
+        <choiceText>A &amp;ndash; Messages &amp;ndash; People &amp;ndash; Money &amp;ndash; Debt</choiceText>
         <dataType>String</dataType>
         <value>
-            <stringValue>Antigüedad del Historial de Crédito</stringValue>
+            <stringValue>A – Messages – People – Money – Debt</stringValue>
         </value>
     </choices>
     <choices>
-        <name>c_4679eb2d_7f4c_40d9_aab7_6fc3824af5e4</name>
-        <choiceText>Transunion.com</choiceText>
+        <name>c_4e5adfb9_232a_41e0_b4f3_b291dac20b05</name>
+        <choiceText>C - Car Payment</choiceText>
         <dataType>String</dataType>
         <value>
-            <stringValue>Transunion.com</stringValue>
+            <stringValue>C - Car Payment</stringValue>
         </value>
     </choices>
     <choices>
-        <name>c_4b8dae19_36ce_4d9e_8f24_d36f6e420bba</name>
-        <choiceText>5-10 Puntos</choiceText>
+        <name>c_51749a50_6817_4297_9622_72c0718f7750</name>
+        <choiceText>C &amp;ndash; Messages &amp;ndash; Family &amp;ndash; Vacations &amp;ndash; Credit Cards</choiceText>
         <dataType>String</dataType>
         <value>
-            <stringValue>5-10 Puntos</stringValue>
+            <stringValue>C – Messages – Family – Vacations – Credit Cards</stringValue>
         </value>
     </choices>
     <choices>
-        <name>c_64f7f38b_7aeb_4b17_a78e_50c7511bafd9</name>
-        <choiceText>Indagaciones y Cr&amp;eacute;dito Nuevo</choiceText>
+        <name>c_5278fb26_ad6d_4d8e_aae0_4f9ec53b3685</name>
+        <choiceText>B - Retirement</choiceText>
         <dataType>String</dataType>
         <value>
-            <stringValue>Indagaciones y Crédito Nuevo</stringValue>
+            <stringValue>B - Retirement</stringValue>
         </value>
     </choices>
     <choices>
-        <name>c_688cdd75_a47d_4a2a_bbbb_2b170e027860</name>
-        <choiceText>50 Puntos</choiceText>
+        <name>c_72ff3fad_5aab_4224_b747_413a5fe0e558</name>
+        <choiceText>D - Kindness and Dignity</choiceText>
         <dataType>String</dataType>
         <value>
-            <stringValue>50 Puntos</stringValue>
+            <stringValue>D - Kindness and Dignity</stringValue>
         </value>
     </choices>
     <choices>
-        <name>c_87063b52_9bf7_4bc5_90fd_276607c4f2e4</name>
-        <choiceText>Cantidad Debida</choiceText>
+        <name>c_7378ad1a_d33a_4816_98ea_d6be0ceebb49</name>
+        <choiceText>A &amp;ndash; Your Investment Portfolio</choiceText>
         <dataType>String</dataType>
         <value>
-            <stringValue>Cantidad Debida </stringValue>
+            <stringValue>A – Your Investment Portfolio</stringValue>
         </value>
     </choices>
     <choices>
-        <name>c_91884f37_dfdc_41a9_ae45_ab7957e5b3dc</name>
-        <choiceText>Todo lo anterior A, B, &amp;amp; C</choiceText>
+        <name>c_83d0ebb4_9483_4a62_b57c_261ab099040e</name>
+        <choiceText>A &amp;ndash; Invest wisely</choiceText>
         <dataType>String</dataType>
         <value>
-            <stringValue>Todo lo anterior A, B, &amp; C </stringValue>
+            <stringValue>A – Invest wisely</stringValue>
         </value>
     </choices>
     <choices>
-        <name>c_94a31859_7331_4742_9d65_ec37c22a4862</name>
-        <choiceText>Verdadero</choiceText>
+        <name>c_9dfd663c_6c6d_4ccc_86e0_4323362a01e2</name>
+        <choiceText>C &amp;ndash; The current balance in your accounts</choiceText>
         <dataType>String</dataType>
         <value>
-            <stringValue>Verdadero</stringValue>
+            <stringValue>C – The current balance in your accounts</stringValue>
         </value>
     </choices>
     <choices>
-        <name>c_a58e32d9_d0d7_4e54_a6a4_34794a6ae007</name>
-        <choiceText>FreeCreditReport.com</choiceText>
+        <name>c_9e43244a_5916_4aae_8427_6f810322f6ea</name>
+        <choiceText>C - A 2-for-1 Sale</choiceText>
         <dataType>String</dataType>
         <value>
-            <stringValue>FreeCreditReport.com</stringValue>
+            <stringValue>C - A 2-for-1 Sale</stringValue>
         </value>
     </choices>
     <choices>
-        <name>c_ab827dfa_6096_46e5_8fdd_846845bd4cc5</name>
-        <choiceText>Historial de Pago</choiceText>
+        <name>c_b473e2b9_499c_4bc1_9365_110947aaa9b3</name>
+        <choiceText>A - Savings</choiceText>
         <dataType>String</dataType>
         <value>
-            <stringValue>Historial de Pago</stringValue>
+            <stringValue>A - Savings</stringValue>
         </value>
     </choices>
     <choices>
-        <name>c_b6869192_5e50_4bf1_94bc_f9b21903ec2e</name>
-        <choiceText>Equifax.com</choiceText>
+        <name>c_d45362b1_8188_4582_81ef_5fa111a38e1c</name>
+        <choiceText>D &amp;ndash; Messages &amp;ndash; Values &amp;ndash; Attitudes - Behaviors</choiceText>
         <dataType>String</dataType>
         <value>
-            <stringValue>Equifax.com</stringValue>
+            <stringValue>D – Messages – Values – Attitudes - Behaviors</stringValue>
         </value>
     </choices>
     <choices>
-        <name>c_c32e8147_4346_4300_b5aa_56242cd7b821</name>
-        <choiceText>Conseguir una tarjeta de cr&amp;eacute;dito asegurada</choiceText>
+        <name>c_e5233687_5ee3_4e9b_9bc7_014a26892244</name>
+        <choiceText>D &amp;ndash; Any generally accepted medium of exchange</choiceText>
         <dataType>String</dataType>
         <value>
-            <stringValue>Conseguir una tarjeta de crédito asegurada</stringValue>
+            <stringValue>D – Any generally accepted medium of exchange</stringValue>
         </value>
     </choices>
     <choices>
-        <name>c_d1747ff0_7bff_46a1_8c41_6aced77bb85b</name>
-        <choiceText>Mantener bien su tarjeta haciendo pagos a tiempo y manteniendo sus saldos bajos</choiceText>
+        <name>c_e71d13bc_6500_48d8_89cd_41c0f5aca540</name>
+        <choiceText>B - Coupons and Rebates</choiceText>
         <dataType>String</dataType>
         <value>
-            <stringValue>Mantener bien su tarjeta haciendo pagos a tiempo y manteniendo sus saldos bajos</stringValue>
+            <stringValue>B - Coupons and Rebates</stringValue>
         </value>
     </choices>
     <choices>
-        <name>c_f4224f33_9f0c_44f1_8ffa_8847953b70de</name>
-        <choiceText>25 Puntos</choiceText>
+        <name>c_ed6a72a5_b427_40fc_b512_69e61dbe458b</name>
+        <choiceText>D - Bingo</choiceText>
         <dataType>String</dataType>
         <value>
-            <stringValue>25 Puntos</stringValue>
+            <stringValue>D - Bingo </stringValue>
         </value>
     </choices>
     <choices>
-        <name>c_ffc95f6c_aa63_429f_856d_2d31ff031ac5</name>
-        <choiceText>AnnualCreditReport.com</choiceText>
+        <name>c_eedfc811_b3ea_4113_9436_ec239e0acb3d</name>
+        <choiceText>B &amp;ndash; Flex our Spending Power</choiceText>
         <dataType>String</dataType>
         <value>
-            <stringValue>AnnualCreditReport.com</stringValue>
+            <stringValue>B – Flex our Spending Power</stringValue>
         </value>
     </choices>
-    <interviewLabel>FF - Quiz - Module 4 - Spa</interviewLabel>
-    <label>FF - Quiz - Module 4 - Spa</label>
+    <choices>
+        <name>c_f3fdea17_3ff4_47f2_a880_14e47b67a54f</name>
+        <choiceText>A - Storm Windows and Doors</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>A - Storm Windows and Doors</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_f70c23a6_adb5_4d14_84bc_39e5d45a477c</name>
+        <choiceText>B &amp;ndash; Messages &amp;ndash; Email &amp;ndash; Phone &amp;ndash; Text</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>B – Messages – Email – Phone – Text</stringValue>
+        </value>
+    </choices>
+    <interviewLabel>FF - Online Learning Check - Eng</interviewLabel>
+    <label>FF - Online Learning Check - Eng</label>
     <processMetadataValues>
         <name>BrandingSet</name>
         <value>
-            <stringValue>sb_ff_quiz_module_4_spa_3_1e3a22de_e915_4be1_aad4_50f6694c98fd</stringValue>
+            <stringValue>sb_ff_online_learning_check_eng_4_86eaabf6_76d0_47ff_bc29_a9dfe2a9f4a0</stringValue>
         </value>
     </processMetadataValues>
     <processMetadataValues>
         <name>advanceThankYouPageEnabled</name>
         <value>
-            <booleanValue>true</booleanValue>
+            <booleanValue>false</booleanValue>
         </value>
     </processMetadataValues>
     <processMetadataValues>
@@ -233,7 +249,7 @@
     <processMetadataValues>
         <name>svAddlInfo_EmailTemplate</name>
         <value>
-            <stringValue>FF_Module_4_Spanish_1736976244234</stringValue>
+            <stringValue>FF_Module_1_1736967937236</stringValue>
         </value>
     </processMetadataValues>
     <processMetadataValues>
@@ -245,19 +261,18 @@
     <processMetadataValues>
         <name>svAddlInfo_Language</name>
         <value>
-            <stringValue>es</stringValue>
+            <stringValue>en_US</stringValue>
         </value>
     </processMetadataValues>
     <processType>Survey</processType>
     <screens>
-        <name>p_6b916292_6f0d_40d6_9556_77eea7bab66a</name>
-        <label>Module 4</label>
+        <name>p_79763850_b801_42de_bf9b_e127d8c65356</name>
+        <label>Module 1 – Messages about Money</label>
         <locationX>0</locationX>
         <locationY>0</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
-        <backButtonLabel>Anterior</backButtonLabel>
         <fields>
             <processMetadataValues>
                 <name>autoProgressAction</name>
@@ -265,16 +280,16 @@
                     <stringValue>NONE</stringValue>
                 </value>
             </processMetadataValues>
-            <name>q_567cb050_a2ef_4a75_b6ba_3717315ec878</name>
-            <choiceReferences>c_4b8dae19_36ce_4d9e_8f24_d36f6e420bba</choiceReferences>
-            <choiceReferences>c_f4224f33_9f0c_44f1_8ffa_8847953b70de</choiceReferences>
-            <choiceReferences>c_688cdd75_a47d_4a2a_bbbb_2b170e027860</choiceReferences>
-            <choiceReferences>c_449b9f10_3e9d_4439_975d_1078797318fb</choiceReferences>
+            <name>q_22d6a614_f7f3_43c8_a714_af59ec076f0a</name>
+            <choiceReferences>c_83d0ebb4_9483_4a62_b57c_261ab099040e</choiceReferences>
+            <choiceReferences>c_eedfc811_b3ea_4113_9436_ec239e0acb3d</choiceReferences>
+            <choiceReferences>c_0f2e81c9_a31f_45ad_aeed_01c7f20d688f</choiceReferences>
+            <choiceReferences>c_1c9dad42_fe72_4887_bdbd_339a7d6ccc44</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px; font-family: Calibri, sans-serif;&quot;&gt;1. ¿Por cuántos puntos puede disminuir nuestro puntaje de crédito debido a un pago atrasado por más de 30 días?:&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;1 – Homewise defines Financial Fitness as the ability to:&lt;/strong&gt;&lt;strong style=&quot;font-family: &amp;quot;Salesforce Sans&amp;quot;, Arial, sans-serif; font-size: 12px;&quot;&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
-            <isRequired>false</isRequired>
+            <isRequired>true</isRequired>
         </fields>
         <fields>
             <processMetadataValues>
@@ -283,16 +298,16 @@
                     <stringValue>NONE</stringValue>
                 </value>
             </processMetadataValues>
-            <name>q_f861581f_b8db_4fc9_a903_7d33be08a604</name>
-            <choiceReferences>c_64f7f38b_7aeb_4b17_a78e_50c7511bafd9</choiceReferences>
-            <choiceReferences>c_87063b52_9bf7_4bc5_90fd_276607c4f2e4</choiceReferences>
-            <choiceReferences>c_456b6a20_60ff_41b4_aacb_02dbbab35bc8</choiceReferences>
-            <choiceReferences>c_ab827dfa_6096_46e5_8fdd_846845bd4cc5</choiceReferences>
+            <name>q_91bafb9a_05b5_4018_b336_0b08b20b22c0</name>
+            <choiceReferences>c_7378ad1a_d33a_4816_98ea_d6be0ceebb49</choiceReferences>
+            <choiceReferences>c_3f328c6d_2ac9_47a3_b611_6ac98fb350d2</choiceReferences>
+            <choiceReferences>c_9dfd663c_6c6d_4ccc_86e0_4323362a01e2</choiceReferences>
+            <choiceReferences>c_e5233687_5ee3_4e9b_9bc7_014a26892244</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px; font-family: Calibri, sans-serif;&quot;&gt;2. El factor más importante, que define 35% de nuestro puntaje de crédito, se basa en:&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;2 – The Definition of Money reviewed was:&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
-            <isRequired>false</isRequired>
+            <isRequired>true</isRequired>
         </fields>
         <fields>
             <processMetadataValues>
@@ -301,16 +316,16 @@
                     <stringValue>NONE</stringValue>
                 </value>
             </processMetadataValues>
-            <name>q_daef0a63_a0e6_4bd7_b11e_f9569ab9e2e0</name>
-            <choiceReferences>c_b6869192_5e50_4bf1_94bc_f9b21903ec2e</choiceReferences>
-            <choiceReferences>c_a58e32d9_d0d7_4e54_a6a4_34794a6ae007</choiceReferences>
-            <choiceReferences>c_ffc95f6c_aa63_429f_856d_2d31ff031ac5</choiceReferences>
-            <choiceReferences>c_4679eb2d_7f4c_40d9_aab7_6fc3824af5e4</choiceReferences>
+            <name>q_9a16eb9b_de1a_4352_bd35_b35e1edc3f38</name>
+            <choiceReferences>c_f3fdea17_3ff4_47f2_a880_14e47b67a54f</choiceReferences>
+            <choiceReferences>c_e71d13bc_6500_48d8_89cd_41c0f5aca540</choiceReferences>
+            <choiceReferences>c_9e43244a_5916_4aae_8427_6f810322f6ea</choiceReferences>
+            <choiceReferences>c_72ff3fad_5aab_4224_b747_413a5fe0e558</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px; font-family: Calibri, sans-serif;&quot;&gt;3. El Ley de Informes de Crédito Justos (Fair Credit Reporting Act) le permite obtener su informe de crédito de las tres buros de crédito una vez al año gratuitamente. ¿En cuál página web es recomendable acceder a estos informes?&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;3 – What Pair of Words reflect Values (as reviewed in this module)&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
-            <isRequired>false</isRequired>
+            <isRequired>true</isRequired>
         </fields>
         <fields>
             <processMetadataValues>
@@ -319,14 +334,16 @@
                     <stringValue>NONE</stringValue>
                 </value>
             </processMetadataValues>
-            <name>q_c9c54908_78d1_4040_a98f_ee2452f05e39</name>
-            <choiceReferences>c_94a31859_7331_4742_9d65_ec37c22a4862</choiceReferences>
-            <choiceReferences>c_3d8bc62f_73f2_4c47_bb32_8e571210ed7a</choiceReferences>
+            <name>q_0da617fc_ab5a_49e1_aac1_92b23634f39b</name>
+            <choiceReferences>c_b473e2b9_499c_4bc1_9365_110947aaa9b3</choiceReferences>
+            <choiceReferences>c_5278fb26_ad6d_4d8e_aae0_4f9ec53b3685</choiceReferences>
+            <choiceReferences>c_4e5adfb9_232a_41e0_b4f3_b291dac20b05</choiceReferences>
+            <choiceReferences>c_ed6a72a5_b427_40fc_b512_69e61dbe458b</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px; font-family: Calibri, sans-serif;&quot;&gt;4. ¿Verdadero o falso? Siempre es mejor utilizar su tarjeta de crédito por debajo del 30% del límite de crédito.&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;4 – In the Nana envelope story, her third envelope of money was for...&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
-            <isRequired>false</isRequired>
+            <isRequired>true</isRequired>
         </fields>
         <fields>
             <processMetadataValues>
@@ -335,18 +352,17 @@
                     <stringValue>FINISH</stringValue>
                 </value>
             </processMetadataValues>
-            <name>q_6f67de39_224d_4195_8ade_17c7d4376afc</name>
-            <choiceReferences>c_30edcbfe_0d4c_4427_9dc8_5fbebc6a9734</choiceReferences>
-            <choiceReferences>c_c32e8147_4346_4300_b5aa_56242cd7b821</choiceReferences>
-            <choiceReferences>c_d1747ff0_7bff_46a1_8c41_6aced77bb85b</choiceReferences>
-            <choiceReferences>c_91884f37_dfdc_41a9_ae45_ab7957e5b3dc</choiceReferences>
+            <name>q_f464afd2_3a11_4f71_af9c_037981334d10</name>
+            <choiceReferences>c_406e318a_bd71_4bc2_95e4_d95a096a2c63</choiceReferences>
+            <choiceReferences>c_f70c23a6_adb5_4d14_84bc_39e5d45a477c</choiceReferences>
+            <choiceReferences>c_51749a50_6817_4297_9622_72c0718f7750</choiceReferences>
+            <choiceReferences>c_d45362b1_8188_4582_81ef_5fa111a38e1c</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px; font-family: Calibri, sans-serif;&quot;&gt;5. Para establecer Crédito, le recomendamos que hable con su banco sobre:&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;5 – The messages we receive about money influence what other areas (as reviewed in the video):&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
-            <isRequired>false</isRequired>
+            <isRequired>true</isRequired>
         </fields>
-        <nextOrFinishButtonLabel>Finalizar</nextOrFinishButtonLabel>
         <pausedText>To pick up where you left off, refresh this page, or open the survey again.</pausedText>
         <showFooter>true</showFooter>
         <showHeader>true</showHeader>
@@ -360,7 +376,7 @@
         <allowFinish>true</allowFinish>
         <allowPause>false</allowPause>
         <connector>
-            <targetReference>p_6b916292_6f0d_40d6_9556_77eea7bab66a</targetReference>
+            <targetReference>p_79763850_b801_42de_bf9b_e127d8c65356</targetReference>
         </connector>
         <fields>
             <name>welcome_question</name>
@@ -374,17 +390,11 @@
             </inputParameters>
             <isRequired>true</isRequired>
         </fields>
-        <nextOrFinishButtonLabel>Siguiente</nextOrFinishButtonLabel>
         <showFooter>true</showFooter>
         <showHeader>true</showHeader>
     </screens>
     <startElementReference>pageNamesInOrder_Assignment</startElementReference>
     <status>Active</status>
-    <textTemplates>
-        <name>thankYouCtaTextTextTemplate00</name>
-        <isViewedAsPlainText>false</isViewedAsPlainText>
-        <text>Ir a Homewise</text>
-    </textTemplates>
     <textTemplates>
         <name>thankYouDescriptionTextTemplate</name>
         <isViewedAsPlainText>false</isViewedAsPlainText>
@@ -393,12 +403,12 @@
     <textTemplates>
         <name>thankYouLabelTextTemplate</name>
         <isViewedAsPlainText>false</isViewedAsPlainText>
-        <text>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong style=&quot;font-size: 18px;&quot;&gt;¡Gracias por completar la evaluación!&lt;/strong&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Tus resultados te serán enviados por correo electrónico en breve.&lt;/span&gt;&lt;/p&gt;</text>
+        <text>&lt;p&gt;&lt;strong&gt;Thank you for completing the evaluation! Your results will be emailed to you shortly&lt;/strong&gt;&lt;/p&gt;</text>
     </textTemplates>
     <textTemplates>
         <name>welcome_question_lref_tt</name>
         <isViewedAsPlainText>false</isViewedAsPlainText>
-        <text>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;¡Bienvenido al Chequeo de Aprendizaje en Línea sobre Condición Financiera - &lt;/strong&gt;&lt;strong&gt;Módulo 4&lt;/strong&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;!&lt;/strong&gt;&lt;/p&gt;</text>
+        <text>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;Welcome to the Financial Fitness for Life Online Learning Check!&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;You will receive an email notification after you complete this module with your score. A passing score is &amp;gt;75%&lt;/p&gt;</text>
     </textTemplates>
     <variables>
         <name>guestUserLang</name>
@@ -432,26 +442,6 @@
         <isOutput>true</isOutput>
         <value>
             <booleanValue>false</booleanValue>
-        </value>
-    </variables>
-    <variables>
-        <name>thankYouCtaText0</name>
-        <dataType>String</dataType>
-        <isCollection>false</isCollection>
-        <isInput>true</isInput>
-        <isOutput>true</isOutput>
-        <value>
-            <stringValue>{!thankYouCtaTextTextTemplate00}</stringValue>
-        </value>
-    </variables>
-    <variables>
-        <name>thankYouCtaUrl0</name>
-        <dataType>String</dataType>
-        <isCollection>false</isCollection>
-        <isInput>true</isInput>
-        <isOutput>true</isOutput>
-        <value>
-            <stringValue>https://homewise.org/</stringValue>
         </value>
     </variables>
     <variables>

@@ -179,7 +179,7 @@
     <processMetadataValues>
         <name>BrandingSet</name>
         <value>
-            <stringValue>sb_ff_online_learning_check_spani_7d832388_719c_427a_99bf_59927de73b4c</stringValue>
+            <stringValue>sb_ff_online_learning_check_spani_ff373e1f_af03_483a_b372_8341250f5a1c</stringValue>
         </value>
     </processMetadataValues>
     <processMetadataValues>
@@ -201,6 +201,12 @@
         </value>
     </processMetadataValues>
     <processMetadataValues>
+        <name>isAutosaveEnabled</name>
+        <value>
+            <booleanValue>false</booleanValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
         <name>isSimpleSurvey</name>
         <value>
             <booleanValue>false</booleanValue>
@@ -216,6 +222,18 @@
         <name>surveyType</name>
         <value>
             <stringValue>Survey</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>svAddlInfo_EmailSender</name>
+        <value>
+            <stringValue>Homewise Services &lt;noreply@homewise.org&gt;</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>svAddlInfo_EmailTemplate</name>
+        <value>
+            <stringValue>FF_Module_1_Spanish_1736976203002</stringValue>
         </value>
     </processMetadataValues>
     <processMetadataValues>

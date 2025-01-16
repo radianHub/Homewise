@@ -7,6 +7,9 @@
         <locationY>539</locationY>
         <actionName>CertificateGeneratorService</actionName>
         <actionType>apex</actionType>
+        <connector>
+            <targetReference>Send_FF_Evaluation_Eng</targetReference>
+        </connector>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
             <name>certificateDate</name>
@@ -34,7 +37,6 @@
         </inputParameters>
         <nameSegment>CertificateGeneratorService</nameSegment>
         <storeOutputAutomatically>true</storeOutputAutomatically>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>Generate_HBE_Certificate</name>
@@ -43,6 +45,9 @@
         <locationY>539</locationY>
         <actionName>CertificateGeneratorService</actionName>
         <actionType>apex</actionType>
+        <connector>
+            <targetReference>Send_HBE_Evaluation_Eng</targetReference>
+        </connector>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
             <name>certificateDate</name>
@@ -70,7 +75,6 @@
         </inputParameters>
         <nameSegment>CertificateGeneratorService</nameSegment>
         <storeOutputAutomatically>true</storeOutputAutomatically>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>Generate_NHNW_Certificate</name>
@@ -106,7 +110,6 @@
         </inputParameters>
         <nameSegment>CertificateGeneratorService</nameSegment>
         <storeOutputAutomatically>true</storeOutputAutomatically>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>Generate_SFF_Certificate</name>
@@ -115,6 +118,9 @@
         <locationY>539</locationY>
         <actionName>CertificateGeneratorService</actionName>
         <actionType>apex</actionType>
+        <connector>
+            <targetReference>Send_FF_Evaluation_Spa</targetReference>
+        </connector>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
             <name>certificateDate</name>
@@ -142,7 +148,6 @@
         </inputParameters>
         <nameSegment>CertificateGeneratorService</nameSegment>
         <storeOutputAutomatically>true</storeOutputAutomatically>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>Generate_SHBE_Certificate</name>
@@ -151,6 +156,9 @@
         <locationY>539</locationY>
         <actionName>CertificateGeneratorService</actionName>
         <actionType>apex</actionType>
+        <connector>
+            <targetReference>Send_HBE_Evaluation_Spa</targetReference>
+        </connector>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
             <name>certificateDate</name>
@@ -178,7 +186,6 @@
         </inputParameters>
         <nameSegment>CertificateGeneratorService</nameSegment>
         <storeOutputAutomatically>true</storeOutputAutomatically>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>Generate_SNHNW_Certificate</name>
@@ -214,7 +221,142 @@
         </inputParameters>
         <nameSegment>CertificateGeneratorService</nameSegment>
         <storeOutputAutomatically>true</storeOutputAutomatically>
-        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <name>Send_FF_Evaluation_Eng</name>
+        <label>Send FF Evaluation Eng</label>
+        <locationX>50</locationX>
+        <locationY>647</locationY>
+        <actionName>ff_online_edition_survey</actionName>
+        <actionType>dynamicSendSurveyInvitation</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>recipientType</name>
+            <value>
+                <stringValue>Contact</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recipient</name>
+            <value>
+                <stringValue>{!$Record.Id}</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>personalInvitation</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>isUnauthenticatedResponse</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <nameSegment>ff_online_edition_survey</nameSegment>
+    </actionCalls>
+    <actionCalls>
+        <name>Send_FF_Evaluation_Spa</name>
+        <label>Send FF Evaluation Spa</label>
+        <locationX>314</locationX>
+        <locationY>647</locationY>
+        <actionName>ff_online_evaluation_spanish</actionName>
+        <actionType>dynamicSendSurveyInvitation</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>recipientType</name>
+            <value>
+                <stringValue>Contact</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recipient</name>
+            <value>
+                <stringValue>{!$Record.Id}</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>personalInvitation</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>isUnauthenticatedResponse</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <nameSegment>ff_online_evaluation_spanish</nameSegment>
+    </actionCalls>
+    <actionCalls>
+        <name>Send_HBE_Evaluation_Eng</name>
+        <label>Send HBE Evaluation Eng</label>
+        <locationX>842</locationX>
+        <locationY>647</locationY>
+        <actionName>hbe_online_evaluation_eng</actionName>
+        <actionType>dynamicSendSurveyInvitation</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>recipientType</name>
+            <value>
+                <stringValue>Contact</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recipient</name>
+            <value>
+                <stringValue>{!$Record.Id}</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>personalInvitation</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>isUnauthenticatedResponse</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <nameSegment>hbe_online_evaluation_eng</nameSegment>
+    </actionCalls>
+    <actionCalls>
+        <name>Send_HBE_Evaluation_Spa</name>
+        <label>Send HBE Evaluation Spa</label>
+        <locationX>1106</locationX>
+        <locationY>647</locationY>
+        <actionName>hbe_online_evaluation_spanish</actionName>
+        <actionType>dynamicSendSurveyInvitation</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>recipientType</name>
+            <value>
+                <stringValue>Contact</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recipient</name>
+            <value>
+                <stringValue>{!$Record.Id}</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>personalInvitation</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>isUnauthenticatedResponse</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <nameSegment>hbe_online_evaluation_spanish</nameSegment>
     </actionCalls>
     <apiVersion>62.0</apiVersion>
     <decisions>
@@ -331,7 +473,7 @@
     <decisions>
         <name>Passed_All_Modules</name>
         <label>Passed All Modules?</label>
-        <locationX>1326</locationX>
+        <locationX>1370</locationX>
         <locationY>323</locationY>
         <defaultConnectorLabel>None</defaultConnectorLabel>
         <rules>
@@ -411,7 +553,7 @@
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
     <start>
-        <locationX>1200</locationX>
+        <locationX>1244</locationX>
         <locationY>0</locationY>
         <connector>
             <targetReference>Passed_All_Modules</targetReference>

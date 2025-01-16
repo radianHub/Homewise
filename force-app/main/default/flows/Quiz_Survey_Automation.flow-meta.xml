@@ -4,7 +4,7 @@
         <name>Send_Eng_FF_Module_1</name>
         <label>Send Eng FF Module 1</label>
         <locationX>314</locationX>
-        <locationY>539</locationY>
+        <locationY>431</locationY>
         <actionName>ff_online_learning_check_eng</actionName>
         <actionType>dynamicSendSurveyInvitation</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
@@ -38,7 +38,7 @@
         <name>Send_Eng_HBE_Module_1</name>
         <label>Send Eng HBE Module 1</label>
         <locationX>50</locationX>
-        <locationY>539</locationY>
+        <locationY>431</locationY>
         <actionName>hbe_quiz_eng</actionName>
         <actionType>dynamicSendSurveyInvitation</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
@@ -67,157 +67,6 @@
             </value>
         </inputParameters>
         <nameSegment>hbe_quiz_eng</nameSegment>
-    </actionCalls>
-    <actionCalls>
-        <name>Send_FF_Eng_Eval</name>
-        <label>Send FF Eng Eval</label>
-        <locationX>314</locationX>
-        <locationY>431</locationY>
-        <actionName>ff_online_edition_survey</actionName>
-        <actionType>dynamicSendSurveyInvitation</actionType>
-        <connector>
-            <targetReference>Send_Eng_FF_Module_1</targetReference>
-        </connector>
-        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
-        <inputParameters>
-            <name>recipientType</name>
-            <value>
-                <stringValue>Contact</stringValue>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>recipient</name>
-            <value>
-                <stringValue>{!$Record.ContactId}</stringValue>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>personalInvitation</name>
-            <value>
-                <booleanValue>true</booleanValue>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>isUnauthenticatedResponse</name>
-            <value>
-                <booleanValue>true</booleanValue>
-            </value>
-        </inputParameters>
-        <nameSegment>ff_online_edition_survey</nameSegment>
-    </actionCalls>
-    <actionCalls>
-        <name>Send_FF_Spa_Eval</name>
-        <label>Send FF Spa Eval</label>
-        <locationX>1106</locationX>
-        <locationY>431</locationY>
-        <actionName>ff_online_evaluation_spanish</actionName>
-        <actionType>dynamicSendSurveyInvitation</actionType>
-        <connector>
-            <targetReference>Send_Spa_FF_Module_1</targetReference>
-        </connector>
-        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
-        <inputParameters>
-            <name>recipientType</name>
-            <value>
-                <stringValue>Contact</stringValue>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>recipient</name>
-            <value>
-                <stringValue>{!$Record.ContactId}</stringValue>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>personalInvitation</name>
-            <value>
-                <booleanValue>true</booleanValue>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>isUnauthenticatedResponse</name>
-            <value>
-                <booleanValue>true</booleanValue>
-            </value>
-        </inputParameters>
-        <nameSegment>ff_online_evaluation_spanish</nameSegment>
-    </actionCalls>
-    <actionCalls>
-        <name>Send_HBE_Eng_Eval</name>
-        <label>Send HBE Eng Eval</label>
-        <locationX>50</locationX>
-        <locationY>431</locationY>
-        <actionName>hbe_online_evaluation_eng</actionName>
-        <actionType>dynamicSendSurveyInvitation</actionType>
-        <connector>
-            <targetReference>Send_Eng_HBE_Module_1</targetReference>
-        </connector>
-        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
-        <inputParameters>
-            <name>recipientType</name>
-            <value>
-                <stringValue>Contact</stringValue>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>recipient</name>
-            <value>
-                <stringValue>{!$Record.ContactId}</stringValue>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>surveySubjectEntity</name>
-        </inputParameters>
-        <inputParameters>
-            <name>personalInvitation</name>
-            <value>
-                <booleanValue>true</booleanValue>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>isUnauthenticatedResponse</name>
-            <value>
-                <booleanValue>true</booleanValue>
-            </value>
-        </inputParameters>
-        <nameSegment>hbe_online_evaluation_eng</nameSegment>
-    </actionCalls>
-    <actionCalls>
-        <name>Send_HBE_Spa_Eval</name>
-        <label>Send HBE Spa Eval</label>
-        <locationX>842</locationX>
-        <locationY>431</locationY>
-        <actionName>hbe_online_evaluation_spanish</actionName>
-        <actionType>dynamicSendSurveyInvitation</actionType>
-        <connector>
-            <targetReference>Send_Spa_HBE_Module_1</targetReference>
-        </connector>
-        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
-        <inputParameters>
-            <name>recipientType</name>
-            <value>
-                <stringValue>Contact</stringValue>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>recipient</name>
-            <value>
-                <stringValue>{!$Record.ContactId}</stringValue>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>personalInvitation</name>
-            <value>
-                <booleanValue>true</booleanValue>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>isUnauthenticatedResponse</name>
-            <value>
-                <booleanValue>true</booleanValue>
-            </value>
-        </inputParameters>
-        <nameSegment>hbe_online_evaluation_spanish</nameSegment>
     </actionCalls>
     <actionCalls>
         <name>Send_NHNW_Learning_Check</name>
@@ -291,7 +140,7 @@
         <name>Send_Spa_FF_Module_1</name>
         <label>Send Spa FF Module 1</label>
         <locationX>1106</locationX>
-        <locationY>539</locationY>
+        <locationY>431</locationY>
         <actionName>ff_online_learning_check_spanish</actionName>
         <actionType>dynamicSendSurveyInvitation</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
@@ -325,7 +174,7 @@
         <name>Send_Spa_HBE_Module_1</name>
         <label>Send Spa HBE Module 1</label>
         <locationX>842</locationX>
-        <locationY>539</locationY>
+        <locationY>431</locationY>
         <actionName>hbe_quiz_spanish</actionName>
         <actionType>dynamicSendSurveyInvitation</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
@@ -380,7 +229,7 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Send_HBE_Eng_Eval</targetReference>
+                <targetReference>Send_Eng_HBE_Module_1</targetReference>
             </connector>
             <label>HBE</label>
         </rules>
@@ -402,7 +251,7 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Send_FF_Eng_Eval</targetReference>
+                <targetReference>Send_Eng_FF_Module_1</targetReference>
             </connector>
             <label>FF</label>
         </rules>
@@ -446,7 +295,7 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Send_HBE_Spa_Eval</targetReference>
+                <targetReference>Send_Spa_HBE_Module_1</targetReference>
             </connector>
             <label>HBE Spanish</label>
         </rules>
@@ -468,7 +317,7 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Send_FF_Spa_Eval</targetReference>
+                <targetReference>Send_Spa_FF_Module_1</targetReference>
             </connector>
             <label>FF Spanish</label>
         </rules>

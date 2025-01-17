@@ -1,9 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionCalls>
+        <name>Send_FF_Evaluation_Eng</name>
+        <label>Send FF Evaluation Eng</label>
+        <locationX>4538</locationX>
+        <locationY>350</locationY>
+        <actionName>ff_online_edition_survey</actionName>
+        <actionType>dynamicSendSurveyInvitation</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>recipientType</name>
+            <value>
+                <stringValue>Contact</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recipient</name>
+            <value>
+                <stringValue>{!Get_Survey_Response_Id.SubmitterId}</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>personalInvitation</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>isUnauthenticatedResponse</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <nameSegment>ff_online_edition_survey</nameSegment>
+    </actionCalls>
+    <actionCalls>
+        <name>Send_FF_Evaluation_Spa</name>
+        <label>Send FF Evaluation Spa</label>
+        <locationX>6122</locationX>
+        <locationY>350</locationY>
+        <actionName>ff_online_evaluation_spanish</actionName>
+        <actionType>dynamicSendSurveyInvitation</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>recipientType</name>
+            <value>
+                <stringValue>Contact</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recipient</name>
+            <value>
+                <stringValue>{!Get_Survey_Response_Id.SubmitterId}</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>personalInvitation</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>isUnauthenticatedResponse</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <nameSegment>ff_online_evaluation_spanish</nameSegment>
+    </actionCalls>
+    <actionCalls>
         <name>Send_FF_Mod_2_Eng</name>
         <label>Send FF Mod 2 Eng</label>
-        <locationX>2690</locationX>
+        <locationX>3218</locationX>
         <locationY>350</locationY>
         <actionName>ff_online_learning_check_module_2_eng</actionName>
         <actionType>dynamicSendSurveyInvitation</actionType>
@@ -37,7 +105,7 @@
     <actionCalls>
         <name>Send_FF_Mod_2_Spa</name>
         <label>Send FF Mod 2 Spa</label>
-        <locationX>4010</locationX>
+        <locationX>4802</locationX>
         <locationY>350</locationY>
         <actionName>ff_quiz_module_2_spa</actionName>
         <actionType>dynamicSendSurveyInvitation</actionType>
@@ -71,7 +139,7 @@
     <actionCalls>
         <name>Send_FF_Mod_3_Eng</name>
         <label>Send FF Mod 3 Eng</label>
-        <locationX>2954</locationX>
+        <locationX>3482</locationX>
         <locationY>350</locationY>
         <actionName>ff_online_learning_check_module_3_eng</actionName>
         <actionType>dynamicSendSurveyInvitation</actionType>
@@ -105,7 +173,7 @@
     <actionCalls>
         <name>Send_FF_Mod_3_Spa</name>
         <label>Send FF Mod 3 Spa</label>
-        <locationX>4274</locationX>
+        <locationX>5066</locationX>
         <locationY>350</locationY>
         <actionName>ff_quiz_module_3_spa</actionName>
         <actionType>dynamicSendSurveyInvitation</actionType>
@@ -139,7 +207,7 @@
     <actionCalls>
         <name>Send_FF_Mod_4_Eng</name>
         <label>Send FF Mod 4 Eng</label>
-        <locationX>3218</locationX>
+        <locationX>3746</locationX>
         <locationY>350</locationY>
         <actionName>ff_online_learning_check_module_4_eng</actionName>
         <actionType>dynamicSendSurveyInvitation</actionType>
@@ -173,7 +241,7 @@
     <actionCalls>
         <name>Send_FF_Mod_4_Spa</name>
         <label>Send FF Mod 4 Spa</label>
-        <locationX>4538</locationX>
+        <locationX>5330</locationX>
         <locationY>350</locationY>
         <actionName>ff_quiz_module_4_spa</actionName>
         <actionType>dynamicSendSurveyInvitation</actionType>
@@ -207,7 +275,7 @@
     <actionCalls>
         <name>Send_FF_Mod_5_Eng</name>
         <label>Send FF Mod 5 Eng</label>
-        <locationX>3482</locationX>
+        <locationX>4010</locationX>
         <locationY>350</locationY>
         <actionName>ff_online_learning_check_module_5_eng</actionName>
         <actionType>dynamicSendSurveyInvitation</actionType>
@@ -241,7 +309,7 @@
     <actionCalls>
         <name>Send_FF_Mod_5_Spa</name>
         <label>Send FF Mod 5 Spa</label>
-        <locationX>4802</locationX>
+        <locationX>5594</locationX>
         <locationY>350</locationY>
         <actionName>ff_quiz_module_5_spa</actionName>
         <actionType>dynamicSendSurveyInvitation</actionType>
@@ -278,7 +346,7 @@
     <actionCalls>
         <name>Send_FF_Mod_6_Eng</name>
         <label>Send FF Mod 6 Eng</label>
-        <locationX>3746</locationX>
+        <locationX>4274</locationX>
         <locationY>350</locationY>
         <actionName>ff_online_learning_check_module_6_eng</actionName>
         <actionType>dynamicSendSurveyInvitation</actionType>
@@ -312,7 +380,7 @@
     <actionCalls>
         <name>Send_FF_Mod_6_Spa</name>
         <label>Send FF Mod 6 Spa</label>
-        <locationX>5066</locationX>
+        <locationX>5858</locationX>
         <locationY>350</locationY>
         <actionName>ff_quiz_module_6_spa</actionName>
         <actionType>dynamicSendSurveyInvitation</actionType>
@@ -344,9 +412,77 @@
         <nameSegment>ff_quiz_module_6_spa</nameSegment>
     </actionCalls>
     <actionCalls>
+        <name>Send_HBE_Evaluation_Eng</name>
+        <label>Send HBE Evaluation Eng</label>
+        <locationX>1370</locationX>
+        <locationY>350</locationY>
+        <actionName>hbe_online_evaluation_eng</actionName>
+        <actionType>dynamicSendSurveyInvitation</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>recipientType</name>
+            <value>
+                <stringValue>Contact</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recipient</name>
+            <value>
+                <stringValue>{!Get_Survey_Response_Id.SubmitterId}</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>personalInvitation</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>isUnauthenticatedResponse</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <nameSegment>hbe_online_evaluation_eng</nameSegment>
+    </actionCalls>
+    <actionCalls>
+        <name>Send_HBE_Evaluation_Spa</name>
+        <label>Send HBE Evaluation Spa</label>
+        <locationX>2954</locationX>
+        <locationY>350</locationY>
+        <actionName>hbe_online_evaluation_spanish</actionName>
+        <actionType>dynamicSendSurveyInvitation</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>recipientType</name>
+            <value>
+                <stringValue>Contact</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recipient</name>
+            <value>
+                <stringValue>{!Get_Survey_Response_Id.SubmitterId}</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>personalInvitation</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>isUnauthenticatedResponse</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <nameSegment>hbe_online_evaluation_spanish</nameSegment>
+    </actionCalls>
+    <actionCalls>
         <name>Send_HBE_Mod_2_Spa</name>
         <label>Send HBE Mod 2 Spa</label>
-        <locationX>1370</locationX>
+        <locationX>1634</locationX>
         <locationY>350</locationY>
         <actionName>hbe_quiz_module_2_spa</actionName>
         <actionType>dynamicSendSurveyInvitation</actionType>
@@ -380,7 +516,7 @@
     <actionCalls>
         <name>Send_HBE_Mod_3_Spa</name>
         <label>Send HBE Mod 3 Spa</label>
-        <locationX>1634</locationX>
+        <locationX>1898</locationX>
         <locationY>350</locationY>
         <actionName>hbe_quiz_module_3_spa</actionName>
         <actionType>dynamicSendSurveyInvitation</actionType>
@@ -414,7 +550,7 @@
     <actionCalls>
         <name>Send_HBE_Mod_4_Spa</name>
         <label>Send HBE Mod 4 Spa</label>
-        <locationX>1898</locationX>
+        <locationX>2162</locationX>
         <locationY>350</locationY>
         <actionName>hbe_quiz_module_4_spa</actionName>
         <actionType>dynamicSendSurveyInvitation</actionType>
@@ -448,7 +584,7 @@
     <actionCalls>
         <name>Send_HBE_Mod_5_Spa</name>
         <label>Send HBE Mod 5 Spa</label>
-        <locationX>2162</locationX>
+        <locationX>2426</locationX>
         <locationY>350</locationY>
         <actionName>hbe_quiz_module_5_spa</actionName>
         <actionType>dynamicSendSurveyInvitation</actionType>
@@ -482,7 +618,7 @@
     <actionCalls>
         <name>Send_HBE_Mod_6_Spa</name>
         <label>Send HBE Mod 6 Spa</label>
-        <locationX>2426</locationX>
+        <locationX>2690</locationX>
         <locationY>350</locationY>
         <actionName>hbe_quiz_module_6_spa</actionName>
         <actionType>dynamicSendSurveyInvitation</actionType>
@@ -688,7 +824,7 @@
         <description>Identify which survey is from the response</description>
         <name>Which_Survey</name>
         <label>Which Survey?</label>
-        <locationX>2690</locationX>
+        <locationX>3218</locationX>
         <locationY>242</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
@@ -767,6 +903,21 @@
             <label>HBE Mod 5 Eng</label>
         </rules>
         <rules>
+            <name>HBE_Mod_6_Eng</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Survey_Response_Id.Invitation.Survey.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>HBE - Quiz - Module 6 - Eng</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_HBE_Evaluation_Eng</targetReference>
+            </connector>
+            <label>HBE Mod 6 Eng</label>
+        </rules>
+        <rules>
             <name>HBE_Mod_1_Spa</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
@@ -842,11 +993,29 @@
             <label>HBE Mod 5 Spa</label>
         </rules>
         <rules>
+            <name>HBE_Mod_6_Spa</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Survey_Response_Id.Invitation.Survey.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>HBE - Quiz - Module 6 - Spa</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_HBE_Evaluation_Spa</targetReference>
+            </connector>
+            <label>HBE Mod 6 Spa</label>
+        </rules>
+        <rules>
             <name>FF_Mod_1_Eng</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
                 <leftValueReference>Get_Survey_Response_Id.Invitation.Survey.Name</leftValueReference>
                 <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>FF - Online Learning Check - Eng</stringValue>
+                </rightValue>
             </conditions>
             <connector>
                 <targetReference>Send_FF_Mod_2_Eng</targetReference>
@@ -859,6 +1028,9 @@
             <conditions>
                 <leftValueReference>Get_Survey_Response_Id.Invitation.Survey.Name</leftValueReference>
                 <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>FF - Online Learning Check - Module 2 - Eng</stringValue>
+                </rightValue>
             </conditions>
             <connector>
                 <targetReference>Send_FF_Mod_3_Eng</targetReference>
@@ -871,6 +1043,9 @@
             <conditions>
                 <leftValueReference>Get_Survey_Response_Id.Invitation.Survey.Name</leftValueReference>
                 <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>FF - Online Learning Check - Module 3 - Eng</stringValue>
+                </rightValue>
             </conditions>
             <connector>
                 <targetReference>Send_FF_Mod_4_Eng</targetReference>
@@ -883,6 +1058,9 @@
             <conditions>
                 <leftValueReference>Get_Survey_Response_Id.Invitation.Survey.Name</leftValueReference>
                 <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>FF - Online Learning Check - Module 4 - Eng</stringValue>
+                </rightValue>
             </conditions>
             <connector>
                 <targetReference>Send_FF_Mod_5_Eng</targetReference>
@@ -895,6 +1073,9 @@
             <conditions>
                 <leftValueReference>Get_Survey_Response_Id.Invitation.Survey.Name</leftValueReference>
                 <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>FF - Online Learning Check - Module 5 - Eng</stringValue>
+                </rightValue>
             </conditions>
             <connector>
                 <targetReference>Send_FF_Mod_6_Eng</targetReference>
@@ -902,11 +1083,29 @@
             <label>FF Mod 5 Eng</label>
         </rules>
         <rules>
+            <name>FF_Mod_6_Eng</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Survey_Response_Id.Invitation.Survey.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>FF - Online Learning Check - Module 6 - Eng</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_FF_Evaluation_Eng</targetReference>
+            </connector>
+            <label>FF Mod 6 Eng</label>
+        </rules>
+        <rules>
             <name>FF_Mod_1_Spa</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
                 <leftValueReference>Get_Survey_Response_Id.Invitation.Survey.Name</leftValueReference>
                 <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>FF - Online Learning Check - Spanish</stringValue>
+                </rightValue>
             </conditions>
             <connector>
                 <targetReference>Send_FF_Mod_2_Spa</targetReference>
@@ -919,6 +1118,9 @@
             <conditions>
                 <leftValueReference>Get_Survey_Response_Id.Invitation.Survey.Name</leftValueReference>
                 <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>FF - Quiz - Module 2 - Spa</stringValue>
+                </rightValue>
             </conditions>
             <connector>
                 <targetReference>Send_FF_Mod_3_Spa</targetReference>
@@ -931,6 +1133,9 @@
             <conditions>
                 <leftValueReference>Get_Survey_Response_Id.Invitation.Survey.Name</leftValueReference>
                 <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>FF - Quiz - Module 3 - Spa</stringValue>
+                </rightValue>
             </conditions>
             <connector>
                 <targetReference>Send_FF_Mod_4_Spa</targetReference>
@@ -943,6 +1148,9 @@
             <conditions>
                 <leftValueReference>Get_Survey_Response_Id.Invitation.Survey.Name</leftValueReference>
                 <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>FF - Quiz - Module 4 - Spa</stringValue>
+                </rightValue>
             </conditions>
             <connector>
                 <targetReference>Send_FF_Mod_5_Spa</targetReference>
@@ -955,11 +1163,29 @@
             <conditions>
                 <leftValueReference>Get_Survey_Response_Id.Invitation.Survey.Name</leftValueReference>
                 <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>FF - Quiz - Module 5 - Spa</stringValue>
+                </rightValue>
             </conditions>
             <connector>
                 <targetReference>Send_FF_Mod_6_Spa</targetReference>
             </connector>
             <label>FF Mod 5 Spa</label>
+        </rules>
+        <rules>
+            <name>FF_Mod_6_Spa</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Survey_Response_Id.Invitation.Survey.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>FF - Quiz - Module 6 - Spa</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_FF_Evaluation_Spa</targetReference>
+            </connector>
+            <label>FF Mod 6 Spa</label>
         </rules>
     </decisions>
     <description>Used to send follow up surveys after they pass the previous modules</description>
@@ -988,7 +1214,7 @@
     <recordLookups>
         <name>Get_Survey_Response_Id</name>
         <label>Get Survey Response Id</label>
-        <locationX>2690</locationX>
+        <locationX>3218</locationX>
         <locationY>134</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -1007,7 +1233,7 @@
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <start>
-        <locationX>2564</locationX>
+        <locationX>3092</locationX>
         <locationY>0</locationY>
         <connector>
             <targetReference>Get_Survey_Response_Id</targetReference>

@@ -243,7 +243,7 @@
     <processMetadataValues>
         <name>BrandingSet</name>
         <value>
-            <stringValue>sb_hbe_quiz_module_4_spa_2_1c370611_054d_4365_84cf_159faef61122</stringValue>
+            <stringValue>sb_hbe_quiz_module_4_spa_3_4ad53f9b_1cff_494e_aa3e_8348d5abea71</stringValue>
         </value>
     </processMetadataValues>
     <processMetadataValues>
@@ -336,7 +336,7 @@
             <choiceReferences>c_76000281_0046_4baf_8766_bc459ac20847</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;1.&amp;nbsp;La comisión que recibe el prestamista para procesar, o crear la solicitud de su préstamo es (seleccione uno):&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;1. La comisión que recibe el prestamista para procesar, o crear la solicitud de su préstamo es (seleccione uno):&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -354,7 +354,7 @@
             <choiceReferences>c_a5eda93e_c2d5_4955_9b92_271d1ddb5e21</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;2.&amp;nbsp;El coste total de la hipoteca representado por un porcentaje del préstamo (incluyendo la tasa de interés base, los puntos, la comisión de inicio de préstamo, y el seguro hipotecario) es conocido como:&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;2. El coste total de la hipoteca representado por un porcentaje del préstamo (incluyendo la tasa de interés base, los puntos, la comisión de inicio de préstamo, y el seguro hipotecario) es conocido como:&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -372,7 +372,7 @@
             <choiceReferences>c_143ac411_c1d6_44ba_86a2_a66685a60232</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;3.&amp;nbsp;Homewise ofrece un Préstamo Convencional a través de Fannie Mae y más. Su banco o cooperativa de credito local también ofrece otros tipos de préstamos. Cuál de los siguientes no es un préstamo real (escoga uno):&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;3. Homewise ofrece un Préstamo Convencional a través de Fannie Mae y más. Su banco o cooperativa de credito local también ofrece otros tipos de préstamos. Cuál de los siguientes no es un préstamo real (escoga uno):&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -388,7 +388,7 @@
             <choiceReferences>c_aa3cd257_47af_460f_a1a8_b1d0a375e9e6</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;4.&amp;nbsp;Verdadero o Falso: Un Préstamo Hipotecario de 30 años con tasa de interés de 7% y APR (Tasa Promedio Anualizada) de 10.5%, éste sería un buen préstamo con un APR razonable.&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;4. Verdadero o Falso: Un Préstamo Hipotecario de 30 años con tasa de interés de 7% y APR (Tasa Promedio Anualizada) de 10.5%, éste sería un buen préstamo con un APR razonable.&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -406,7 +406,7 @@
             <choiceReferences>c_c4df7e72_6e00_48b1_bf85_37f712369208</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;5.&amp;nbsp;La Ley Federal exige que, a no más de tres días después de la solicitud del préstamo, el Prestamista le da una copia del folleto “Su Conjunto de Herramientas para Préstamos Hipotecarios (“Your Home Loan Toolkit”), y (seleccione uno):&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;5. La Ley Federal exige que, a no más de tres días después de la solicitud del préstamo, el Prestamista le da una copia del folleto “Su Conjunto de Herramientas para Préstamos Hipotecarios (“Your Home Loan Toolkit”), y (seleccione uno):&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -422,7 +422,7 @@
             <choiceReferences>c_9953a419_8e2d_4935_a22f_d15f30e05462</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;6.&amp;nbsp;Verdadero o Falso: En su Estimación de Préstamo, ha notado que pagará los primeros 12 meses e su Prima de Seguro de Propietario de Vivienda por adelantado como parte de los costos de cierre. Ésto no es un costo normal, y es preocupante.&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;6. Verdadero o Falso: En su Estimación de Préstamo, ha notado que pagará los primeros 12 meses e su Prima de Seguro de Propietario de Vivienda por adelantado como parte de los costos de cierre. Ésto no es un costo normal, y es preocupante.&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -440,7 +440,7 @@
             <choiceReferences>c_da3c5128_0317_4549_8a08_ae60b235aed8</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;7.&amp;nbsp;Si usted se muda a su hogar el 15 de octubre, su primer pago hipotecario será debido (seleccione uno):&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;7. Si usted se muda a su hogar el 15 de octubre, su primer pago hipotecario será debido (seleccione uno):&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -456,7 +456,7 @@
             <choiceReferences>c_1fa351cb_6574_4951_aaf7_8e827e5cf523</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;8.&amp;nbsp;Verdadero o Falso: Una Hipoteca con Tasa Variable (ARM) permite que su prestamista pueda ajustar y disminuir su tasa de interés mientras va subiendo su puntaje de crédito.&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;8. Verdadero o Falso: Una Hipoteca con Tasa Variable (ARM) permite que su prestamista pueda ajustar y disminuir su tasa de interés mientras va subiendo su puntaje de crédito.&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>

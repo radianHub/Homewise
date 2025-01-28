@@ -44,6 +44,9 @@
         <locationY>2255</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
+        <connector>
+            <targetReference>Send_Follow_Up_Module_Flow</targetReference>
+        </connector>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
             <name>senderType</name>
@@ -955,8 +958,8 @@
     <subflows>
         <name>Send_Follow_Up_Module_Flow</name>
         <label>Send Follow Up Module Flow</label>
-        <locationX>1106</locationX>
-        <locationY>2363</locationY>
+        <locationX>1370</locationX>
+        <locationY>2447</locationY>
         <flowName>Module_Email_Automation</flowName>
         <inputAssignments>
             <name>surveyResponseId</name>

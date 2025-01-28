@@ -243,7 +243,7 @@
     <processMetadataValues>
         <name>BrandingSet</name>
         <value>
-            <stringValue>sb_hbe_quiz_module_5_spa_2_c2ac24c5_39a3_43a1_b4de_67ea2d3b6bff</stringValue>
+            <stringValue>sb_hbe_quiz_module_5_spa_3_730a8d2a_3243_4445_b8e7_01e97898f181</stringValue>
         </value>
     </processMetadataValues>
     <processMetadataValues>
@@ -336,7 +336,7 @@
             <choiceReferences>c_76000281_0046_4baf_8766_bc459ac20847</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;1.&amp;nbsp;Cuando usted compra una casa, ¿Cuál documento mostra si los límites de la propiedad (como se han reportado al Condado) son iguales a la descripción en el contrato de compra-venta?:&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;1. Cuando usted compra una casa, ¿Cuál documento mostra si los límites de la propiedad (como se han reportado al Condado) son iguales a la descripción en el contrato de compra-venta?:&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -354,7 +354,7 @@
             <choiceReferences>c_a5eda93e_c2d5_4955_9b92_271d1ddb5e21</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;2.&amp;nbsp;La Agencia de Trámites de Título de Propiedad es un tercero partido neutral que se encarga del cierre, y trabaja para&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;:&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;2. La Agencia de Trámites de Título de Propiedad es un tercero partido neutral que se encarga del cierre, y trabaja para:&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -372,7 +372,7 @@
             <choiceReferences>c_143ac411_c1d6_44ba_86a2_a66685a60232</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;3.&amp;nbsp;El prestamista requiere éste tipo de Seguro para proteger contra pérdidas financieras si se encuentra algún defecto en el título del hogar después de la compra:&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;3. El prestamista requiere éste tipo de Seguro para proteger contra pérdidas financieras si se encuentra algún defecto en el título del hogar después de la compra:&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -390,7 +390,7 @@
             <choiceReferences>c_43a7a122_dbc6_4b7b_b027_256b431d68af</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;4.&amp;nbsp;Si el hogar que va a comprar tiene un gravamen (es decir, si alguien tiene un reclamo legal contra la propiedad del vendedor por dinero debido), ésto se descubrirá durante:&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;4. Si el hogar que va a comprar tiene un gravamen (es decir, si alguien tiene un reclamo legal contra la propiedad del vendedor por dinero debido), ésto se descubrirá durante:&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -406,7 +406,7 @@
             <choiceReferences>c_65b76d52_9f80_48fe_9192_b6ec4b23537e</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;5.&amp;nbsp;Verdadero o Falso: Debe llevar un cheque en blanco a su reunión de cierre ya que aún no se sabe la cantidad de dinero necesaria.&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;5. Verdadero o Falso: Debe llevar un cheque en blanco a su reunión de cierre ya que aún no se sabe la cantidad de dinero necesaria.&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -422,7 +422,7 @@
             <choiceReferences>c_9953a419_8e2d_4935_a22f_d15f30e05462</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;6.&amp;nbsp;Verdadero o Falso: Su&amp;nbsp;&lt;u&gt;Declaración de Cierre&lt;/u&gt;&amp;nbsp;es igual a la Estimación de Préstamo, así que puede firmar la Declaración de Cierre sin leerla:&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;6. Verdadero o Falso: Su Declaración de Cierre es igual a la Estimación de Préstamo, así que puede firmar la Declaración de Cierre sin leerla:&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -440,7 +440,7 @@
             <choiceReferences>c_da3c5128_0317_4549_8a08_ae60b235aed8</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;7.&amp;nbsp;Usted firmará éste documento en el cierre: representa su Promesa de Pago al prestamista:&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;7. Usted firmará éste documento en el cierre: representa su Promesa de Pago al prestamista:&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -456,7 +456,7 @@
             <choiceReferences>c_1fa351cb_6574_4951_aaf7_8e827e5cf523</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;8.&amp;nbsp;Verdadero o Falso: Es buena idea llevar un cheque en blanco a su reunión de cierre; ésto le permitirá inscribirse para pagos automáticos y asegurar que su hipoteca se pague siempre a tiempo.&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;8. Verdadero o Falso: Es buena idea llevar un cheque en blanco a su reunión de cierre; ésto le permitirá inscribirse para pagos automáticos y asegurar que su hipoteca se pague siempre a tiempo.&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>

@@ -111,27 +111,11 @@
         </value>
     </choices>
     <choices>
-        <name>c_40202ca5_3468_4528_b753_900dd1fbff18</name>
-        <choiceText>Seguro de casa</choiceText>
-        <dataType>String</dataType>
-        <value>
-            <stringValue>Seguro de casa</stringValue>
-        </value>
-    </choices>
-    <choices>
         <name>c_40876a53_c36d_46cd_b779_487f344cc1f8</name>
         <choiceText>Sobrepasar el l&amp;iacute;mite de la tarjeta de cr&amp;eacute;dito</choiceText>
         <dataType>String</dataType>
         <value>
             <stringValue>Sobrepasar el límite de la tarjeta de crédito</stringValue>
-        </value>
-    </choices>
-    <choices>
-        <name>c_4fbaee98_2ede_4d3b_ab39_9076bffdb0b8</name>
-        <choiceText>Impuestos de la propiedad</choiceText>
-        <dataType>String</dataType>
-        <value>
-            <stringValue>Impuestos de la propiedad</stringValue>
         </value>
     </choices>
     <choices>
@@ -156,6 +140,14 @@
         <dataType>String</dataType>
         <value>
             <stringValue>Garantía (Collateral)</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_63ed40c5_703d_4b64_9ad5_4cfc13ff4739</name>
+        <choiceText>Tasas de Inter&amp;eacute;s</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Tasas de Interés</stringValue>
         </value>
     </choices>
     <choices>
@@ -199,11 +191,19 @@
         </value>
     </choices>
     <choices>
-        <name>c_7cc72601_9705_456f_a2e0_1b1143899089</name>
+        <name>c_776e847e_8a97_4b1a_a087_abc642818b9b</name>
         <choiceText>Comisi&amp;oacute;n TOM (Tiempo Fuera de Mercado)</choiceText>
         <dataType>String</dataType>
         <value>
             <stringValue>Comisión TOM (Tiempo Fuera de Mercado)</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_7cc72601_9705_456f_a2e0_1b1143899089</name>
+        <choiceText>Fideicomiso</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Fideicomiso</stringValue>
         </value>
     </choices>
     <choices>
@@ -220,14 +220,6 @@
         <dataType>String</dataType>
         <value>
             <stringValue>Pago</stringValue>
-        </value>
-    </choices>
-    <choices>
-        <name>c_9953a419_8e2d_4935_a22f_d15f30e05462</name>
-        <choiceText>Tasas de Inter&amp;eacute;s</choiceText>
-        <dataType>String</dataType>
-        <value>
-            <stringValue>Tasas de Interés</stringValue>
         </value>
     </choices>
     <choices>
@@ -271,11 +263,11 @@
         </value>
     </choices>
     <choices>
-        <name>c_b78084c1_3069_44e4_81c1_fe5dd86698da</name>
-        <choiceText>Plusval&amp;iacute;a (Equity)</choiceText>
+        <name>c_b4d763bb_5b39_4f4e_9cf2_2d5e1c968564</name>
+        <choiceText>Seguro de casa</choiceText>
         <dataType>String</dataType>
         <value>
-            <stringValue>Plusvalía (Equity)</stringValue>
+            <stringValue>Seguro de casa</stringValue>
         </value>
     </choices>
     <choices>
@@ -311,6 +303,14 @@
         </value>
     </choices>
     <choices>
+        <name>c_df7548ed_1c31_4569_942c_1d7bdba46ac3</name>
+        <choiceText>Plusval&amp;iacute;a (Equity)</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Plusvalía (Equity)</stringValue>
+        </value>
+    </choices>
+    <choices>
         <name>c_e12619d4_dd47_42de_a9bb_f40016a7dd7c</name>
         <choiceText>Inter&amp;eacute;s</choiceText>
         <dataType>String</dataType>
@@ -326,12 +326,20 @@
             <stringValue>Seguimiento de los Gastos</stringValue>
         </value>
     </choices>
+    <choices>
+        <name>c_ef8a6bc0_0756_48ad_b07b_f2b725d2130b</name>
+        <choiceText>Impuestos de la propiedad</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Impuestos de la propiedad</stringValue>
+        </value>
+    </choices>
     <interviewLabel>HBE - Quiz - Module 2 - Spa</interviewLabel>
     <label>HBE - Quiz - Module 2 - Spa</label>
     <processMetadataValues>
         <name>BrandingSet</name>
         <value>
-            <stringValue>sb_hbe_quiz_module_2_spa_2_16a29b41_a6bc_4476_b036_8fa8c5d89e3b</stringValue>
+            <stringValue>sb_hbe_quiz_module_2_spa_7_d0aacb73_f1b6_4e4f_b1ef_1c1fcd748271</stringValue>
         </value>
     </processMetadataValues>
     <processMetadataValues>
@@ -424,7 +432,7 @@
             <choiceReferences>c_76000281_0046_4baf_8766_bc459ac20847</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px; font-family: Calibri, sans-serif;&quot;&gt;1.   Las “Cuatro Partes” de su Pago Mensual Hipotecario se ven representados en el vídeo como P+I+T+I por sus iniciales en inglés. ¿Qué significa la letra “P”?&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;1. Las “Cuatro Partes” de su Pago Mensual Hipotecario se ven representados en el vídeo como P+I+T+I por sus iniciales en inglés. ¿Qué significa la letra “P”?&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -442,7 +450,7 @@
             <choiceReferences>c_a5eda93e_c2d5_4955_9b92_271d1ddb5e21</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;2.&amp;nbsp;Las “Cuatro Partes” de su Pago Mensual Hipotecario se ven representados en el vídeo como P+I+T+I por sus iniciales en inglés. ¿Qué significa la primera letra “I”?&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;2. Las “Cuatro Partes” de su Pago Mensual Hipotecario se ven representados en el vídeo como P+I+T+I por sus iniciales en inglés. ¿Qué significa la primera letra “I”?&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -457,9 +465,10 @@
             <choiceReferences>c_316e4c60_1939_4a82_96b1_c42fe13d6e16</choiceReferences>
             <choiceReferences>c_565936fe_1b2d_41b4_a3c3_edfdddb1f151</choiceReferences>
             <choiceReferences>c_7cc72601_9705_456f_a2e0_1b1143899089</choiceReferences>
+            <choiceReferences>c_776e847e_8a97_4b1a_a087_abc642818b9b</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;3.&amp;nbsp;Las “Cuatro Partes” de su Pago Mensual Hipotecario se ven representados en el vídeo como P+I+T+I por sus iniciales en inglés. ¿Qué significa la letra “T”?&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;3. Las “Cuatro Partes” de su Pago Mensual Hipotecario se ven representados en el vídeo como P+I+T+I por sus iniciales en inglés. ¿Qué significa la letra “T”?&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -477,7 +486,7 @@
             <choiceReferences>c_165bbf4d_db1a_453d_bf89_add8c7acf5db</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;4.&amp;nbsp;Las “Cuatro Partes” de su Pago Mensual Hipotecario se ven representados en el vídeo como P+I+T+I por sus iniciales en inglés? ¿Qué significa la segunda letra “I”?&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;4. Las “Cuatro Partes” de su Pago Mensual Hipotecario se ven representados en el vídeo como P+I+T+I por sus iniciales en inglés? ¿Qué significa la segunda letra “I”?&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -493,7 +502,7 @@
             <choiceReferences>c_65b76d52_9f80_48fe_9192_b6ec4b23537e</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;5.&amp;nbsp;Verdadero o Falso: Su pago mensual hipotecario total (P+I+T+I) nunca cambiará (La cantidad que paga mensualmente nunca aumentará)&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;5. Verdadero o Falso: Su pago mensual hipotecario total (P+I+T+I) nunca cambiará (La cantidad que paga mensualmente nunca aumentará)&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -504,15 +513,14 @@
                     <stringValue>NONE</stringValue>
                 </value>
             </processMetadataValues>
-            <name>q_99442974_9425_4545_9cc0_d006696c3570</name>
-            <choiceReferences>c_4fbaee98_2ede_4d3b_ab39_9076bffdb0b8</choiceReferences>
-            <choiceReferences>c_9953a419_8e2d_4935_a22f_d15f30e05462</choiceReferences>
-            <choiceReferences>c_40202ca5_3468_4528_b753_900dd1fbff18</choiceReferences>
-            <choiceReferences>c_b78084c1_3069_44e4_81c1_fe5dd86698da</choiceReferences>
+            <name>q_d50a8942_243a_41bf_a554_9288dd9dc72f</name>
+            <choiceReferences>c_ef8a6bc0_0756_48ad_b07b_f2b725d2130b</choiceReferences>
+            <choiceReferences>c_63ed40c5_703d_4b64_9ad5_4cfc13ff4739</choiceReferences>
+            <choiceReferences>c_b4d763bb_5b39_4f4e_9cf2_2d5e1c968564</choiceReferences>
+            <choiceReferences>c_df7548ed_1c31_4569_942c_1d7bdba46ac3</choiceReferences>
             <dataType>String</dataType>
-            <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;6.&amp;nbsp;Debido al aumento de costos y el valor de su hogar, su pago mensual aumentará a medida que estos factores cambian con el tiempo (seleccione todos los que apliquen)&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
-            <fieldType>ComponentChoice</fieldType>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;6. Debido al aumento de costos y el valor de su hogar, su pago mensual aumentará a medida que estos factores cambian con el tiempo (seleccione todos los que apliquen)&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldType>MultiSelectCheckboxes</fieldType>
             <isRequired>false</isRequired>
         </fields>
         <fields>
@@ -529,7 +537,7 @@
             <choiceReferences>c_da3c5128_0317_4549_8a08_ae60b235aed8</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-family: Calibri, sans-serif; font-size: 14px;&quot;&gt;7.&amp;nbsp;De las Cuatro C’s de Calificación para un Préstamo Hipotecario, la habilidad de poder pagar el préstamo (la relación entre su Ingreso y su Deuda) se llama:&lt;/strong&gt;&lt;strong style=&quot;font-family: Calibri, sans-serif; font-size: 11pt;&quot;&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;7. De las Cuatro C’s de Calificación para un Préstamo Hipotecario, la habilidad de poder pagar el préstamo (la relación entre su Ingreso y su Deuda) se llama:&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -547,7 +555,7 @@
             <choiceReferences>c_2817a9a7_7134_47e3_9893_c5dfaa5ec174</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;8.&amp;nbsp;35% del Puntaje de Crédito representa:&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;8. 35% del Puntaje de Crédito representa:&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -565,7 +573,7 @@
             <choiceReferences>c_51b47fc9_c291_42a6_af9c_f42f4e68b5dd</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;9.&amp;nbsp;El&amp;nbsp;&lt;u&gt;mayor&amp;nbsp;&lt;/u&gt;impacto&amp;nbsp;&lt;u&gt;negativo&lt;/u&gt;&amp;nbsp;para el puntaje de crédito ocurre cuando se reporta ésto a los buros de crédito:&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;9. El mayor impacto negativo para el puntaje de crédito ocurre cuando se reporta ésto a los buros de crédito:&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -583,7 +591,7 @@
             <choiceReferences>c_b27b80cb_85fd_41d3_949e_1e9232fe544d</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;10.&amp;nbsp;Los factores clave para crear un presupuesto eficiente y efectivo incluyen:&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;10. Los factores clave para crear un presupuesto eficiente y efectivo incluyen:&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>

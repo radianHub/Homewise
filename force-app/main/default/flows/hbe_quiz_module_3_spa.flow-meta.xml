@@ -275,7 +275,7 @@
     <processMetadataValues>
         <name>BrandingSet</name>
         <value>
-            <stringValue>sb_hbe_quiz_module_3_spa_2_d3a6104e_13b1_442b_8212_00cd1bd2ae9b</stringValue>
+            <stringValue>sb_hbe_quiz_module_3_spa_4_87e795b7_0791_4d3a_ac4c_afc16426172b</stringValue>
         </value>
     </processMetadataValues>
     <processMetadataValues>
@@ -368,7 +368,7 @@
             <choiceReferences>c_76000281_0046_4baf_8766_bc459ac20847</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;1.&amp;nbsp;¿Cuántos Agentes de Bienes Raíces lo/a pueden representar a la vez?&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;1. ¿Cuántos Agentes de Bienes Raíces lo/a pueden representar a la vez?&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -386,7 +386,7 @@
             <choiceReferences>c_a5eda93e_c2d5_4955_9b92_271d1ddb5e21</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;2.&amp;nbsp;Su Agente de Bienes Raíces puede ayudarle (como Comprador/a) a encontrar un hogar dentro de su presupuesto. Lo/a representará en cada etapa de la transacción, y el costo de éste servicio es:&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;2. Su Agente de Bienes Raíces puede ayudarle (como Comprador/a) a encontrar un hogar dentro de su presupuesto. Lo/a representará en cada etapa de la transacción, y el costo de éste servicio es:&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -402,7 +402,7 @@
             <choiceReferences>c_565936fe_1b2d_41b4_a3c3_edfdddb1f151</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;3.&amp;nbsp;Verdadero o Falso: Su Agente de Bienes Raíces le dirá exactamente cuánto ofrecer para una casa y le indicará quién contratar como inspector de vivienda&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;3. Verdadero o Falso: Su Agente de Bienes Raíces le dirá exactamente cuánto ofrecer para una casa y le indicará quién contratar como inspector de vivienda&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -420,7 +420,7 @@
             <choiceReferences>c_165bbf4d_db1a_453d_bf89_add8c7acf5db</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;7.&amp;nbsp;Al Buscar una Casa debe considerar todo lo siguiente,&amp;nbsp;&lt;u&gt;menos&lt;/u&gt;:&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;4. Al Buscar una Casa debe considerar todo lo siguiente, menos:&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -438,7 +438,7 @@
             <choiceReferences>c_c4df7e72_6e00_48b1_bf85_37f712369208</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;5.&amp;nbsp;Éste es un depósito de buena fue que el comprador se la da para mostrar que hace una ofreta seria. Es una porción de su enganche.&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;5. Éste es un depósito de buena fue que el comprador se la da para mostrar que hace una ofreta seria. Es una porción de su enganche.&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -456,7 +456,7 @@
             <choiceReferences>c_b78084c1_3069_44e4_81c1_fe5dd86698da</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;6.&amp;nbsp;Un Contrato de Compra-Venta firmado impone obligaciones legales a las partes firmantes sobre la compra del hogar. Existen Contingencias para protegerlo/a en ciertas situaciones, en las cuales puede retirar su oferta. ¿Cuál de las siguientes NO es una contingencia incluida en el contrato?:&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;6. Un Contrato de Compra-Venta impone obligaciones legales sobre la compra del hogar. Contingencias lo/a protegen en ciertas situaciones y permiten retirar su oferta. ¿Cuál de las siguientes NO es una contingencia incluida en el contrato?&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -474,7 +474,7 @@
             <choiceReferences>c_da3c5128_0317_4549_8a08_ae60b235aed8</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;7.&amp;nbsp;Como visto en la clase, Homewise.org es buen recurso para encontrar hogares actualmente ACTIVOS en el MLS (el Servicio de Listado Múltiple que utilizan los Agentes de Bienes Raíces). Otro recurso recomendado es:&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;7. Como visto en la clase, Homewise.org es buen recurso para encontrar hogares actualmente ACTIVOS en el MLS (el Servicio de Listado Múltiple que utilizan los Agentes de Bienes Raíces). Otro recurso recomendado es:&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -492,7 +492,7 @@
             <choiceReferences>c_2817a9a7_7134_47e3_9893_c5dfaa5ec174</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;8.&amp;nbsp;¿Quién es responsable de contratar un Inspector de Vivienda? (Seleccione uno):&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;8. ¿Quién es responsable de contratar un Inspector de Vivienda? (Seleccione uno):&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>

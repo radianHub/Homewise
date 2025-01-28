@@ -211,7 +211,7 @@
     <processMetadataValues>
         <name>BrandingSet</name>
         <value>
-            <stringValue>sb_hbe_quiz_spanish_3_5d6f9357_2d69_462c_8913_7fc004f82be0</stringValue>
+            <stringValue>sb_hbe_quiz_spanish_7_d9ec109c_8b8e_473b_b329_8721a3b84439</stringValue>
         </value>
     </processMetadataValues>
     <processMetadataValues>
@@ -320,7 +320,7 @@
             <choiceReferences>c_6b8bef54_6ff3_4119_8149_f694cfd8db31</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;2.&lt;/strong&gt;&lt;strong style=&quot;font-size: 14px; font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/strong&gt;&lt;strong style=&quot;font-size: 14px; font-family: Calibri, sans-serif;&quot;&gt;El depósito de garantía es una parte de su pago inicial&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;2. El depósito de garantía es una parte de su pago inicial&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -337,7 +337,7 @@
             <choiceReferences>c_7cc72601_9705_456f_a2e0_1b1143899089</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;3.&lt;/strong&gt;&lt;strong style=&quot;font-size: 14px; font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/strong&gt;&lt;strong style=&quot;font-size: 14px; font-family: Calibri, sans-serif;&quot;&gt;Deberá tener ahorros adicionales además de su pago inicial para cubrir costos iniciales adicionales como:&lt;/strong&gt;&lt;strong style=&quot;font-size: 11pt; font-family: Calibri, sans-serif;&quot;&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;3. Deberá tener ahorros adicionales además de su pago inicial para cubrir costos iniciales adicionales como:&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -354,7 +354,7 @@
             <choiceReferences>c_1a933005_db51_4f3b_bb28_37979288c804</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;4.&lt;/strong&gt;&lt;strong style=&quot;font-size: 14px; font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/strong&gt;&lt;strong style=&quot;font-size: 14px; font-family: Calibri, sans-serif;&quot;&gt;Seleccione la respuesta a continuación que esté en el orden correcto:&lt;/strong&gt;&lt;strong style=&quot;font-size: 11pt; font-family: Calibri, sans-serif;&quot;&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;4. Seleccione la respuesta a continuación que esté en el orden correcto:&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -370,7 +370,7 @@
             <choiceReferences>c_65b76d52_9f80_48fe_9192_b6ec4b23537e</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;5.&lt;/strong&gt;&lt;strong style=&quot;font-size: 14px; font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/strong&gt;&lt;strong style=&quot;font-size: 14px; font-family: Calibri, sans-serif;&quot;&gt;Es responsabilidad del comprador seleccionar el seguro de propietario.&lt;/strong&gt;&lt;strong style=&quot;font-size: 11pt; font-family: Calibri, sans-serif;&quot;&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;5. Es responsabilidad del comprador seleccionar el seguro de propietario.&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -386,7 +386,7 @@
             <choiceReferences>c_9953a419_8e2d_4935_a22f_d15f30e05462</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;6.&lt;/strong&gt;&lt;strong style=&quot;font-size: 14px; font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/strong&gt;&lt;strong style=&quot;font-size: 14px; font-family: Calibri, sans-serif;&quot;&gt;Una vez que esté listo para comprar, debe abrir nuevas tarjetas de crédito, comprar un automóvil nuevo y gastar sus ahorros para el pago inicial&lt;/strong&gt;&lt;strong style=&quot;font-size: 11pt; font-family: Calibri, sans-serif;&quot;&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;6. Una vez que esté listo para comprar, debe abrir nuevas tarjetas de crédito, comprar un automóvil nuevo y gastar sus ahorros para el pago inicial&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -404,7 +404,7 @@
             <choiceReferences>c_da3c5128_0317_4549_8a08_ae60b235aed8</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px; font-family: Calibri, sans-serif;&quot;&gt;7. &lt;/strong&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;Por lo general, recibirá las llaves de su nuevo hogar:&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;7. Por lo general, recibirá las llaves de su nuevo hogar:&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -420,7 +420,7 @@
             <choiceReferences>c_1fa351cb_6574_4951_aaf7_8e827e5cf523</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;8.&lt;/strong&gt;&lt;strong style=&quot;font-size: 14px; font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/strong&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;Es responsabilidad del comprador contratar a un inspector de viviendas.&lt;/strong&gt;&lt;strong style=&quot;font-size: 12pt;&quot;&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;8. Es responsabilidad del comprador contratar a un inspector de viviendas.&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>

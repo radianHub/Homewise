@@ -275,7 +275,7 @@
     <processMetadataValues>
         <name>BrandingSet</name>
         <value>
-            <stringValue>sb_hbe_quiz_module_6_spa_2_53fe868d_88c7_483d_b54c_bf2284a6ef1d</stringValue>
+            <stringValue>sb_hbe_quiz_module_6_spa_3_b9d69171_74e7_462c_b70f_a152ab7ed239</stringValue>
         </value>
     </processMetadataValues>
     <processMetadataValues>
@@ -368,7 +368,7 @@
             <choiceReferences>c_76000281_0046_4baf_8766_bc459ac20847</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;1.&amp;nbsp;Es bueno pagar su Hipoteca el primer día del mes y que le dé alta prioridad a ésta cuenta, ya que así logrará:&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;1. Es bueno pagar su Hipoteca el primer día del mes y que le dé alta prioridad a ésta cuenta, ya que así logrará:&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -386,7 +386,7 @@
             <choiceReferences>c_a5eda93e_c2d5_4955_9b92_271d1ddb5e21</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;2.&amp;nbsp;¿Cuál de los siguientes pasos&amp;nbsp;&lt;u&gt;no&amp;nbsp;&lt;/u&gt;es un requisito del Plan de Seguridad de su Hogar?:&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;2. ¿Cuál de los siguientes pasos no es un requisito del Plan de Seguridad de su Hogar?:&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -404,7 +404,7 @@
             <choiceReferences>c_143ac411_c1d6_44ba_86a2_a66685a60232</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;3.&amp;nbsp;Cuando se trata de su póliza de seguro de propietario de vivienda, es buena idea:&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;3. Cuando se trata de su póliza de seguro de propietario de vivienda, es buena idea:&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -422,7 +422,7 @@
             <choiceReferences>c_43a7a122_dbc6_4b7b_b027_256b431d68af</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;4.&amp;nbsp;¿Cuándo debería hacerle Mantenimiento a su Hogar?:&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;4. ¿Cuándo debería hacerle Mantenimiento a su Hogar?:&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -440,7 +440,7 @@
             <choiceReferences>c_74e67ed8_fb15_4d17_b9f3_55129e5e2b30</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;5.&amp;nbsp;¿Qué tipo de seguro de propietario de vivienda debería conseguir para cubrir el costo total de reparaciones o reemplazos en áreas dañadas de su hogar, con materiales nuevos y de calidad similar?:&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;5. ¿Qué tipo de seguro de propietario de vivienda debería conseguir para cubrir el costo total de reparaciones o reemplazos en áreas dañadas de su hogar, con materiales nuevos y de calidad similar?:&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -456,7 +456,7 @@
             <choiceReferences>c_9953a419_8e2d_4935_a22f_d15f30e05462</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;6.&amp;nbsp;Verdadero o Falso: Su prestamista no le permitirá cancelar su póliza de seguro para cambiarla por otra compañía de seguro.&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;6. Verdadero o Falso: Su prestamista no le permitirá cancelar su póliza de seguro para cambiarla por otra compañía de seguro.&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -474,7 +474,7 @@
             <choiceReferences>c_da3c5128_0317_4549_8a08_ae60b235aed8</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;7.&amp;nbsp;¿Cuál de los siguientes&amp;nbsp;&lt;u&gt;no&lt;/u&gt;&amp;nbsp;sería una buena manera de organizar y guardar sus documentos importantes?:&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;7. ¿Cuál de los siguientes no sería una buena manera de organizar y guardar sus documentos importantes?:&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>
@@ -492,7 +492,7 @@
             <choiceReferences>c_c28f309f_727e_40e7_a191_b3ea704f13de</choiceReferences>
             <dataType>String</dataType>
             <extensionName>survey:runtimeRadioButton</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;8.  La Plusvalía es:&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;8. La Plusvalía es:&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
         </fields>

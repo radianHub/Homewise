@@ -275,7 +275,7 @@
     <processMetadataValues>
         <name>BrandingSet</name>
         <value>
-            <stringValue>sb_hbe_quiz_module_6_eng_4_e84c095e_95d0_4991_93cb_a3628ab6142a</stringValue>
+            <stringValue>sb_hbe_quiz_module_6_eng_5_2c213070_a235_4f9d_81b9_ed68c82bbfed</stringValue>
         </value>
     </processMetadataValues>
     <processMetadataValues>
@@ -537,7 +537,7 @@
     <textTemplates>
         <name>thankYouLabelTextTemplate</name>
         <isViewedAsPlainText>false</isViewedAsPlainText>
-        <text>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;Thank you for completing the Homebuyer Education Course Quiz!&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;An email with your results will be sent shortly.&lt;/p&gt;</text>
+        <text>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;Thank you for completing the Homebuyer Education workshop learning check. &lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;You’ll soon receive an email with your results.&amp;nbsp;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</text>
     </textTemplates>
     <textTemplates>
         <name>welcome_question_lref_tt</name>

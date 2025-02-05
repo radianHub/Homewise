@@ -6,7 +6,7 @@
     <name>HBE_Module_2_Spanish</name>
     <relatedEntityType>SurveyQuestion</relatedEntityType>
     <style>none</style>
-    <subject>Cuestionario del Módulo 2 de HBE</subject>
+    <subject>HBE Module 2 – Los Cuatro C de la Calificación Hipotecaria</subject>
     <type>custom</type>
     <uiType>SFX</uiType>
 </EmailTemplate>

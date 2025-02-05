@@ -30,13 +30,16 @@
                 <componentInstanceProperties>
                     <name>richTextValue</name>
                     <value>Hola {{{Recipient.FirstName}}},
-&lt;p&gt;&amp;iexcl;Felicidades por aprobar el m&amp;oacute;dulo! Ahora puedes continuar con el siguiente m&amp;oacute;dulo de la serie. Si tienes preguntas, comun&amp;iacute;cate con nosotros al correo &lt;strong&gt;&lt;a rel=&quot;noopener&quot;&gt;trainers@homewise.org&lt;/a&gt;&lt;/strong&gt; o ll&amp;aacute;manos al 505-983-9473.&lt;/p&gt;
-
-&lt;p&gt;&amp;iexcl;Sigue as&amp;iacute; con el buen trabajo!&lt;/p&gt;
-Homewise Team</value>
+&lt;p&gt;&lt;span style=&quot;font-size:12pt&quot;&gt;&lt;span style=&quot;line-height:116%&quot;&gt;&lt;span style=&quot;font-family:Aptos,sans-serif&quot;&gt;&lt;span lang=&quot;ES-MX&quot; style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&amp;iexcl;Felicidades! Pas&amp;oacute; la prueba de aprendizaje. Ya puede seguir al siguiente modulo del taller. Dentro de muy poco recibir&amp;aacute; el enlace al siguiente modulo. &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-size:12pt&quot;&gt;&lt;span style=&quot;line-height:116%&quot;&gt;&lt;span style=&quot;font-family:Aptos,sans-serif&quot;&gt;&lt;span lang=&quot;ES-MX&quot; style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&amp;iquest;Preguntas? Aqu&amp;iacute; estamos a su servicio- &lt;/span&gt;&lt;a href=&quot;mailto:trainers@homewise.org&quot; style=&quot;color:#467886; text-decoration:underline&quot;&gt;&lt;span lang=&quot;ES-MX&quot; style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;trainers@homewise.org&lt;/span&gt;&lt;/a&gt;&lt;span lang=&quot;ES-MX&quot; style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt; o 505-983-9473&lt;br /&gt;
+&lt;br /&gt;
+Saludos, &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:12pt&quot;&gt;&lt;span style=&quot;line-height:116%&quot;&gt;&lt;span style=&quot;font-family:Aptos,sans-serif&quot;&gt;&lt;span lang=&quot;ES-MX&quot; style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;Su Equipo de Entrenamiento de Homewise &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+&amp;nbsp;&lt;/p&gt;</value>
                 </componentInstanceProperties>
                 <componentName>contentbuilder:richText</componentName>
-                <identifier>contentbuilder_richText5</identifier>
+                <identifier>contentbuilder_richText</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-f0a795b9-0793-4537-be76-48c14b8d070a</name>
@@ -70,7 +73,7 @@ Homewise Team</value>
                     <value>100%</value>
                 </componentInstanceProperties>
                 <componentName>contentbuilder:column</componentName>
-                <identifier>contentbuilder_column5</identifier>
+                <identifier>contentbuilder_column</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-59410464-296f-48df-8404-2e86c67b740f</name>
@@ -94,7 +97,7 @@ Homewise Team</value>
                     <value>top</value>
                 </componentInstanceProperties>
                 <componentName>contentbuilder:row</componentName>
-                <identifier>contentbuilder_row5</identifier>
+                <identifier>contentbuilder_row</identifier>
             </componentInstance>
         </itemInstances>
         <name>main</name>

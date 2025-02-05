@@ -6,7 +6,7 @@
     <name>HBE_Module_4_Spanish</name>
     <relatedEntityType>SurveyQuestion</relatedEntityType>
     <style>none</style>
-    <subject>Cuestionario del Módulo 4 de HBE</subject>
+    <subject>HBE Module 4 - Financiamiento y el Proceso de Prestamo</subject>
     <type>custom</type>
     <uiType>SFX</uiType>
 </EmailTemplate>

@@ -339,7 +339,7 @@
     <processMetadataValues>
         <name>BrandingSet</name>
         <value>
-            <stringValue>sb_hbe_quiz_module_2_spa_7_d0aacb73_f1b6_4e4f_b1ef_1c1fcd748271</stringValue>
+            <stringValue>sb_hbe_quiz_module_2_spa_8_6b03b848_385e_4f5b_9691_ee22769a880a</stringValue>
         </value>
     </processMetadataValues>
     <processMetadataValues>
@@ -636,12 +636,12 @@
     <textTemplates>
         <name>thankYouLabelTextTemplate</name>
         <isViewedAsPlainText>false</isViewedAsPlainText>
-        <text>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;Thank you for completing the Homebuyer Education Course Quiz!&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;An email with your results will be sent shortly.&lt;/p&gt;</text>
+        <text>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;Gracias por tomar la prueba de aprendizaje del taller La Casa Propia de Homewise. &lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;Recibirá un correo electrónico pronto con sus resultados y pasos siguientes.&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</text>
     </textTemplates>
     <textTemplates>
         <name>welcome_question_lref_tt</name>
         <isViewedAsPlainText>false</isViewedAsPlainText>
-        <text>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;¡Bienvenido al Cuestionario de Educación para Compradores de Vivienda - Módulo 2!&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;Una vez completado, recibirás un correo electrónico con los resultados.&lt;/p&gt;</text>
+        <text>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;¡Bienvenido a la prueba de aprendizaje del taller La Casa Propia de Homewise. &lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;Una vez que haya completado la prueba, recibirá un correo electrónico con sus resultados.&amp;nbsp;&lt;/strong&gt;&lt;strong style=&quot;font-family: Calibri, sans-serif;&quot;&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</text>
     </textTemplates>
     <variables>
         <name>guestUserLang</name>

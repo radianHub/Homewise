@@ -6,7 +6,7 @@
     <name>HBE_Module_3</name>
     <relatedEntityType>SurveyQuestion</relatedEntityType>
     <style>none</style>
-    <subject>HBE Module 3 Quiz</subject>
+    <subject>HBE Module 3 - Finding and Selecting a Home</subject>
     <type>custom</type>
     <uiType>SFX</uiType>
 </EmailTemplate>

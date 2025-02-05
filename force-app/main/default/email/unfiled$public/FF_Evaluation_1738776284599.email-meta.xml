@@ -3,10 +3,10 @@
     <available>true</available>
     <description>Boilerplate content for when you embed a link to a survey in an email. You can&apos;t embed a survey link if you edit the merge fields or delete this template.</description>
     <encodingKey>ISO-8859-1</encodingKey>
-    <name>HBE_Module_5</name>
+    <name>FF_Evaluation</name>
     <relatedEntityType>SurveyQuestion</relatedEntityType>
     <style>none</style>
-    <subject>HBE Module 5 - Preparing for the Closing</subject>
+    <subject>FF Evaluation Survey</subject>
     <type>custom</type>
     <uiType>SFX</uiType>
 </EmailTemplate>

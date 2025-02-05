@@ -1,0 +1,37 @@
+<html>
+<head>
+	<title></title>
+	<style type="text/css">.jsc_dpe_hotspot{background-image: url('chrome-extension://pjedlefcciiniiimbdjfjeiaakoinjdk/img/clickToCall.png')!important;}
+.jsc_dpe_hotspot:hover{background-image: url('chrome-extension://pjedlefcciiniiimbdjfjeiaakoinjdk/img/clickToCall--hover.png')!important;}
+.jsc_dpe_vcard_button{background-position: 0 3px; background-image: url('chrome-extension://pjedlefcciiniiimbdjfjeiaakoinjdk/img/clickToCall.png') !important; opacity: 1.0!important}
+.jsc_dpe_hotspot[widget]{background-position: 0 3px; background-image: url('chrome-extension://pjedlefcciiniiimbdjfjeiaakoinjdk/img/clickToCall.png') !important; opacity: 1.0!important}
+.ms-Icon--mail.jsc_dpe_office365{background-image: url('chrome-extension://pjedlefcciiniiimbdjfjeiaakoinjdk/img/clickToCall.png') !important; opacity: 1.0!important; background-repeat: no-repeat; background-position: center center; }
+.jsc_dpe_office365:before{color:transparent!important}
+	</style>
+	<style type="text/css">.jsc_dpe_hotspot{background-image: url('chrome-extension://pjedlefcciiniiimbdjfjeiaakoinjdk/img/clickToCall.png')!important;}
+.jsc_dpe_hotspot:hover{background-image: url('chrome-extension://pjedlefcciiniiimbdjfjeiaakoinjdk/img/clickToCall--hover.png')!important;}
+.jsc_dpe_vcard_button{background-position: 0 3px; background-image: url('chrome-extension://pjedlefcciiniiimbdjfjeiaakoinjdk/img/clickToCall.png') !important; opacity: 1.0!important}
+.jsc_dpe_hotspot[widget]{background-position: 0 3px; background-image: url('chrome-extension://pjedlefcciiniiimbdjfjeiaakoinjdk/img/clickToCall.png') !important; opacity: 1.0!important}
+.ms-Icon--mail.jsc_dpe_office365{background-image: url('chrome-extension://pjedlefcciiniiimbdjfjeiaakoinjdk/img/clickToCall.png') !important; opacity: 1.0!important; background-repeat: no-repeat; background-position: center center; }
+.jsc_dpe_office365:before{color:transparent!important}
+	</style>
+</head>
+<body style="height: auto; min-height: auto;">
+<div style="font-size: 0.875rem; font-family: 'Salesforce Sans',Arial,sans-serif;">Hola {{{Recipient.FirstName}}}<br />
+<br />
+<span style="font-size:12pt"><span style="line-height:116%"><span style="font-family:Aptos,sans-serif"><span lang="ES-MX" style="font-family:&quot;Calibri&quot;,sans-serif">¡Felicidades! Pasó la última prueba de aprendizaje. Ya ha terminado el taller. Dentro de dos días laborales, recibirá su certificado de cumplimiento por correo electrónico </span></span></span></span><br />
+<br />
+<span style="font-size:12pt"><span style="line-height:116%"><span style="font-family:Aptos,sans-serif"><b><span lang="ES-MX" style="font-family:&quot;Calibri&quot;,sans-serif">Nos agradeceríamos su comentario en este cuestionario breve para asegurar que seguimos apoyando a toda la comunidad con nuestra educación y servicios.</span></b></span></span></span><br />
+<br />
+<span style="font-size:12pt"><span style="line-height:116%"><span style="font-family:Aptos,sans-serif"><b><span lang="ES-MX" style="font-family:&quot;Calibri&quot;,sans-serif">Favor de tomar unos momentos para completar la evaluación en el enlace abajo.</span></b></span></span></span><br />
+&nbsp;
+<p style="text-align: center;"><span><a href="[[SURVEY_INVITATION_URL]]" style="[[DISABLE_LINK]] vertical-align: middle; border: 1px solid rgb(221, 219, 218); transition: border .15s linear; background-color: rgb(0, 112, 210); border-color: rgb(0, 112, 210); color: rgb(255, 255, 255); display: inline-block; background-clip: border-box; border: 1px solid transparent; border-radius: .25rem; line-height: 1.875rem; text-decoration: none; -webkit-appearance: none; white-space: normal; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; padding: 0 1rem;" target="_blank">Abrir Encuesta</a></span></p>
+<br />
+<span style="font-size:12pt"><span style="line-height:116%"><span style="font-family:Aptos,sans-serif"><span lang="ES-MX" style="font-family:&quot;Calibri&quot;,sans-serif">Esperamos que ahora se sienta más confianza acera la compra de su casa propia. </span></span></span></span><br />
+<br />
+<span style="font-size:12pt"><span style="line-height:116%"><span style="font-family:Aptos,sans-serif"><span lang="ES-MX" style="font-family:&quot;Calibri&quot;,sans-serif">¿Preguntas? Aquí estamos a su servicio- </span><a href="mailto:trainers@homewise.org" style="color:#467886; text-decoration:underline"><span lang="ES-MX" style="font-family:&quot;Calibri&quot;,sans-serif">trainers@homewise.org</span></a><span lang="ES-MX" style="font-family:&quot;Calibri&quot;,sans-serif"> o 505-983-9473</span></span></span></span><br />
+<br />
+<span style="font-size:12pt"><span style="line-height:116%"><span style="font-family:Aptos,sans-serif"><span lang="ES-MX" style="font-family:&quot;Calibri&quot;,sans-serif">Saludos, </span></span></span></span><br />
+<span style="font-size:12pt"><span style="line-height:116%"><span style="font-family:Aptos,sans-serif"><span lang="ES-MX" style="font-family:&quot;Calibri&quot;,sans-serif">Su Equipo de Entrenamiento de Homewis</span></span></span></span></div>
+</body>
+</html>

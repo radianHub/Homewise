@@ -7,14 +7,16 @@
     <pageDevName>Quiz_Pass_Notification</pageDevName>
     <relatedEntityType>Contact</relatedEntityType>
     <style>none</style>
-    <subject>Quiz Module Results</subject>
+    <subject>Learning Check Results</subject>
     <textOnly>Hello {{{Recipient.FirstName}}},
 
-Congratulations on passing the module! You may now continue on to the next module in the series. Reach out with your questions to trainers@homewise.org &lt; mailto:trainers@homewise.org &gt; or call us at 505-983-9473.
+Congratulations on passing the learning check! You may now continue onto the next module in the series. You&apos;ll get the link shortly in another email. 
 
-Keep up the good work!
+Please reach out with your questions trainers@homewise.org &lt; mailto:trainers@homewise.org &gt; or call us at 505-983-9473
 
-Homewise Team</textOnly>
+Happy Learning,
+
+Your Homewise Training Team</textOnly>
     <type>custom</type>
     <uiType>SFX</uiType>
 </EmailTemplate>

@@ -10,11 +10,15 @@
     <subject>Resultados del Módulo de Cuestionario</subject>
     <textOnly>Hola {{{Recipient.FirstName}}},
 
-Desafortunadamente, no cumplo el módulo con 75% o mejor. Por favor, tome tiempo para revisar el video o los materiales y tomar la prueba de aprendizaje de nuevo. Estamos aquí para cualquier pregunta en trainers@homewise.org &lt; mailto:trainers@homewise.org &gt; o al 505-983-9473.
+Desafortunadamente, no termino la prueba con un resultado de 75% o mejor. Por favor, tome tiempo para revisar el video y el folleto e inténtela de nuevo – regresar al correo electrónico anterior con el enlace al mismo modulo.
 
-¡Gracias!
+Déjenos saber cuáles preguntas tiene al trainers@homewise.org &lt; mailto:trainers@homewise.org &gt; o 505-983-9473
 
-Homewise Team</textOnly>
+¡Si se puede!
+
+Saludos, 
+
+Su Equipo de Entrenamiento de Homewise</textOnly>
     <type>custom</type>
     <uiType>SFX</uiType>
 </EmailTemplate>

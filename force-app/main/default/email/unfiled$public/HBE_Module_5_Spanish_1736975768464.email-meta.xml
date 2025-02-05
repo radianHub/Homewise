@@ -6,7 +6,7 @@
     <name>HBE_Module_5_Spanish</name>
     <relatedEntityType>SurveyQuestion</relatedEntityType>
     <style>none</style>
-    <subject>Cuestionario del Módulo 5 de HBE</subject>
+    <subject>HBE Module 5 - Preparandonos para el Cierre</subject>
     <type>custom</type>
     <uiType>SFX</uiType>
 </EmailTemplate>

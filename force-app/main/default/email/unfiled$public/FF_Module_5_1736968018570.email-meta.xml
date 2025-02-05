@@ -6,7 +6,7 @@
     <name>FF_Module_5</name>
     <relatedEntityType>SurveyQuestion</relatedEntityType>
     <style>none</style>
-    <subject>FF Module 5</subject>
+    <subject>FF Module 5 - Spending Plans</subject>
     <type>custom</type>
     <uiType>SFX</uiType>
 </EmailTemplate>

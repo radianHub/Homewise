@@ -10,11 +10,13 @@
     <subject>Resultados del Módulo de Cuestionario</subject>
     <textOnly>Hola {{{Recipient.FirstName}}}, 
 
-¡Felicidades por aprobar el módulo! Ahora puedes continuar con el siguiente módulo de la serie. Si tienes preguntas, comunícate con nosotros al correo trainers@homewise.org &lt;  &gt; o llámanos al 505-983-9473.
+¡Felicidades! Pasó la prueba de aprendizaje. Ya puede seguir al siguiente modulo del taller. Dentro de muy poco recibirá el enlace al siguiente modulo. 
 
-¡Sigue así con el buen trabajo!
+¿Preguntas? Aquí estamos a su servicio- trainers@homewise.org &lt; mailto:trainers@homewise.org &gt; o 505-983-9473
 
-Homewise Team</textOnly>
+Saludos, 
+
+Su Equipo de Entrenamiento de Homewise</textOnly>
     <type>custom</type>
     <uiType>SFX</uiType>
 </EmailTemplate>

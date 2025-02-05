@@ -195,7 +195,7 @@
     <processMetadataValues>
         <name>BrandingSet</name>
         <value>
-            <stringValue>sb_ff_online_learning_check_modul_f3b4a68f_e9b7_484b_8a8c_1390c222aa08</stringValue>
+            <stringValue>sb_ff_online_learning_check_modul_37dc5d3b_2ba8_4ea3_aa1f_7ed19e6c0d56</stringValue>
         </value>
     </processMetadataValues>
     <processMetadataValues>
@@ -403,7 +403,7 @@
     <textTemplates>
         <name>thankYouLabelTextTemplate</name>
         <isViewedAsPlainText>false</isViewedAsPlainText>
-        <text>&lt;p&gt;&lt;strong&gt;Thank you for completing the evaluation! Your results will be emailed to you shortly&lt;/strong&gt;&lt;/p&gt;</text>
+        <text>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;Thank you for completing the learning check! Your results will be emailed to you shortly.&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;</text>
     </textTemplates>
     <textTemplates>
         <name>welcome_question_lref_tt</name>

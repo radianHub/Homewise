@@ -7,14 +7,16 @@
     <pageDevName>Quiz_Failure_Notification</pageDevName>
     <relatedEntityType>Contact</relatedEntityType>
     <style>none</style>
-    <subject>Quiz Module Results</subject>
+    <subject>Almost There! Review &amp; Try Your Learning Check Again</subject>
     <textOnly>Hello {{{Recipient.FirstName}}},
 
-It looks like you didn’t pass this module with a score of 75% or higher. Please take some time to review the materials and take the learning check again by clicking on the link in the email to retake the module. Reach out with your questions to trainers@homewise.org &lt; mailto:trainers@homewise.org &gt; or call us at 505-983-9473.
+You didn’t pass this learning check with a score of 75% or higher, yet. Please take some time to review the handouts and the video and then take the learning check again by going back to the email with the link to this module. Please let us know what questions you have at trainers@homewise.org &lt; mailto:trainers@homewise.org &gt; or 505-983-9473
 
-Thank you, you’re almost there!
+You’ve got this!
 
-Homewise Team</textOnly>
+Thanks, 
+
+Your Homewise Training Team</textOnly>
     <type>custom</type>
     <uiType>SFX</uiType>
 </EmailTemplate>

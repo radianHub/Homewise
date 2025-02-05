@@ -6,7 +6,7 @@
     <name>HBE_Module_3_Spanish</name>
     <relatedEntityType>SurveyQuestion</relatedEntityType>
     <style>none</style>
-    <subject>Cuestionario del Módulo 3 de HBE</subject>
+    <subject>HBE Module 3 – Encontrar y Seleccionar una Casa</subject>
     <type>custom</type>
     <uiType>SFX</uiType>
 </EmailTemplate>

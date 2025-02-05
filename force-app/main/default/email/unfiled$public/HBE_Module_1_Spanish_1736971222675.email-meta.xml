@@ -6,7 +6,7 @@
     <name>HBE_Module_1_Spanish</name>
     <relatedEntityType>SurveyQuestion</relatedEntityType>
     <style>none</style>
-    <subject>Cuestionario del Módulo 1 de HBE</subject>
+    <subject>HBE Modulo 1 – Proceso de Compra de Vivienda</subject>
     <type>custom</type>
     <uiType>SFX</uiType>
 </EmailTemplate>

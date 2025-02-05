@@ -195,7 +195,7 @@
     <processMetadataValues>
         <name>BrandingSet</name>
         <value>
-            <stringValue>sb_ff_quiz_module_2_spa_3_d938625a_f124_412b_ac80_5508b6196316</stringValue>
+            <stringValue>sb_ff_quiz_module_2_spa_4_9f257b36_b273_46ba_b18f_4523c6b40678</stringValue>
         </value>
     </processMetadataValues>
     <processMetadataValues>
@@ -411,12 +411,12 @@
     <textTemplates>
         <name>thankYouLabelTextTemplate</name>
         <isViewedAsPlainText>false</isViewedAsPlainText>
-        <text>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong style=&quot;font-size: 18px;&quot;&gt;¡Gracias por completar la evaluación!&lt;/strong&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Tus resultados te serán enviados por correo electrónico en breve.&lt;/span&gt;&lt;/p&gt;</text>
+        <text>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;Gracias por tomar la prueba de aprendizaje. &lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;Sus resultados serán enviados por correo electrónico en breve.&amp;nbsp;&lt;/strong&gt;&lt;strong style=&quot;font-family: Calibri, sans-serif;&quot;&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</text>
     </textTemplates>
     <textTemplates>
         <name>welcome_question_lref_tt</name>
         <isViewedAsPlainText>false</isViewedAsPlainText>
-        <text>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;¡Bienvenido al Chequeo de Aprendizaje en Línea sobre Condición Financiera - &lt;/strong&gt;&lt;strong&gt;Módulo 2&lt;/strong&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;!&lt;/strong&gt;&lt;/p&gt;</text>
+        <text>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;Bienvenido a la Prueba de Aprendizaje de Salud Financiera de por Vida- Edición en Línea – Modulo2!&lt;/strong&gt;&lt;/p&gt;</text>
     </textTemplates>
     <variables>
         <name>guestUserLang</name>

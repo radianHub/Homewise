@@ -31,14 +31,15 @@
                     <name>richTextValue</name>
                     <value>Hello&amp;nbsp;{{{Recipient.FirstName}}},&lt;br /&gt;
 &lt;br /&gt;
-Congratulations on passing the module! You may now continue on to the next module in the series.&amp;nbsp;Reach out with your questions to&amp;nbsp;&lt;a href=&quot;mailto:trainers@homewise.org&quot; target=&quot;_blank&quot;&gt;trainers@homewise.org&lt;/a&gt;&amp;nbsp;or call us at 505-983-9473.&lt;br /&gt;
+&lt;span style=&quot;font-size:12pt&quot;&gt;&lt;span style=&quot;line-height:116%&quot;&gt;&lt;span style=&quot;font-family:Aptos,sans-serif&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;Congratulations on passing the learning check! You may now continue onto the next module in the series. You&amp;#39;ll get the link shortly in another email. &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
 &lt;br /&gt;
-Keep up the good work!&lt;br /&gt;
+&lt;span style=&quot;font-size:12pt&quot;&gt;&lt;span style=&quot;line-height:116%&quot;&gt;&lt;span style=&quot;font-family:Aptos,sans-serif&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;Please reach out with your questions &lt;/span&gt;&lt;a href=&quot;mailto:trainers@homewise.org&quot; style=&quot;color:#467886; text-decoration:underline&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;trainers@homewise.org&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt; or call us at 505-983-9473&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
 &lt;br /&gt;
-Homewise Team</value>
+Happy Learning,&lt;br /&gt;
+Your Homewise Training Team</value>
                 </componentInstanceProperties>
                 <componentName>contentbuilder:richText</componentName>
-                <identifier>contentbuilder_richText3</identifier>
+                <identifier>contentbuilder_richText</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-f0a795b9-0793-4537-be76-48c14b8d070a</name>
@@ -72,7 +73,7 @@ Homewise Team</value>
                     <value>100%</value>
                 </componentInstanceProperties>
                 <componentName>contentbuilder:column</componentName>
-                <identifier>contentbuilder_column3</identifier>
+                <identifier>contentbuilder_column</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-59410464-296f-48df-8404-2e86c67b740f</name>
@@ -85,6 +86,9 @@ Homewise Team</value>
                     <name>backgroundColor</name>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
+                    <name>backgroundImageUrl</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
                     <name>columns</name>
                     <value>Facet-59410464-296f-48df-8404-2e86c67b740f</value>
                 </componentInstanceProperties>
@@ -93,7 +97,7 @@ Homewise Team</value>
                     <value>top</value>
                 </componentInstanceProperties>
                 <componentName>contentbuilder:row</componentName>
-                <identifier>contentbuilder_row3</identifier>
+                <identifier>contentbuilder_row</identifier>
             </componentInstance>
         </itemInstances>
         <name>main</name>

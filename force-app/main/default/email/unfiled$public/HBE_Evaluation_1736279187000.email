@@ -1,17 +1,28 @@
 <html>
 <head>
 	<title></title>
+	<style type="text/css">.jsc_dpe_hotspot{background-image: url('chrome-extension://pjedlefcciiniiimbdjfjeiaakoinjdk/img/clickToCall.png')!important;}
+.jsc_dpe_hotspot:hover{background-image: url('chrome-extension://pjedlefcciiniiimbdjfjeiaakoinjdk/img/clickToCall--hover.png')!important;}
+.jsc_dpe_vcard_button{background-position: 0 3px; background-image: url('chrome-extension://pjedlefcciiniiimbdjfjeiaakoinjdk/img/clickToCall.png') !important; opacity: 1.0!important}
+.jsc_dpe_hotspot[widget]{background-position: 0 3px; background-image: url('chrome-extension://pjedlefcciiniiimbdjfjeiaakoinjdk/img/clickToCall.png') !important; opacity: 1.0!important}
+.ms-Icon--mail.jsc_dpe_office365{background-image: url('chrome-extension://pjedlefcciiniiimbdjfjeiaakoinjdk/img/clickToCall.png') !important; opacity: 1.0!important; background-repeat: no-repeat; background-position: center center; }
+.jsc_dpe_office365:before{color:transparent!important}
+	</style>
 </head>
 <body style="height: auto; min-height: auto;">
 <div style="font-size: 0.875rem; font-family: 'Salesforce Sans',Arial,sans-serif;">Hello {{{Recipient.FirstName}}}<br />
 <br />
-Please tell us your experience in the HBE Online class by completing this short survey using the link below.<br />
+<span style="font-size:12pt"><span style="line-height:116%"><span style="font-family:Aptos,sans-serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Congratulations on passing the final learning check! You have now completed the workshop. We’ll email you a copy of your certificate of completion within 1-2 business days. </span></span></span></span><br />
+<br />
+<span style="font-size:12pt"><span style="line-height:116%"><span style="font-family:Aptos,sans-serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">We hope you learned a lot and now feel more confident throughout the process. </span></span></span></span><br />
+<br />
+<span style="font-size:12pt"><span style="line-height:116%"><span style="font-family:Aptos,sans-serif"><b><span style="font-family:&quot;Calibri&quot;,sans-serif">We would appreciate your feedback. Please take a few minutes to complete the short evaluation linked below to offer your feedback so we can continue to improve. </span></b></span></span></span><br />
 &nbsp;
 <p style="text-align: center;"><span><a href="[[SURVEY_INVITATION_URL]]" style="[[DISABLE_LINK]] vertical-align: middle; border: 1px solid rgb(221, 219, 218); transition: border .15s linear; background-color: rgb(0, 112, 210); border-color: rgb(0, 112, 210); color: rgb(255, 255, 255); display: inline-block; background-clip: border-box; border: 1px solid transparent; border-radius: .25rem; line-height: 1.875rem; text-decoration: none; -webkit-appearance: none; white-space: normal; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; padding: 0 1rem;" target="_blank">Open Survey</a></span></p>
 <br />
-We appreciate your time and commitment towards becoming a well educated homebuyer.<br />
+<span style="font-size:12pt"><span style="line-height:116%"><span style="font-family:Aptos,sans-serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Please reach out with your questions via </span><a href="mailto:trainers@homewise.org" style="color:#467886; text-decoration:underline"><span style="font-family:&quot;Calibri&quot;,sans-serif">trainers@homewise.org</span></a><span style="font-family:&quot;Calibri&quot;,sans-serif"> or call us at 505.983.9473</span></span></span></span><br />
 <br />
-Thank you,<br />
-{{{Organization.Name}}}</div>
+<span style="font-size:12pt"><span style="line-height:116%"><span style="font-family:Aptos,sans-serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Thank you, </span></span></span></span><br />
+<span style="font-size:12pt"><span style="line-height:116%"><span style="font-family:Aptos,sans-serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Your Homewise Training Team</span></span></span></span></div>
 </body>
 </html>

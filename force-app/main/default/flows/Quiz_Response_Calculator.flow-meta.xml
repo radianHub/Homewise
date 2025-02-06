@@ -1,10 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionCalls>
+        <name>NHNW_Pass_Notification</name>
+        <label>NHNW Pass Notification</label>
+        <locationX>479</locationX>
+        <locationY>2363</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <connector>
+            <targetReference>Send_Follow_Up_Module_Flow</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>senderType</name>
+            <value>
+                <stringValue>OrgWideEmailAddress</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderAddress</name>
+            <value>
+                <stringValue>noreply@homewise.org</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recipientId</name>
+            <value>
+                <elementReference>Get_Responder_Contact.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailTemplateId</name>
+            <value>
+                <stringValue>00XWA000000TDRh2AO</stringValue>
+            </value>
+        </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+    </actionCalls>
+    <actionCalls>
+        <name>NHNW_Pass_Notification_Spanish</name>
+        <label>NHNW Pass Notification Spanish</label>
+        <locationX>743</locationX>
+        <locationY>2363</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <connector>
+            <targetReference>Send_Follow_Up_Module_Flow</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>senderType</name>
+            <value>
+                <stringValue>OrgWideEmailAddress</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderAddress</name>
+            <value>
+                <stringValue>noreply@homewise.org</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recipientId</name>
+            <value>
+                <elementReference>Get_Responder_Contact.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailTemplateId</name>
+            <value>
+                <stringValue>00XWA000000TDTJ2A4</stringValue>
+            </value>
+        </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+    </actionCalls>
+    <actionCalls>
         <name>Pass_Notification</name>
         <label>Pass Notification</label>
-        <locationX>1106</locationX>
-        <locationY>2255</locationY>
+        <locationX>1183</locationX>
+        <locationY>2471</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
         <connector>
@@ -40,8 +114,8 @@
     <actionCalls>
         <name>Pass_Notification_Spanish</name>
         <label>Pass Notification Spanish</label>
-        <locationX>1370</locationX>
-        <locationY>2255</locationY>
+        <locationX>1447</locationX>
+        <locationY>2471</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
         <connector>
@@ -77,7 +151,7 @@
     <actionCalls>
         <name>Send_Failure_Email</name>
         <label>Send Failure Email</label>
-        <locationX>1898</locationX>
+        <locationX>2063</locationX>
         <locationY>2255</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
@@ -114,7 +188,7 @@
     <actionCalls>
         <name>Send_Spanish_Failure_Email</name>
         <label>Send Spanish Failure Email</label>
-        <locationX>2162</locationX>
+        <locationX>2327</locationX>
         <locationY>2255</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
@@ -293,6 +367,78 @@
         </rules>
     </decisions>
     <decisions>
+        <name>NHNW_Passing_Language</name>
+        <label>NHNW Passing Language?</label>
+        <locationX>743</locationX>
+        <locationY>2255</locationY>
+        <defaultConnector>
+            <targetReference>Send_Follow_Up_Module_Flow</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>NHNW_English_Pass</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Responder_Contact.Language1__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Spanish</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>NHNW_Pass_Notification</targetReference>
+            </connector>
+            <label>NHNW English Pass</label>
+        </rules>
+        <rules>
+            <name>NHNW_Spanish_Pass</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Responder_Contact.Language1__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Spanish</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>NHNW_Pass_Notification_Spanish</targetReference>
+            </connector>
+            <label>NHNW Spanish Pass</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>NHNW_survey</name>
+        <label>Survey was NHNW?</label>
+        <locationX>1205</locationX>
+        <locationY>2147</locationY>
+        <defaultConnector>
+            <targetReference>Passed_Module_1_5</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Other</defaultConnectorLabel>
+        <rules>
+            <name>Yes_it_was</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Survey.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>NHNW - Learning Check - Eng</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Survey.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>NHNW - Learning Check - Spanish</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>NHNW_Passing_Language</targetReference>
+            </connector>
+            <label>Yes it was</label>
+        </rules>
+    </decisions>
+    <decisions>
         <name>Passed</name>
         <label>Passed?</label>
         <locationX>1766</locationX>
@@ -312,16 +458,79 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Passing_Language</targetReference>
+                <targetReference>NHNW_survey</targetReference>
             </connector>
             <label>Passed Module</label>
         </rules>
     </decisions>
     <decisions>
+        <name>Passed_Module_1_5</name>
+        <label>Passed Module</label>
+        <locationX>1667</locationX>
+        <locationY>2255</locationY>
+        <defaultConnector>
+            <targetReference>Send_Follow_Up_Module_Flow</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Mods_1_5</name>
+            <conditionLogic>(1 OR 2) AND (3 OR 4 OR 5 OR 6)</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Survey.Name</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>FF</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Survey.Name</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>HBE</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Survey.Name</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>FF - Online Learning Check - Module 6 - Eng</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Survey.Name</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>HBE - Quiz - Module 6 - Eng</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Survey.Name</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>FF - Quiz - Module 6 - Spa</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Survey.Name</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>HBE - Quiz - Module 6 - Spa</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Passing_Language</targetReference>
+            </connector>
+            <label>Mods 1-5</label>
+        </rules>
+    </decisions>
+    <decisions>
         <name>Passing_Language</name>
         <label>Passing Language?</label>
-        <locationX>1370</locationX>
-        <locationY>2147</locationY>
+        <locationX>1447</locationX>
+        <locationY>2363</locationY>
+        <defaultConnector>
+            <targetReference>Send_Follow_Up_Module_Flow</targetReference>
+        </defaultConnector>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>English_Pass</name>
@@ -357,7 +566,7 @@
     <decisions>
         <name>Which_Language</name>
         <label>Which Language?</label>
-        <locationX>2162</locationX>
+        <locationX>2327</locationX>
         <locationY>2147</locationY>
         <defaultConnector>
             <targetReference>Delete_Quiz_Response</targetReference>
@@ -661,7 +870,7 @@
     <recordDeletes>
         <name>Delete_Quiz_Response</name>
         <label>Delete Quiz Response</label>
-        <locationX>2162</locationX>
+        <locationX>2327</locationX>
         <locationY>2447</locationY>
         <inputReference>$Record</inputReference>
     </recordDeletes>
@@ -958,8 +1167,8 @@
     <subflows>
         <name>Send_Follow_Up_Module_Flow</name>
         <label>Send Follow Up Module Flow</label>
-        <locationX>1370</locationX>
-        <locationY>2447</locationY>
+        <locationX>1205</locationX>
+        <locationY>2831</locationY>
         <flowName>Module_Email_Automation</flowName>
         <inputAssignments>
             <name>surveyResponseId</name>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
-    <apiVersion>63.0</apiVersion>
+    <apiVersion>62.0</apiVersion>
     <decisions>
         <name>Does_a_Duplicate_Lead_Exist</name>
         <label>Does a Duplicate Lead Exist?</label>
         <locationX>182</locationX>
-        <locationY>431</locationY>
+        <locationY>395</locationY>
         <defaultConnector>
             <targetReference>Mark_Lead_as_Inactive</targetReference>
         </defaultConnector>
@@ -52,7 +52,7 @@
         <name>Get_Duplicate_Lead</name>
         <label>Get Duplicate Lead</label>
         <locationX>182</locationX>
-        <locationY>323</locationY>
+        <locationY>287</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Does_a_Duplicate_Lead_Exist</targetReference>
@@ -102,7 +102,7 @@
         <name>Mark_Lead_as_Duplicate</name>
         <label>Mark Lead as Duplicate</label>
         <locationX>50</locationX>
-        <locationY>539</locationY>
+        <locationY>503</locationY>
         <inputAssignments>
             <field>Status</field>
             <value>
@@ -115,7 +115,7 @@
         <name>Mark_Lead_as_Inactive</name>
         <label>Mark Lead as Inactive</label>
         <locationX>314</locationX>
-        <locationY>539</locationY>
+        <locationY>503</locationY>
         <inputAssignments>
             <field>Status</field>
             <value>
@@ -147,7 +147,7 @@
         </filters>
         <object>Lead</object>
         <recordTriggerType>Create</recordTriggerType>
-        <triggerType>RecordAfterSave</triggerType>
+        <triggerType>RecordBeforeSave</triggerType>
     </start>
     <status>Active</status>
 </Flow>

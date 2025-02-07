@@ -6,7 +6,7 @@
     <name>FF_Module_6_Spanish</name>
     <relatedEntityType>SurveyQuestion</relatedEntityType>
     <style>none</style>
-    <subject>Cuestionario del Módulo 6 de FF</subject>
+    <subject>FF Modulo 6 – Opciones Bancarias y Resumen</subject>
     <type>custom</type>
     <uiType>SFX</uiType>
 </EmailTemplate>

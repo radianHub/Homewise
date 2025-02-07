@@ -3,7 +3,7 @@
 	<title></title>
 </head>
 <body style="height: auto; min-height: auto;">
-<div style="font-size: 0.875rem; font-family: 'Salesforce Sans',Arial,sans-serif;">Hello {{{Recipient.FirstName}}}<br />
+<div style="font-size: 0.875rem; font-family: 'Salesforce Sans',Arial,sans-serif;">Hola {{{Recipient.FirstName}}}<br />
 <br />
 <span style="font-size:12pt"><span style="line-height:116%"><span style="font-family:Aptos,sans-serif"><span lang="ES-MX" style="font-family:&quot;Calibri&quot;,sans-serif">Esperamos que este aprendiendo mucho del taller La Casa Propia- para compradores de casa de Homewise. Aquí está el enlace a la página web del taller: </span><a href="https://homewise.org/es/educacion-para-compradores-de-vivienda-en-linea/" style="color:#467886; text-decoration:underline"><span lang="ES-MX" style="font-family:&quot;Calibri&quot;,sans-serif">https://homewise.org/es/educacion-para-compradores-de-vivienda-en-linea/</span></a></span></span></span><br />
 <br />
@@ -16,6 +16,6 @@
 <span style="font-size:12pt"><span style="line-height:116%"><span style="font-family:Aptos,sans-serif"><span lang="ES-MX" style="font-family:&quot;Calibri&quot;,sans-serif">Puede usar el folleto a medida que completa la prueba de aprendizaje. Debe obtener 75% o mejor en la prueba de aprendizaje para aprobar el curso en línea. ¡No tenge estrés, estamos aquí para ayudarte! Una vez que apruebe la prueba, mandamos el enlace al siguiente video y a la prueba para seguir.</span></span></span></span><br />
 <br />
 <span style="font-size:12pt"><span style="line-height:116%"><span style="font-family:Aptos,sans-serif"><span lang="ES-MX" style="font-family:&quot;Calibri&quot;,sans-serif">Gracias, &nbsp;</span></span></span></span><br />
-<span style="font-size:12pt"><span style="line-height:116%"><span style="font-family:Aptos,sans-serif"><span lang="ES-MX" style="font-family:&quot;Calibri&quot;,sans-serif">Su Equipo de Entrenamiento de Homewis</span></span></span></span></div>
+<span style="font-size:12pt"><span style="line-height:116%"><span style="font-family:Aptos,sans-serif"><span lang="ES-MX" style="font-family:&quot;Calibri&quot;,sans-serif">Su Equipo de Entrenamiento de Homewise</span></span></span></span></div>
 </body>
 </html>

@@ -3,7 +3,7 @@
     <actionCalls>
         <name>NHNW_Pass_Notification</name>
         <label>NHNW Pass Notification</label>
-        <locationX>479</locationX>
+        <locationX>545</locationX>
         <locationY>2363</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
@@ -40,7 +40,7 @@
     <actionCalls>
         <name>NHNW_Pass_Notification_Spanish</name>
         <label>NHNW Pass Notification Spanish</label>
-        <locationX>743</locationX>
+        <locationX>809</locationX>
         <locationY>2363</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
@@ -77,7 +77,7 @@
     <actionCalls>
         <name>Pass_Notification</name>
         <label>Pass Notification</label>
-        <locationX>1183</locationX>
+        <locationX>1425</locationX>
         <locationY>2471</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
@@ -114,7 +114,7 @@
     <actionCalls>
         <name>Pass_Notification_Spanish</name>
         <label>Pass Notification Spanish</label>
-        <locationX>1447</locationX>
+        <locationX>1689</locationX>
         <locationY>2471</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
@@ -151,7 +151,7 @@
     <actionCalls>
         <name>Send_Failure_Email</name>
         <label>Send Failure Email</label>
-        <locationX>2063</locationX>
+        <locationX>2129</locationX>
         <locationY>2255</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
@@ -188,7 +188,7 @@
     <actionCalls>
         <name>Send_Spanish_Failure_Email</name>
         <label>Send Spanish Failure Email</label>
-        <locationX>2327</locationX>
+        <locationX>2393</locationX>
         <locationY>2255</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
@@ -369,7 +369,7 @@
     <decisions>
         <name>NHNW_Passing_Language</name>
         <label>NHNW Passing Language?</label>
-        <locationX>743</locationX>
+        <locationX>809</locationX>
         <locationY>2255</locationY>
         <defaultConnector>
             <targetReference>Send_Follow_Up_Module_Flow</targetReference>
@@ -409,7 +409,7 @@
     <decisions>
         <name>NHNW_survey</name>
         <label>Survey was NHNW?</label>
-        <locationX>1205</locationX>
+        <locationX>1139</locationX>
         <locationY>2147</locationY>
         <defaultConnector>
             <targetReference>Passed_Module_1_5</targetReference>
@@ -466,29 +466,15 @@
     <decisions>
         <name>Passed_Module_1_5</name>
         <label>Passed Module</label>
-        <locationX>1667</locationX>
+        <locationX>1469</locationX>
         <locationY>2255</locationY>
         <defaultConnector>
-            <targetReference>Send_Follow_Up_Module_Flow</targetReference>
+            <targetReference>Passing_Language</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
-            <name>Mods_1_5</name>
-            <conditionLogic>(1 OR 2) AND (3 OR 4 OR 5 OR 6)</conditionLogic>
-            <conditions>
-                <leftValueReference>$Record.Survey.Name</leftValueReference>
-                <operator>Contains</operator>
-                <rightValue>
-                    <stringValue>FF</stringValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>$Record.Survey.Name</leftValueReference>
-                <operator>Contains</operator>
-                <rightValue>
-                    <stringValue>HBE</stringValue>
-                </rightValue>
-            </conditions>
+            <name>Mod_6</name>
+            <conditionLogic>1 OR 2 OR 3 OR 4</conditionLogic>
             <conditions>
                 <leftValueReference>$Record.Survey.Name</leftValueReference>
                 <operator>NotEqualTo</operator>
@@ -518,15 +504,15 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Passing_Language</targetReference>
+                <targetReference>Send_Follow_Up_Module_Flow</targetReference>
             </connector>
-            <label>Mods 1-5</label>
+            <label>Mod 6</label>
         </rules>
     </decisions>
     <decisions>
         <name>Passing_Language</name>
         <label>Passing Language?</label>
-        <locationX>1447</locationX>
+        <locationX>1689</locationX>
         <locationY>2363</locationY>
         <defaultConnector>
             <targetReference>Send_Follow_Up_Module_Flow</targetReference>
@@ -566,7 +552,7 @@
     <decisions>
         <name>Which_Language</name>
         <label>Which Language?</label>
-        <locationX>2327</locationX>
+        <locationX>2393</locationX>
         <locationY>2147</locationY>
         <defaultConnector>
             <targetReference>Delete_Quiz_Response</targetReference>
@@ -870,7 +856,7 @@
     <recordDeletes>
         <name>Delete_Quiz_Response</name>
         <label>Delete Quiz Response</label>
-        <locationX>2327</locationX>
+        <locationX>2393</locationX>
         <locationY>2447</locationY>
         <inputReference>$Record</inputReference>
     </recordDeletes>
@@ -1167,7 +1153,7 @@
     <subflows>
         <name>Send_Follow_Up_Module_Flow</name>
         <label>Send Follow Up Module Flow</label>
-        <locationX>1205</locationX>
+        <locationX>1139</locationX>
         <locationY>2831</locationY>
         <flowName>Module_Email_Automation</flowName>
         <inputAssignments>

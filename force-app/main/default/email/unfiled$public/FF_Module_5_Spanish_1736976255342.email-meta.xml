@@ -6,7 +6,7 @@
     <name>FF_Module_5_Spanish</name>
     <relatedEntityType>SurveyQuestion</relatedEntityType>
     <style>none</style>
-    <subject>Cuestionario del Módulo 5 de FF</subject>
+    <subject>FF Modulo 5 – El Presupuesto</subject>
     <type>custom</type>
     <uiType>SFX</uiType>
 </EmailTemplate>

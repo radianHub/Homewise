@@ -3,12 +3,12 @@
     <actionCalls>
         <name>NHNW_Pass_Notification</name>
         <label>NHNW Pass Notification</label>
-        <locationX>545</locationX>
-        <locationY>2363</locationY>
+        <locationX>490</locationX>
+        <locationY>2663</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
         <connector>
-            <targetReference>Send_Follow_Up_Module_Flow</targetReference>
+            <targetReference>Update_to_Attended2</targetReference>
         </connector>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
@@ -40,12 +40,12 @@
     <actionCalls>
         <name>NHNW_Pass_Notification_Spanish</name>
         <label>NHNW Pass Notification Spanish</label>
-        <locationX>809</locationX>
-        <locationY>2363</locationY>
+        <locationX>754</locationX>
+        <locationY>2663</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
         <connector>
-            <targetReference>Send_Follow_Up_Module_Flow</targetReference>
+            <targetReference>Update_to_Attended2</targetReference>
         </connector>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
@@ -77,12 +77,12 @@
     <actionCalls>
         <name>Pass_Notification</name>
         <label>Pass Notification</label>
-        <locationX>1425</locationX>
-        <locationY>2471</locationY>
+        <locationX>1458</locationX>
+        <locationY>2771</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
         <connector>
-            <targetReference>Send_Follow_Up_Module_Flow</targetReference>
+            <targetReference>Update_to_Partially_Attended</targetReference>
         </connector>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
@@ -114,12 +114,12 @@
     <actionCalls>
         <name>Pass_Notification_Spanish</name>
         <label>Pass Notification Spanish</label>
-        <locationX>1689</locationX>
-        <locationY>2471</locationY>
+        <locationX>1722</locationX>
+        <locationY>2771</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
         <connector>
-            <targetReference>Send_Follow_Up_Module_Flow</targetReference>
+            <targetReference>Update_to_Partially_Attended</targetReference>
         </connector>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
@@ -151,12 +151,12 @@
     <actionCalls>
         <name>Send_Failure_Email</name>
         <label>Send Failure Email</label>
-        <locationX>2129</locationX>
-        <locationY>2255</locationY>
+        <locationX>2162</locationX>
+        <locationY>2555</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
         <connector>
-            <targetReference>Delete_Quiz_Response</targetReference>
+            <targetReference>Update_to_Partially_Attended2</targetReference>
         </connector>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
@@ -188,12 +188,12 @@
     <actionCalls>
         <name>Send_Spanish_Failure_Email</name>
         <label>Send Spanish Failure Email</label>
-        <locationX>2393</locationX>
-        <locationY>2255</locationY>
+        <locationX>2426</locationX>
+        <locationY>2555</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
         <connector>
-            <targetReference>Delete_Quiz_Response</targetReference>
+            <targetReference>Update_to_Partially_Attended2</targetReference>
         </connector>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
@@ -227,7 +227,7 @@
         <name>Assign_1_point</name>
         <label>Assign 1 point</label>
         <locationX>2846</locationX>
-        <locationY>1295</locationY>
+        <locationY>1595</locationY>
         <assignmentItems>
             <assignToReference>totalScore</assignToReference>
             <operator>Add</operator>
@@ -243,7 +243,7 @@
         <name>Assign_Metadata_Single</name>
         <label>Assign Metadata Single</label>
         <locationX>3254</locationX>
-        <locationY>971</locationY>
+        <locationY>1271</locationY>
         <assignmentItems>
             <assignToReference>metadataSingle.Label</assignToReference>
             <operator>Assign</operator>
@@ -259,7 +259,7 @@
         <name>Count_of_Questions</name>
         <label>Count of Questions</label>
         <locationX>2758</locationX>
-        <locationY>755</locationY>
+        <locationY>1055</locationY>
         <assignmentItems>
             <assignToReference>questionCount</assignToReference>
             <operator>Add</operator>
@@ -275,7 +275,7 @@
         <name>Subtract_Question</name>
         <label>Subtract Question</label>
         <locationX>3286</locationX>
-        <locationY>1187</locationY>
+        <locationY>1487</locationY>
         <assignmentItems>
             <assignToReference>questionCount</assignToReference>
             <operator>Subtract</operator>
@@ -291,7 +291,7 @@
         <name>Matching_Answers</name>
         <label>Matching Answers?</label>
         <locationX>2978</locationX>
-        <locationY>1187</locationY>
+        <locationY>1487</locationY>
         <defaultConnector>
             <targetReference>Loop_Metadata_Answers</targetReference>
         </defaultConnector>
@@ -316,7 +316,7 @@
         <name>Matching_Question</name>
         <label>Matching Question?</label>
         <locationX>3254</locationX>
-        <locationY>1079</locationY>
+        <locationY>1379</locationY>
         <defaultConnector>
             <targetReference>Loop_Metadata_Answers</targetReference>
         </defaultConnector>
@@ -369,10 +369,10 @@
     <decisions>
         <name>NHNW_Passing_Language</name>
         <label>NHNW Passing Language?</label>
-        <locationX>809</locationX>
-        <locationY>2255</locationY>
+        <locationX>754</locationX>
+        <locationY>2555</locationY>
         <defaultConnector>
-            <targetReference>Send_Follow_Up_Module_Flow</targetReference>
+            <targetReference>Update_to_Attended2</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
@@ -409,8 +409,8 @@
     <decisions>
         <name>NHNW_survey</name>
         <label>Survey was NHNW?</label>
-        <locationX>1139</locationX>
-        <locationY>2147</locationY>
+        <locationX>1106</locationX>
+        <locationY>2447</locationY>
         <defaultConnector>
             <targetReference>Passed_Module_1_5</targetReference>
         </defaultConnector>
@@ -442,7 +442,7 @@
         <name>Passed</name>
         <label>Passed?</label>
         <locationX>1766</locationX>
-        <locationY>2039</locationY>
+        <locationY>2339</locationY>
         <defaultConnector>
             <targetReference>Which_Language</targetReference>
         </defaultConnector>
@@ -466,8 +466,8 @@
     <decisions>
         <name>Passed_Module_1_5</name>
         <label>Passed Module</label>
-        <locationX>1469</locationX>
-        <locationY>2255</locationY>
+        <locationX>1458</locationX>
+        <locationY>2555</locationY>
         <defaultConnector>
             <targetReference>Passing_Language</targetReference>
         </defaultConnector>
@@ -477,34 +477,34 @@
             <conditionLogic>1 OR 2 OR 3 OR 4</conditionLogic>
             <conditions>
                 <leftValueReference>$Record.Survey.Name</leftValueReference>
-                <operator>NotEqualTo</operator>
+                <operator>EqualTo</operator>
                 <rightValue>
                     <stringValue>FF - Online Learning Check - Module 6 - Eng</stringValue>
                 </rightValue>
             </conditions>
             <conditions>
                 <leftValueReference>$Record.Survey.Name</leftValueReference>
-                <operator>NotEqualTo</operator>
+                <operator>EqualTo</operator>
                 <rightValue>
                     <stringValue>HBE - Quiz - Module 6 - Eng</stringValue>
                 </rightValue>
             </conditions>
             <conditions>
                 <leftValueReference>$Record.Survey.Name</leftValueReference>
-                <operator>NotEqualTo</operator>
+                <operator>EqualTo</operator>
                 <rightValue>
                     <stringValue>FF - Quiz - Module 6 - Spa</stringValue>
                 </rightValue>
             </conditions>
             <conditions>
                 <leftValueReference>$Record.Survey.Name</leftValueReference>
-                <operator>NotEqualTo</operator>
+                <operator>EqualTo</operator>
                 <rightValue>
                     <stringValue>HBE - Quiz - Module 6 - Spa</stringValue>
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Send_Follow_Up_Module_Flow</targetReference>
+                <targetReference>Update_to_Attended</targetReference>
             </connector>
             <label>Mod 6</label>
         </rules>
@@ -512,10 +512,10 @@
     <decisions>
         <name>Passing_Language</name>
         <label>Passing Language?</label>
-        <locationX>1689</locationX>
-        <locationY>2363</locationY>
+        <locationX>1722</locationX>
+        <locationY>2663</locationY>
         <defaultConnector>
-            <targetReference>Send_Follow_Up_Module_Flow</targetReference>
+            <targetReference>Update_to_Partially_Attended</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
@@ -550,12 +550,182 @@
         </rules>
     </decisions>
     <decisions>
+        <name>Which_Campaign</name>
+        <label>Which Campaign?</label>
+        <locationX>1766</locationX>
+        <locationY>431</locationY>
+        <defaultConnector>
+            <targetReference>Get_Quiz_Answers</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>FF_English</name>
+            <conditionLogic>1 AND (2 OR 3)</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Survey.Name</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>FF</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Survey.Name</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Eng</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Survey.Name</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>English</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_FF_Eng_Campaign_Member</targetReference>
+            </connector>
+            <label>FF English</label>
+        </rules>
+        <rules>
+            <name>FF_Spanish</name>
+            <conditionLogic>1 AND (2 OR 3)</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Survey.Name</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>FF</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Survey.Name</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Spa</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Survey.Name</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Spanish</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_FF_Spa_Campaign_Member</targetReference>
+            </connector>
+            <label>FF Spanish</label>
+        </rules>
+        <rules>
+            <name>HBE_English</name>
+            <conditionLogic>1 AND (2 OR 3)</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Survey.Name</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>HBE</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Survey.Name</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Eng</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Survey.Name</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>English</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_HBE_Eng_Campaign_Member</targetReference>
+            </connector>
+            <label>HBE English</label>
+        </rules>
+        <rules>
+            <name>HBE_Spanish</name>
+            <conditionLogic>1 AND (2 OR 3)</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Survey.Name</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>HBE</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Survey.Name</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Spa</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Survey.Name</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Spanish</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_HBE_Spa_Campaign_Member</targetReference>
+            </connector>
+            <label>HBE Spanish</label>
+        </rules>
+        <rules>
+            <name>NHNW_English</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Survey.Name</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>NHNW</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Survey.Name</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Eng</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_NHNW_Eng_Campaign_Member</targetReference>
+            </connector>
+            <label>NHNW English</label>
+        </rules>
+        <rules>
+            <name>NHNW_Spanish</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Survey.Name</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>NHNW</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Survey.Name</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Spanish</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_NHNW_Spa_Campaign_Member</targetReference>
+            </connector>
+            <label>NHNW Spanish</label>
+        </rules>
+    </decisions>
+    <decisions>
         <name>Which_Language</name>
         <label>Which Language?</label>
-        <locationX>2393</locationX>
-        <locationY>2147</locationY>
+        <locationX>2426</locationX>
+        <locationY>2447</locationY>
         <defaultConnector>
-            <targetReference>Delete_Quiz_Response</targetReference>
+            <targetReference>Update_to_Partially_Attended2</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
@@ -593,7 +763,7 @@
         <name>Which_Module</name>
         <label>Which Module?</label>
         <locationX>1766</locationX>
-        <locationY>1739</locationY>
+        <locationY>2039</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>FF_Module_1</name>
@@ -810,7 +980,7 @@
         <name>Loop_Metadata_Answers</name>
         <label>Loop Metadata Answers</label>
         <locationX>2758</locationX>
-        <locationY>863</locationY>
+        <locationY>1163</locationY>
         <collectionReference>Get_Metadata_Quiz_Answers</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
@@ -824,7 +994,7 @@
         <name>Loop_Quiz_Answers</name>
         <label>Loop Quiz Answers</label>
         <locationX>1766</locationX>
-        <locationY>647</locationY>
+        <locationY>947</locationY>
         <collectionReference>Get_Quiz_Answers</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
@@ -856,15 +1026,135 @@
     <recordDeletes>
         <name>Delete_Quiz_Response</name>
         <label>Delete Quiz Response</label>
-        <locationX>2393</locationX>
-        <locationY>2447</locationY>
+        <locationX>2426</locationX>
+        <locationY>2855</locationY>
         <inputReference>$Record</inputReference>
     </recordDeletes>
+    <recordLookups>
+        <name>Get_FF_Eng_Campaign_Member</name>
+        <label>Get FF Eng Campaign Member</label>
+        <locationX>974</locationX>
+        <locationY>539</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_Quiz_Answers</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>ContactId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Responder_Contact.Id</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Campaign_Name__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>FF Online English</stringValue>
+            </value>
+        </filters>
+        <object>CampaignMember</object>
+        <outputReference>campaignMember</outputReference>
+        <queriedFields>Id</queriedFields>
+        <queriedFields>Status</queriedFields>
+        <queriedFields>Completed__c</queriedFields>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_FF_Spa_Campaign_Member</name>
+        <label>Get FF Spa Campaign Member</label>
+        <locationX>1238</locationX>
+        <locationY>539</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_Quiz_Answers</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>ContactId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Responder_Contact.Id</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Campaign_Name__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>FF Online Spanish</stringValue>
+            </value>
+        </filters>
+        <object>CampaignMember</object>
+        <outputReference>campaignMember</outputReference>
+        <queriedFields>Id</queriedFields>
+        <queriedFields>Status</queriedFields>
+        <queriedFields>Completed__c</queriedFields>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_HBE_Eng_Campaign_Member</name>
+        <label>Get HBE Eng Campaign Member</label>
+        <locationX>1502</locationX>
+        <locationY>539</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_Quiz_Answers</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>ContactId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Responder_Contact.Id</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Campaign_Name__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>FF Online English</stringValue>
+            </value>
+        </filters>
+        <object>CampaignMember</object>
+        <outputReference>campaignMember</outputReference>
+        <queriedFields>Id</queriedFields>
+        <queriedFields>Status</queriedFields>
+        <queriedFields>Completed__c</queriedFields>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_HBE_Spa_Campaign_Member</name>
+        <label>Get HBE Spa Campaign Member</label>
+        <locationX>1766</locationX>
+        <locationY>539</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_Quiz_Answers</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>ContactId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Responder_Contact.Id</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Campaign_Name__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>HBE Online Spanish</stringValue>
+            </value>
+        </filters>
+        <object>CampaignMember</object>
+        <outputReference>campaignMember</outputReference>
+        <queriedFields>Id</queriedFields>
+        <queriedFields>Status</queriedFields>
+        <queriedFields>Completed__c</queriedFields>
+    </recordLookups>
     <recordLookups>
         <name>Get_Metadata_Quiz_Answers</name>
         <label>Get Metadata Quiz Answers</label>
         <locationX>1766</locationX>
-        <locationY>539</locationY>
+        <locationY>839</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Loop_Quiz_Answers</targetReference>
@@ -882,10 +1172,70 @@
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <recordLookups>
+        <name>Get_NHNW_Eng_Campaign_Member</name>
+        <label>Get NHNW Eng Campaign Member</label>
+        <locationX>2030</locationX>
+        <locationY>539</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_Quiz_Answers</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>ContactId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Responder_Contact.Id</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Campaign_Name__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>NHNW Online English</stringValue>
+            </value>
+        </filters>
+        <object>CampaignMember</object>
+        <outputReference>campaignMember</outputReference>
+        <queriedFields>Id</queriedFields>
+        <queriedFields>Status</queriedFields>
+        <queriedFields>Completed__c</queriedFields>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_NHNW_Spa_Campaign_Member</name>
+        <label>Get NHNW Spa Campaign Member</label>
+        <locationX>2294</locationX>
+        <locationY>539</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_Quiz_Answers</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>ContactId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Responder_Contact.Id</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Campaign_Name__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>FF Online English</stringValue>
+            </value>
+        </filters>
+        <object>CampaignMember</object>
+        <outputReference>campaignMember</outputReference>
+        <queriedFields>Id</queriedFields>
+        <queriedFields>Status</queriedFields>
+        <queriedFields>Completed__c</queriedFields>
+    </recordLookups>
+    <recordLookups>
         <name>Get_Quiz_Answers</name>
         <label>Get Quiz Answers</label>
         <locationX>1766</locationX>
-        <locationY>431</locationY>
+        <locationY>731</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Get_Metadata_Quiz_Answers</targetReference>
@@ -909,7 +1259,7 @@
         <locationY>323</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
-            <targetReference>Get_Quiz_Answers</targetReference>
+            <targetReference>Which_Campaign</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
@@ -927,7 +1277,7 @@
         <name>Update_FF_Mod_1_Score</name>
         <label>Update FF Mod 1 Score</label>
         <locationX>50</locationX>
-        <locationY>1847</locationY>
+        <locationY>2147</locationY>
         <connector>
             <targetReference>Passed</targetReference>
         </connector>
@@ -943,7 +1293,7 @@
         <name>Update_FF_Mod_2_Score</name>
         <label>Update FF Mod 2 Score</label>
         <locationX>314</locationX>
-        <locationY>1847</locationY>
+        <locationY>2147</locationY>
         <connector>
             <targetReference>Passed</targetReference>
         </connector>
@@ -959,7 +1309,7 @@
         <name>Update_FF_Mod_3_Score</name>
         <label>Update FF Mod 3 Score</label>
         <locationX>578</locationX>
-        <locationY>1847</locationY>
+        <locationY>2147</locationY>
         <connector>
             <targetReference>Passed</targetReference>
         </connector>
@@ -975,7 +1325,7 @@
         <name>Update_FF_Mod_4_Score</name>
         <label>Update FF Mod 4 Score</label>
         <locationX>842</locationX>
-        <locationY>1847</locationY>
+        <locationY>2147</locationY>
         <connector>
             <targetReference>Passed</targetReference>
         </connector>
@@ -991,7 +1341,7 @@
         <name>Update_FF_Mod_5_Score</name>
         <label>Update FF Mod 5 Score</label>
         <locationX>1106</locationX>
-        <locationY>1847</locationY>
+        <locationY>2147</locationY>
         <connector>
             <targetReference>Passed</targetReference>
         </connector>
@@ -1007,7 +1357,7 @@
         <name>Update_FF_Mod_6_Score</name>
         <label>Update FF Mod 6 Score</label>
         <locationX>1370</locationX>
-        <locationY>1847</locationY>
+        <locationY>2147</locationY>
         <connector>
             <targetReference>Passed</targetReference>
         </connector>
@@ -1023,7 +1373,7 @@
         <name>Update_HBE_Mod_1_Score</name>
         <label>Update HBE Mod 1 Score</label>
         <locationX>1634</locationX>
-        <locationY>1847</locationY>
+        <locationY>2147</locationY>
         <connector>
             <targetReference>Passed</targetReference>
         </connector>
@@ -1039,7 +1389,7 @@
         <name>Update_HBE_Mod_2_Score</name>
         <label>Update HBE Mod 2 Score</label>
         <locationX>1898</locationX>
-        <locationY>1847</locationY>
+        <locationY>2147</locationY>
         <connector>
             <targetReference>Passed</targetReference>
         </connector>
@@ -1055,7 +1405,7 @@
         <name>Update_HBE_Mod_3_Score</name>
         <label>Update HBE Mod 3 Score</label>
         <locationX>2162</locationX>
-        <locationY>1847</locationY>
+        <locationY>2147</locationY>
         <connector>
             <targetReference>Passed</targetReference>
         </connector>
@@ -1071,7 +1421,7 @@
         <name>Update_HBE_Mod_4_Score</name>
         <label>Update HBE Mod 4 Score</label>
         <locationX>2426</locationX>
-        <locationY>1847</locationY>
+        <locationY>2147</locationY>
         <connector>
             <targetReference>Passed</targetReference>
         </connector>
@@ -1087,7 +1437,7 @@
         <name>Update_HBE_Mod_5_Score</name>
         <label>Update HBE Mod 5 Score</label>
         <locationX>2690</locationX>
-        <locationY>1847</locationY>
+        <locationY>2147</locationY>
         <connector>
             <targetReference>Passed</targetReference>
         </connector>
@@ -1103,7 +1453,7 @@
         <name>Update_HBE_Mod_6_Score</name>
         <label>Update HBE Mod 6 Score</label>
         <locationX>2954</locationX>
-        <locationY>1847</locationY>
+        <locationY>2147</locationY>
         <connector>
             <targetReference>Passed</targetReference>
         </connector>
@@ -1119,7 +1469,7 @@
         <name>Update_NHNW_Score</name>
         <label>Update NHNW Score</label>
         <locationX>3218</locationX>
-        <locationY>1847</locationY>
+        <locationY>2147</locationY>
         <connector>
             <targetReference>Passed</targetReference>
         </connector>
@@ -1130,6 +1480,114 @@
             </value>
         </inputAssignments>
         <inputReference>$Record.Invitation.Contact</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_to_Attended</name>
+        <label>Update to Attended</label>
+        <locationX>1194</locationX>
+        <locationY>2663</locationY>
+        <connector>
+            <targetReference>Send_Follow_Up_Module_Flow</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>campaignMember.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Completed__c</field>
+            <value>
+                <elementReference>todayDate</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Attended</stringValue>
+            </value>
+        </inputAssignments>
+        <object>CampaignMember</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_to_Attended2</name>
+        <label>Update to Attended</label>
+        <locationX>754</locationX>
+        <locationY>2855</locationY>
+        <connector>
+            <targetReference>Send_Follow_Up_Module_Flow</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>campaignMember.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Completed__c</field>
+            <value>
+                <elementReference>todayDate</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Attended</stringValue>
+            </value>
+        </inputAssignments>
+        <object>CampaignMember</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_to_Partially_Attended</name>
+        <label>Update to Partially Attended</label>
+        <locationX>1722</locationX>
+        <locationY>2963</locationY>
+        <connector>
+            <targetReference>Send_Follow_Up_Module_Flow</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>campaignMember.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Partially Attended</stringValue>
+            </value>
+        </inputAssignments>
+        <object>CampaignMember</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_to_Partially_Attended2</name>
+        <label>Update to Partially Attended</label>
+        <locationX>2426</locationX>
+        <locationY>2747</locationY>
+        <connector>
+            <targetReference>Delete_Quiz_Response</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>campaignMember.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Partially Attended</stringValue>
+            </value>
+        </inputAssignments>
+        <object>CampaignMember</object>
     </recordUpdates>
     <start>
         <locationX>1640</locationX>
@@ -1153,8 +1611,8 @@
     <subflows>
         <name>Send_Follow_Up_Module_Flow</name>
         <label>Send Follow Up Module Flow</label>
-        <locationX>1139</locationX>
-        <locationY>2831</locationY>
+        <locationX>1106</locationX>
+        <locationY>3239</locationY>
         <flowName>Module_Email_Automation</flowName>
         <inputAssignments>
             <name>surveyResponseId</name>
@@ -1163,6 +1621,14 @@
             </value>
         </inputAssignments>
     </subflows>
+    <variables>
+        <name>campaignMember</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>CampaignMember</objectType>
+    </variables>
     <variables>
         <name>metadataSingle</name>
         <dataType>SObject</dataType>

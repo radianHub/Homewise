@@ -6,7 +6,7 @@
     <name>FF_Module_3_Spanish</name>
     <relatedEntityType>SurveyQuestion</relatedEntityType>
     <style>none</style>
-    <subject>Cuestionario del Módulo 3 de FF</subject>
+    <subject>FF Modulo 3 – Reduccion de Deuda</subject>
     <type>custom</type>
     <uiType>SFX</uiType>
 </EmailTemplate>

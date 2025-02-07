@@ -6,7 +6,7 @@
     <name>FF_Module_1_Spanish</name>
     <relatedEntityType>SurveyQuestion</relatedEntityType>
     <style>none</style>
-    <subject>Cuestionario del Módulo 1 de FF</subject>
+    <subject>FF Modulo 1 – Salud Financiera y Mensajes Sobre el Dinero</subject>
     <type>custom</type>
     <uiType>SFX</uiType>
 </EmailTemplate>

@@ -6,7 +6,7 @@
     <name>FF_Module_4_Spanish</name>
     <relatedEntityType>SurveyQuestion</relatedEntityType>
     <style>none</style>
-    <subject>Cuestionario del Módulo 4 de FF</subject>
+    <subject>FF Modulo 4 – Comprender el Credito</subject>
     <type>custom</type>
     <uiType>SFX</uiType>
 </EmailTemplate>

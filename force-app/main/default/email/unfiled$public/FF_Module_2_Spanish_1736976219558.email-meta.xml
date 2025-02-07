@@ -6,7 +6,7 @@
     <name>FF_Module_2_Spanish</name>
     <relatedEntityType>SurveyQuestion</relatedEntityType>
     <style>none</style>
-    <subject>Cuestionario del Módulo 2 de FF</subject>
+    <subject>FF Modulo 2 – El Establecimiento de Metas</subject>
     <type>custom</type>
     <uiType>SFX</uiType>
 </EmailTemplate>

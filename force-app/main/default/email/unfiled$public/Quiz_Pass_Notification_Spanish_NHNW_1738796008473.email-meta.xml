@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notification to Quiz Taker that they&apos;ve passed the module to continue to the next module</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Quiz Pass Notification Spanish - NHNW</name>
+    <pageDevName>Quiz_Pass_Notification_Spanish_NHNW</pageDevName>
+    <relatedEntityType>Contact</relatedEntityType>
+    <style>none</style>
+    <subject>Resultados del Módulo de Cuestionario NHNW</subject>
+    <textOnly>Hola {{{Recipient.FirstName}}}, 
+
+¡Felicidades! Aprobó la prueba de aprendizaje del taller Nuevo Hogar, ¿Ahora Qué?Ya ha terminado el taller. Dentro de dos días laborales, recibirá su certificado de cumplimiento por correo electrónico 
+
+Si busca más oportunidades para involucrarse en su comunidad, échale un vistazo a nuestro sitio web de nuestro trabajo del Desarrollo Comunitario en https://homewise.org/es/desarrollo-comunitario/ &lt; https://homewise.org/es/desarrollo-comunitario/ &gt; 
+
+Si le interesa aprender más sobre un préstamo de mejora al hogar o si un refinanciamiento le serviría, visite a https://homewise.org/es/refinanciar-su-hipoteca/ &lt; https://homewise.org/es/refinanciar-su-hipoteca/ &gt; o https://homewise.org/es/mejorar-tu-casa/ &lt; https://homewise.org/es/mejorar-tu-casa/ &gt; 
+
+Si le interesa vender su casa actual, nos encantaríamos representarse. Hay muchos beneficios de trabajar con un agente de bienes raíces de Homewise para vender su casa. Aprende más aquí: https://homewise.org/es/vender-casa/ &lt; https://homewise.org/es/vender-casa/ &gt; 
+
+¿Preguntas o prefiere hablar con alguien? Aquí estamos a su servicio- trainers@homewise.org &lt; mailto:trainers@homewise.org &gt; o 505-983-9473
+
+Esperamos que ahora se sienta más confianza como dueño de su propia casa. 
+
+Saludos, 
+
+Su Equipo de Entrenamiento de Homewise</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

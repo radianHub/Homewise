@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notification to Quiz Taker that they did not pass the quiz</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Quiz Failure Notification</name>
+    <pageDevName>Quiz_Failure_Notification</pageDevName>
+    <relatedEntityType>Contact</relatedEntityType>
+    <style>none</style>
+    <subject>Almost There! Review &amp; Try Your Learning Check Again</subject>
+    <textOnly>Hello {{{Recipient.FirstName}}},
+
+You didn’t pass this learning check with a score of 75% or higher, yet. Please take some time to review the handouts and the video and then take the learning check again by going back to the email with the link to this module. Please let us know what questions you have at trainers@homewise.org &lt; mailto:trainers@homewise.org &gt; or 505-983-9473
+
+You’ve got this!
+
+Thanks, 
+
+Your Homewise Training Team</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

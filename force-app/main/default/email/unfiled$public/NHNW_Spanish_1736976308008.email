@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<div style="font-size: 0.875rem; font-family: 'Salesforce Sans',Arial,sans-serif;">Hello {{{Recipient.FirstName}}}<br />
+<br />
+<span style="font-size:12pt"><span style="line-height:116%"><span style="font-family:Aptos,sans-serif"><span lang="ES-MX" style="font-family:&quot;Calibri&quot;,sans-serif">Gracias por registrarse para el taller de Homewise, <i>Nuevo Hogar, ¿Ahora Qué? </i>Este taller es para dueños de casa actuales.</span></span></span></span><br />
+<br />
+<span style="font-size:12pt"><span style="line-height:116%"><span style="font-family:Aptos,sans-serif"><span lang="ES-MX" style="font-family:&quot;Calibri&quot;,sans-serif">Hay 4 módulos con videos y una prueba de aprendizaje al final, lo cual se necesita pasar con un puntaje de 75% o mejor para terminar el taller y recibir su certificado de cumplimiento. Una vez que haya cumplido la prueba, le enviamos su certificado por correo electrónico dentro de dos días laborales.</span></span></span></span><br />
+<br />
+<span style="font-size:12pt"><span style="line-height:116%"><span style="font-family:Aptos,sans-serif"><b><span lang="ES-MX" style="font-family:&quot;Calibri&quot;,sans-serif">Aquí está el enlace al sitio web del taller: </span></b><a href="https://homewise.org/es/nuevo-hogar-ahora-que-en-linea/" style="color:#467886; text-decoration:underline"><b><span lang="ES-MX" style="font-family:&quot;Calibri&quot;,sans-serif">https://homewise.org/es/nuevo-hogar-ahora-que-en-linea/</span></b></a></span></span></span><br />
+<br />
+<span style="font-size:12pt"><span style="line-height:116%"><span style="font-family:Aptos,sans-serif"><b><span lang="ES-MX" style="font-family:&quot;Calibri&quot;,sans-serif">Por favor, empezar con el modulo 1 y seguir por los otros videos a su tiempo.</span></b></span></span></span><br />
+<br />
+<span style="font-size:12pt"><span style="line-height:116%"><span style="font-family:Aptos,sans-serif"><b><span lang="ES-MX" style="font-family:&quot;Calibri&quot;,sans-serif">Una vez que haya visto todos los videos, haga clic en el enlace abajo para tomar le prueba de aprendizaje.</span></b></span></span></span><br />
+&nbsp;
+<p style="text-align: center;"><span><a href="[[SURVEY_INVITATION_URL]]" style="[[DISABLE_LINK]] vertical-align: middle; border: 1px solid rgb(221, 219, 218); transition: border .15s linear; background-color: rgb(0, 112, 210); border-color: rgb(0, 112, 210); color: rgb(255, 255, 255); display: inline-block; background-clip: border-box; border: 1px solid transparent; border-radius: .25rem; line-height: 1.875rem; text-decoration: none; -webkit-appearance: none; white-space: normal; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; padding: 0 1rem;" target="_blank">Abrir Verificación de Aprendizaje</a></span></p>
+<br />
+<span style="font-size:12pt"><span style="line-height:116%"><span style="font-family:Aptos,sans-serif"><span lang="ES-MX" style="font-family:&quot;Calibri&quot;,sans-serif">Agradecemos su tiempo y querer de ser un dueño de casa exitoso al largo plazo.</span></span></span></span><br />
+<br />
+<span style="font-size:12pt"><span style="line-height:116%"><span style="font-family:Aptos,sans-serif"><span lang="ES-MX" style="font-family:&quot;Calibri&quot;,sans-serif">Gracias, </span></span></span></span><br />
+<span style="font-size:12pt"><span style="line-height:116%"><span style="font-family:Aptos,sans-serif"><span lang="ES-MX" style="font-family:&quot;Calibri&quot;,sans-serif">Su Equipo de Entrenamiento de Homewis</span></span></span></span></div>
+</body>
+</html>

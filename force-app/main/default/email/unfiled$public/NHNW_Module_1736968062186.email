@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<div style="font-size: 0.875rem; font-family: 'Salesforce Sans',Arial,sans-serif;">Hello {{{Recipient.FirstName}}}<br />
+<br />
+<span style="font-size:12pt"><span style="line-height:116%"><span style="font-family:Aptos,sans-serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Thank you for registering for the Homewise New Home, Now What workshop – Online Edition. This workshop is designed for current homeowners.</span></span></span></span><br />
+<br />
+<span style="font-size:12pt"><span style="line-height:116%"><span style="font-family:Aptos,sans-serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">There are 4 modules which include a video and a final learning check which you need to pass with 75% or better to complete the course and receive your certificate. Once you have passed the module, we’ll email you your certificate within 1-2 business days.</span></span></span></span><br />
+<br />
+<span style="font-size:12pt"><span style="line-height:116%"><span style="font-family:Aptos,sans-serif"><b><span style="font-family:&quot;Calibri&quot;,sans-serif">Here is the link to the main class page: </span></b><a href="https://homewise.org/new-home-now-what-online-edition/" style="color:#467886; text-decoration:underline"><b><span style="font-family:&quot;Calibri&quot;,sans-serif">https://homewise.org/new-home-now-what-online-edition/</span></b></a></span></span></span><br />
+<br />
+<span style="font-size:12pt"><span style="line-height:116%"><span style="font-family:Aptos,sans-serif"><b><span style="font-family:&quot;Calibri&quot;,sans-serif">Please begin by watching the video for Module 1, Workshop Overview and then work your way through the videos at your own pace.</span></b></span></span></span><br />
+<br />
+<b><span style="font-size:12.0pt"><span style="line-height:116%"><span style="font-family:&quot;Calibri&quot;,sans-serif">Once you have completed the workshop, click the link below to take the final learning check of the workshop.</span></span></span></b><br />
+&nbsp;
+<p style="text-align: center;"><span><a href="[[SURVEY_INVITATION_URL]]" style="[[DISABLE_LINK]] vertical-align: middle; border: 1px solid rgb(221, 219, 218); transition: border .15s linear; background-color: rgb(0, 112, 210); border-color: rgb(0, 112, 210); color: rgb(255, 255, 255); display: inline-block; background-clip: border-box; border: 1px solid transparent; border-radius: .25rem; line-height: 1.875rem; text-decoration: none; -webkit-appearance: none; white-space: normal; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; padding: 0 1rem;" target="_blank">Open Survey</a></span></p>
+<br />
+<span style="font-size:12pt"><span style="line-height:116%"><span style="font-family:Aptos,sans-serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">We appreciate your time and commitment to remain a successful and sustainable homeowner.</span></span></span></span><br />
+<br />
+<span style="font-size:12pt"><span style="line-height:116%"><span style="font-family:Aptos,sans-serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Thank you, </span></span></span></span><br />
+<span style="font-size:12pt"><span style="line-height:116%"><span style="font-family:Aptos,sans-serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Your Homewise Training Tea</span></span></span></span></div>
+</body>
+</html>

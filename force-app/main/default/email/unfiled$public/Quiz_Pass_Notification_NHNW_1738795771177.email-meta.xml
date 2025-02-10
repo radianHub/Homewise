@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notification to Quiz Taker that they&apos;ve passed the module to continue to the next module</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Quiz Pass Notification - NHNW</name>
+    <pageDevName>Quiz_Pass_Notification_NHNW</pageDevName>
+    <relatedEntityType>Contact</relatedEntityType>
+    <style>none</style>
+    <subject>NHNW Results</subject>
+    <textOnly>Hello {{{Recipient.FirstName}}},
+
+Congratulations on passing the learning check for New Home, Now What. We hope that whether you have been a homeowner for one week or 10 years, you have learned something new.
+
+We’ll email your certificate within 2 business days. 
+
+If you are looking for more ways to get involved with your community, check out our Community Development work and resources here: https://homewise.org/community-development/ &lt; https://homewise.org/community-development/ &gt; 
+
+If you are interested in a home improvement loan or seeing if a refinance is right for you, please visit https://homewise.org/refinance-your-home/ &lt; https://homewise.org/refinance-your-home/ &gt; or https://homewise.org/improve-your-home/ &lt; https://homewise.org/improve-your-home/ &gt; 
+
+If you are interested in selling your current home, we’d be honored to represent you. There are many benefits to listing your home with a salaried Homewise Realtor. Learn more by visiting https://homewise.org/sell-your-home/ &lt; https://homewise.org/sell-your-home/ &gt; 
+
+If you have additional questions, please reach out to us at trainers@homewise.org &lt; mailto:trainers@homewise.org &gt; or 505-983-9473
+
+Best, 
+
+Your Homewise Training Team</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>HBE Module 2 Question 6 A Spanish</label>
+    <protected>false</protected>
+    <values>
+        <field>Answer__c</field>
+        <value xsi:type="xsd:string">Impuestos de la propiedad</value>
+    </values>
+    <values>
+        <field>Exclude_Score__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Question__c</field>
+        <value xsi:type="xsd:string">6. Debido al aumento de costos y el valor de su hogar, su pago mensual aumentará a medida que estos factores cambian con el tiempo (seleccione todos los que apliquen)</value>
+    </values>
+    <values>
+        <field>Survey_Name__c</field>
+        <value xsi:type="xsd:string">HBE - Quiz - Module 2 - Spa</value>
+    </values>
+</CustomMetadata>

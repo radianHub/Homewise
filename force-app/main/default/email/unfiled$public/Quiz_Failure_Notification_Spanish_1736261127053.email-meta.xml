@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notification to Quiz Taker that they did not pass the quiz</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Quiz Failure Notification Spanish</name>
+    <pageDevName>Quiz_Failure_Notification_Spanish</pageDevName>
+    <relatedEntityType>Contact</relatedEntityType>
+    <style>none</style>
+    <subject>Resultados del Módulo de Cuestionario</subject>
+    <textOnly>Hola {{{Recipient.FirstName}}},
+
+Desafortunadamente, no termino la prueba con un resultado de 75% o mejor. Por favor, tome tiempo para revisar el video y el folleto e inténtela de nuevo – regresar al correo electrónico anterior con el enlace al mismo modulo.
+
+Déjenos saber cuáles preguntas tiene al trainers@homewise.org &lt; mailto:trainers@homewise.org &gt; o 505-983-9473
+
+¡Si se puede!
+
+Saludos, 
+
+Su Equipo de Entrenamiento de Homewise</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>HBE Module 4 Question 2 Spanish</label>
+    <protected>false</protected>
+    <values>
+        <field>Answer__c</field>
+        <value xsi:type="xsd:string">Tasa Promedio Anualizada (APR)</value>
+    </values>
+    <values>
+        <field>Exclude_Score__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Question__c</field>
+        <value xsi:type="xsd:string">2. El coste total de la hipoteca representado por un porcentaje del préstamo (incluyendo la tasa de interés base, los puntos, la comisión de inicio de préstamo, y el seguro hipotecario) es conocido como:</value>
+    </values>
+    <values>
+        <field>Survey_Name__c</field>
+        <value xsi:type="xsd:string">HBE - Quiz - Module 4 - Spa</value>
+    </values>
+</CustomMetadata>

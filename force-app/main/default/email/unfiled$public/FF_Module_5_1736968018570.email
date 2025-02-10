@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<div style="font-size: 0.875rem; font-family: 'Salesforce Sans',Arial,sans-serif;">Hello {{{Recipient.FirstName}}}<br />
+<br />
+<span style="font-size:12pt"><span style="line-height:116%"><span style="font-family:Aptos,sans-serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">We hope you are learning a lot and enjoying the Financial Fitness workshop. Here is the link to the main class page: </span><a href="https://homewise.org/financial-fitness-online-edition/" style="color:#467886; text-decoration:underline"><span style="font-family:&quot;Calibri&quot;,sans-serif">https://homewise.org/financial-fitness-online-edition/</span></a></span></span></span><br />
+<br />
+<span style="font-size:12pt"><span style="line-height:116%"><span style="font-family:Aptos,sans-serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Please continue by watching the video for <a>Module 5 – Spending Plans.</a></span></span></span></span><br />
+<br />
+<span style="font-size:12pt"><span style="line-height:116%"><span style="font-family:Aptos,sans-serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Then, click the link below to take the fifth learning check of the workshop.</span></span></span></span><br />
+&nbsp;
+<p style="text-align: center;"><span><a href="[[SURVEY_INVITATION_URL]]" style="[[DISABLE_LINK]] vertical-align: middle; border: 1px solid rgb(221, 219, 218); transition: border .15s linear; background-color: rgb(0, 112, 210); border-color: rgb(0, 112, 210); color: rgb(255, 255, 255); display: inline-block; background-clip: border-box; border: 1px solid transparent; border-radius: .25rem; line-height: 1.875rem; text-decoration: none; -webkit-appearance: none; white-space: normal; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; padding: 0 1rem;" target="_blank">Open Survey</a></span></p>
+<br />
+<span style="font-size:12pt"><span style="line-height:116%"><span style="font-family:Aptos,sans-serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Once you watch this video and pass the learning check with a score of 75% or higher, we’ll send you your learning check results and the link to the next module.&nbsp;</span></span></span></span><br />
+<br />
+<span style="font-size:12pt"><span style="line-height:116%"><span style="font-family:Aptos,sans-serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">We appreciate your time and commitment toward becoming a well-educated homebuyer.</span></span></span></span><br />
+<br />
+<span style="font-size:12pt"><span style="line-height:116%"><span style="font-family:Aptos,sans-serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Thank you, </span></span></span></span><br />
+<span style="font-size:12pt"><span style="line-height:116%"><span style="font-family:Aptos,sans-serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Your Homewise Training Team</span></span></span></span></div>
+</body>
+</html>

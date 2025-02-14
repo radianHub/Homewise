@@ -2,6 +2,10 @@
 public class LeadConversionHandlerTest {
     @testSetup
     static void setupTestData() {
+        // Create the "Education Only Contacts" Account
+        Account educationOnlyAccount = new Account(Name = 'Education Only Contacts');
+        insert educationOnlyAccount;
+        
         // Create a Test Lead
         Lead testLead = new Lead(
             FirstName = 'Test',
@@ -31,8 +35,12 @@ public class LeadConversionHandlerTest {
         System.assertEquals(true, convertedLead.IsConverted, 'Lead should be converted.');
         System.assertNotEquals(null, convertedLead.ConvertedContactId, 'Lead should have a Converted Contact Id.');
 
-        // Validate that the Contact exists
-        Contact newContact = [SELECT Id FROM Contact WHERE Id = :convertedContactIds[0]];
+        // Validate that the Contact exists and is assigned to "Education Only Contacts"
+        Contact newContact = [SELECT Id, AccountId FROM Contact WHERE Id = :convertedContactIds[0]];
         System.assertNotEquals(null, newContact, 'The converted Contact should exist.');
+        
+        // Validate that the Contact is associated with "Education Only Contacts"
+        Account associatedAccount = [SELECT Id, Name FROM Account WHERE Id = :newContact.AccountId];
+        System.assertEquals('Education Only Contacts', associatedAccount.Name, 'The Contact should be assigned to Education Only Contacts.');
     }
 }

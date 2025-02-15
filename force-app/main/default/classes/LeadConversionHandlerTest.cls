@@ -5,7 +5,7 @@ public class LeadConversionHandlerTest {
         // Create the "Education Only Contacts" Account
         Account educationOnlyAccount = new Account(Name = 'Education Only Contacts');
         insert educationOnlyAccount;
-        
+
         // Create a Test Lead
         Lead testLead = new Lead(
             FirstName = 'Test',
@@ -36,11 +36,12 @@ public class LeadConversionHandlerTest {
         System.assertNotEquals(null, convertedLead.ConvertedContactId, 'Lead should have a Converted Contact Id.');
 
         // Validate that the Contact exists and is assigned to "Education Only Contacts"
-        Contact newContact = [SELECT Id, AccountId FROM Contact WHERE Id = :convertedContactIds[0]];
+        Contact newContact = [SELECT Id, AccountId, Homewise_Branch_Location__c FROM Contact WHERE Id = :convertedContactIds[0]];
         System.assertNotEquals(null, newContact, 'The converted Contact should exist.');
         
-        // Validate that the Contact is associated with "Education Only Contacts"
+        // Validate that the Contact is associated with "Education Only Contacts" and has the required field
         Account associatedAccount = [SELECT Id, Name FROM Account WHERE Id = :newContact.AccountId];
         System.assertEquals('Education Only Contacts', associatedAccount.Name, 'The Contact should be assigned to Education Only Contacts.');
+        System.assertEquals('Default Branch', newContact.Homewise_Branch_Location__c, 'Homewise Branch Location should be set.');
     }
 }

@@ -43,8 +43,7 @@ public with sharing class LeadConversionHandler {
                 if (contactId != null) {
                     Contact updatedContact = new Contact(
                         Id = contactId,
-                        AccountId = educationOnlyAccount.Id,
-                        OwnerId = defaultWorkflowUser.Id
+                        AccountId = educationOnlyAccount.Id
                     );
                     update updatedContact;
                 }

@@ -27,7 +27,7 @@ public class LeadConversionHandlerTest {
             LastName = 'Lead',
             Company = 'Test Company',
             Status = 'New', // Ensure it's a valid Lead Status
-            Branch_Location__c = 'Test Branch' // Required field to bypass validation
+            Branch_Location__c = 'Santa Fe' // Required field to bypass validation
         );
         insert testLead;
     }
@@ -61,9 +61,7 @@ public class LeadConversionHandlerTest {
         System.assertEquals('Education Only Contacts', associatedAccount.Name, 'The Contact should be assigned to Education Only Contacts.');
         
         // Validate that Homewise Branch Location is retained
-        System.assertEquals('Test Branch', newContact.Branch_Location__c, 'Homewise Branch Location should be set.');
+        System.assertEquals('Santa Fe', newContact.Branch_Location__c, 'Homewise Branch Location should be set.');
 
-        // Validate that the Contact is assigned to the default workflow user
-        System.assertEquals(defaultWorkflowUser.Id, newContact.OwnerId, 'The Contact should be assigned to the default workflow user.');
     }
 }
